@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UoClientSDK.Client" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <Members>
+      <Field Name="_client" Hidden="true" />
+      <Field Name="_Handlers" Hidden="true" />
+      <Field Name="_stream" Hidden="true" />
+      <Field Name="ctsMessagePump" Hidden="true" />
+      <Method Name="Factory_OnUnknownPacket" Hidden="true" />
+      <Field Name="MaxPacketSize" Hidden="true" />
+      <Field Name="PumpSleep" Hidden="true" />
+      <Method Name="ReadSinglePacketIfAvailable" Hidden="true" />
+      <Method Name="ReadStream" Hidden="true" />
+      <Method Name="RunAsyncMessagePump" Hidden="true" />
+    </Members>
+    <AssociationLine Name="Handlers" Type="UoClientSDK.Network.ServerPackets.ServerPacketHandlers">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.565" Y="0.225" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IQQAAAKAACEEQEBAIEBAggCAEEAAQCIAABAABEAAQBA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Factory" />
+      <Field Name="Reader" />
+      <Property Name="Handlers" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UoClientSDK.Network.ServerPackets.ServerPacketFactory">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Field Name="_registry" Hidden="true" />
+      <Method Name="GetServerPacketTypes" Hidden="true" />
+      <Method Name="InvokeOnUnknownPacket" Hidden="true" />
+      <Method Name="Register" Hidden="true" />
+      <Method Name="RegisterPackets" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAABAAAgAAAAAAAAACBAAgCAAAAhAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Network\ServerPackets\ServerPacketFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Version" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UoClientSDK.Network.ServerPackets.ServerPacketHandlers">
+    <Position X="0.5" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Network\ServerPackets\ServerPacketHandlers.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Handlers" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UoClientSDK.Network.PacketBuffer">
+    <Position X="3.5" Y="3.25" Width="2.5" />
+    <Members>
+      <Property Name="this" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAQBiAAAAACCAAABAAAAAAAA=</HashCode>
+      <FileName>Network\PacketBuffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UoClientSDK.ClientVersion">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="UoClientSDK.ClientVersion.ClientVersionComparer">
+        <TypeIdentifier>
+          <NewMemberFileName>Types\ClientVersion.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>KgIgAAgAAAAABAwGgBSAAjgAEEAAgIAAAAggAAgYHyA=</HashCode>
+      <FileName>Types\ClientVersion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UoClientSDK.Network.ServerPackets.ServerPacket">
+    <Position X="6" Y="7.75" Width="2.75" />
+    <Members>
+      <Method Name="FindServerPacketAttributeOnType" Hidden="true" />
+      <Field Name="PacketInfoCache" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAIAACABBAAQABIAEgAAAAAAAAAQA=</HashCode>
+      <FileName>Network\ServerPackets\ServerPacketBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UoClientSDK.Network.ClientPackets.ClientPacket">
+    <Position X="0.5" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQA=</HashCode>
+      <FileName>Network\ClientPackets\ClientPacketBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UoClientSDK.Network.ServerPackets.PacketHandler&lt;TServerPacket&gt;">
+    <Position X="3.25" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\ServerPackets\ServerPacketHandlers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UoClientSDK.Network.Packet" Collapsed="true">
+    <Position X="3.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\BasePacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UoClientSDK.Network.PacketReader">
+    <Position X="6.25" Y="11" Width="2.5" />
+    <Members>
+      <Field Name="_Position" Hidden="true" />
+      <Property Name="this" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAEAAQAAgAAAAAgCAAQgABAAIAAgEAAAAAAQQAAQAA=</HashCode>
+      <FileName>Network\PacketReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UoClientSDK.Network.PacketWriter">
+    <Position X="3.25" Y="11" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAABCEAAAACAAAAAAAAEAECA=</HashCode>
+      <FileName>Network\PacketWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UoClientSDK.Network.ClientPackets.LoginRequest">
+    <Position X="0.75" Y="11.5" Width="1.75" />
+    <Members>
+      <Field Name="ID" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAACAAQAAAAgEQA=</HashCode>
+      <FileName>Network\ClientPackets\x80_LoginRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="UoClientSDK.Network.ServerPackets.IPacketHandler">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\ServerPackets\ServerPacketHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="UoClientSDK.Network.ServerPackets.OnPacketEventHandler&lt;TServerPacket&gt;">
+    <Position X="3.25" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\ServerPackets\ServerPacketHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

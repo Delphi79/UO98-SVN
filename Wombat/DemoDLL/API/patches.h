@@ -1,0 +1,34 @@
+#ifndef UODEMODLL_PATCHES__H
+
+#define UODEMODLL_PATCHES__H 1.0
+
+#include "patcher.h"
+
+extern PATCHINFO PI_ResetSwingState_CallAdvanceSwingState;
+extern PATCHINFO PI_CombatHeartBeat_CallAdvanceSwingState;
+
+extern PATCHINFO PI_SetSwingDividendTo40000;
+extern PATCHINFO PI_SetSwingDividendTo60000;
+extern PATCHINFO PI_SetFatigueBasedSwing;
+extern PATCHINFO PI_SetDexterityBasedSwing;
+
+extern PATCHINFO PI_OnEquipUnequip_ResetSwingCounter;
+
+extern PATCHINFO PI_CombatHeartBeat_IsActiveSwing_SetOriginal;
+extern PATCHINFO PI_CombatHeartBeat_IsActiveSwing_TakeControl;
+extern PATCHINFO PI_CombatHeartBeat_IsAmmoCheck_SetOriginal;
+extern PATCHINFO PI_CombatHeartBeat_IsAmmoCheck_TakeControl;
+extern PATCHINFO PI_CombatHeartBeat_IsAnimationOrHit_SetCombinedOriginal;
+extern PATCHINFO PI_CombatHeartBeat_IsAnimationOrHit_TakeCombinedControl;
+
+extern PATCHINFO PI_CanSeeLoc1, PI_CanSeeLoc2, PI_CanSeeLoc3, PI_CanSeeLoc4, PI_CanSeeLoc5, PI_CanSeeLoc6;
+
+extern PATCHINFO PI_PacketHandler_PostReceive;
+
+extern PATCHINFO PI_Compiler_CompiledObjectSize;
+extern PATCHINFO PI_Compiler_CompiledObjectConstructor;
+extern PATCHINFO PI_Intercept_LoadScript;
+extern PATCHINFO PI_Intercept_GetRawScriptToken;
+extern PATCHINFO PI_Intercept_HandleBackwardsScanForSM_LPAREN;
+
+#endif

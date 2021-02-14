@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D462F78E-6FA6-4F36-85DF-04A6CE067894}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JoinUO.UOSL.Service</RootNamespace>
+    <AssemblyName>UOSLsvc</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ASTNodes\DeclarationsNode.cs" />
+    <Compile Include="ASTNodes\Declarations\EventDefNode.cs" />
+    <Compile Include="ASTNodes\Expressions\ExpressionNodes.cs" />
+    <Compile Include="ASTNodes\Declarations\InheritsNode.cs" />
+    <Compile Include="ASTNodes\Expressions\StringNode.cs" />
+    <Compile Include="ASTNodes\Statements\AssignmentNodes.cs" />
+    <Compile Include="ASTNodes\Statements\ForNode.cs" />
+    <Compile Include="ASTNodes\Statements\FunctionInvocationNode.cs" />
+    <Compile Include="ASTNodes\Statements\IfNode.cs" />
+    <Compile Include="ASTNodes\Statements\JumpNode.cs" />
+    <Compile Include="ASTNodes\Statements\StatementNode.cs" />
+    <Compile Include="ASTNodes\Statements\SwitchNodes.cs" />
+    <Compile Include="ASTNodes\Declarations\FunctionDeclaration.cs" />
+    <Compile Include="ASTNodes\ScopedNode.cs" />
+    <Compile Include="ASTNodes\Declarations\FieldDeclarationNode.cs" />
+    <Compile Include="ASTNodes\Statements\WhileNode.cs" />
+    <Compile Include="CoreCommands.cs" />
+    <Compile Include="ExternalErrorMessage.cs" />
+    <Compile Include="GrammarBase.cs" />
+    <Compile Include="Irony\Ast\Base\AstException.cs" />
+    <Compile Include="Irony\Ast\Base\AstInterfaces.cs" />
+    <Compile Include="Irony\Ast\Base\AstNode.cs" />
+    <Compile Include="Irony\Ast\Expressions\BinaryOperationNode.cs" />
+    <Compile Include="Irony\Ast\Expressions\ExpressionListNode.cs" />
+    <Compile Include="Irony\Ast\Expressions\IncDecNode.cs" />
+    <Compile Include="Irony\Ast\Expressions\UnaryOperationNode.cs" />
+    <Compile Include="Irony\Ast\Functions\FunctionCallNode.cs" />
+    <Compile Include="Irony\Ast\Functions\FunctionDefNode.cs" />
+    <Compile Include="Irony\Ast\Functions\ParamListNode.cs" />
+    <Compile Include="Irony\Ast\PrimitiveNodes\IdentifierNode.cs" />
+    <Compile Include="Irony\Ast\PrimitiveNodes\LiteralValueNode.cs" />
+    <Compile Include="Irony\Ast\PrimitiveNodes\StringTemplateNode.cs" />
+    <Compile Include="Irony\Ast\SpecialNodes\EmptyStatementNode.cs" />
+    <Compile Include="Irony\Ast\SpecialNodes\NotSupportedNode.cs" />
+    <Compile Include="Irony\Ast\SpecialNodes\NullNode.cs" />
+    <Compile Include="Irony\Ast\Statements\AssignmentNode.cs" />
+    <Compile Include="Irony\Ast\Statements\BlockNode.cs" />
+    <Compile Include="Irony\Ast\Statements\IfNode.cs" />
+    <Compile Include="Irony\Ast\Statements\StatementListNode.cs" />
+    <Compile Include="Irony\Interpreter\CommandLine.cs" />
+    <Compile Include="Irony\Interpreter\DataStack.cs" />
+    <Compile Include="Irony\Interpreter\DynamicCallDispatcher.cs" />
+    <Compile Include="Irony\Interpreter\EvaluationContext.cs" />
+    <Compile Include="Irony\Interpreter\LanguageRuntime.cs" />
+    <Compile Include="Irony\Interpreter\LanguageRuntime_Init.cs" />
+    <Compile Include="Irony\Interpreter\RuntimeException.cs" />
+    <Compile Include="Irony\Interpreter\ScriptInterpreter.cs" />
+    <Compile Include="Irony\Interpreter\StackFrame.cs" />
+    <Compile Include="Irony\Interpreter\ValuesTable.cs" />
+    <Compile Include="Irony\Microsoft\BigInteger.cs" />
+    <Compile Include="Irony\Microsoft\Complex64.cs" />
+    <Compile Include="Irony\Microsoft\MathResources.Designer.cs" />
+    <Compile Include="Irony\Parsing\Data\Construction\GrammarDataBuilder.cs" />
+    <Compile Include="Irony\Parsing\Data\Construction\LanguageDataBuilder.cs" />
+    <Compile Include="Irony\Parsing\Data\Construction\ParserDataBuilder.cs" />
+    <Compile Include="Irony\Parsing\Data\Construction\ParserDataBuilder_HelperClasses.cs" />
+    <Compile Include="Irony\Parsing\Data\Construction\ScannerDataBuilder.cs" />
+    <Compile Include="Irony\Parsing\Data\GrammarData.cs" />
+    <Compile Include="Irony\Parsing\Data\LanguageData.cs" />
+    <Compile Include="Irony\Parsing\Data\ParserData.cs" />
+    <Compile Include="Irony\Parsing\Data\ScannerData.cs" />
+    <Compile Include="Irony\Parsing\Diagnostics\ParserDataPrinter.cs" />
+    <Compile Include="Irony\Parsing\Diagnostics\ParserMessage.cs" />
+    <Compile Include="Irony\Parsing\Diagnostics\ParserTrace.cs" />
+    <Compile Include="Irony\Parsing\Diagnostics\ParseTreeExtensions.cs" />
+    <Compile Include="Irony\Parsing\Grammar\BnfExpression.cs" />
+    <Compile Include="Irony\Parsing\Grammar\BnfTerm.cs" />
+    <Compile Include="Irony\Parsing\Grammar\Grammar.cs" />
+    <Compile Include="Irony\Parsing\Grammar\GrammarError.cs" />
+    <Compile Include="Irony\Parsing\Grammar\GrammarHint.cs" />
+    <Compile Include="Irony\Parsing\Grammar\LanguageAttribute.cs" />
+    <Compile Include="Irony\Parsing\Grammar\NonTerminal.cs" />
+    <Compile Include="Irony\Parsing\Grammar\TermReportGroups.cs" />
+    <Compile Include="Irony\Parsing\Parser\CoreParser.cs" />
+    <Compile Include="Irony\Parsing\Parser\CoreParser_ErrorHandling.cs" />
+    <Compile Include="Irony\Parsing\Parser\Parser.cs" />
+    <Compile Include="Irony\Parsing\Parser\ParserStack.cs" />
+    <Compile Include="Irony\Parsing\Parser\ParseTree.cs" />
+    <Compile Include="Irony\Parsing\Parser\ParsingContext.cs" />
+    <Compile Include="Irony\Parsing\Parser\ParsingEventArgs.cs" />
+    <Compile Include="Irony\Parsing\Parser\SyntaxError.cs" />
+    <Compile Include="Irony\Parsing\Scanner\Scanner.cs" />
+    <Compile Include="Irony\Parsing\Scanner\SourceLocation.cs" />
+    <Compile Include="Irony\Parsing\Scanner\SourceStream.cs" />
+    <Compile Include="Irony\Parsing\Scanner\Token.cs" />
+    <Compile Include="Irony\Parsing\Scanner\TokenEditorInfo.cs" />
+    <Compile Include="Irony\Parsing\StringUtils.cs" />
+    <Compile Include="Irony\Parsing\SymbolTable.cs" />
+    <Compile Include="Irony\Parsing\Terminals\CommentTerminal.cs" />
+    <Compile Include="Irony\Parsing\Terminals\CompoundTerminalBase.cs" />
+    <Compile Include="Irony\Parsing\Terminals\ConstantTerminal.cs" />
+    <Compile Include="Irony\Parsing\Terminals\CustomTerminal.cs" />
+    <Compile Include="Irony\Parsing\Terminals\DataLiteralBase.cs" />
+    <Compile Include="Irony\Parsing\Terminals\DsvLiteral.cs" />
+    <Compile Include="Irony\Parsing\Terminals\FixedLengthLiteral.cs" />
+    <Compile Include="Irony\Parsing\Terminals\FreeTextLiteral.cs" />
+    <Compile Include="Irony\Parsing\Terminals\IdentifierTerminal.cs" />
+    <Compile Include="Irony\Parsing\Terminals\ImpliedSymbolTerminal.cs" />
+    <Compile Include="Irony\Parsing\Terminals\KeyTerm.cs" />
+    <Compile Include="Irony\Parsing\Terminals\NewLineTerminal.cs" />
+    <Compile Include="Irony\Parsing\Terminals\NumberLiteral.cs" />
+    <Compile Include="Irony\Parsing\Terminals\QuotedValueLiteral.cs" />
+    <Compile Include="Irony\Parsing\Terminals\RegExBasedTerminal.cs" />
+    <Compile Include="Irony\Parsing\Terminals\RegExLiteral.cs" />
+    <Compile Include="Irony\Parsing\Terminals\StringLiteral.cs" />
+    <Compile Include="Irony\Parsing\Terminals\TerminalFactory.cs" />
+    <Compile Include="Irony\Parsing\Terminals\WikiTerminals\WikiBlockTerminal.cs" />
+    <Compile Include="Irony\Parsing\Terminals\WikiTerminals\WikiTagTerminal.cs" />
+    <Compile Include="Irony\Parsing\Terminals\WikiTerminals\WikiTextTerminal.cs" />
+    <Compile Include="Irony\Parsing\Terminals\WikiTerminals\_WikiTerminalBase.cs" />
+    <Compile Include="Irony\Parsing\Terminals\_ISourceStream.cs" />
+    <Compile Include="Irony\Parsing\Terminals\_Terminal.cs" />
+    <Compile Include="Irony\Parsing\TokenFilters\CodeOutlineFilter.cs" />
+    <Compile Include="Irony\Parsing\TokenFilters\TokenFilter.cs" />
+    <Compile Include="Resources.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ASTNodes\ScopedObjects.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="UOSLGrammar.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Externals.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Irony\Parsing\Data\Construction\_about_parser_construction.txt" />
+    <Content Include="Irony License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="License.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Triggers.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Irony\MS-PubLicense.Rtf" />
+    <None Include="key.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Irony\Microsoft\MathResources.resx" />
+    <EmbeddedResource Include="Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\UO Demo Class Library\UO Demo Class Library.vbproj">
+      <Project>{31712436-D6B2-46BB-A60A-FCDE0F7E2FD5}</Project>
+      <Name>UO Demo Class Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,3 @@
+The root rundir is the "rundir-1998-06-03". This is the original demo rundir with some unused files removed.
+
+You must also replace the "1.0" with a "demo" registry key, or you can duplicate this registry key.

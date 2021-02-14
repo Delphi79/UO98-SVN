@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="RunUOServerAdmin.AccountSearch"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="325" d:DesignWidth="349">
+    <DockPanel>
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MaxWidth="50" />
+                <ColumnDefinition/>
+                <ColumnDefinition MaxWidth="50"/>
+                <ColumnDefinition MaxWidth="50"/>
+                <ColumnDefinition MaxWidth="50"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0">Term:</Label>            
+            <TextBox Grid.Column="1" Name="SearchTerm" TextChanged="SearchTerm_TextChanged"></TextBox>
+            <RadioButton Grid.Column="2" VerticalAlignment="Center" GroupName="Type" Name="ByName" IsChecked="True">Name</RadioButton>
+            <RadioButton Grid.Column="3" VerticalAlignment="Center" GroupName="Type" Name="ByIP">IP</RadioButton>
+            <Button Grid.Column="4" Click="Button_Click" IsDefault="True">Search</Button>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="26"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0">Account Results:</Label>
+            <Label Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2">Account Details:</Label>
+            <Grid Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Background="#FFF5F8FF">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label Grid.Column="0" Grid.Row="0">UserName:</Label><Label Name="FormUsername" Grid.Column="1" Grid.Row="0">user5702</Label>
+                <Label Grid.Column="0" Grid.Row="0">UserName:</Label><CheckBox Name="FormEnableEdit" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Right" Margin="3" Checked="FormEnableEdit_Checked" Unchecked="FormEnableEdit_Unchecked">Edit</CheckBox>
+                <Label Grid.Column="0" Grid.Row="1">Password:</Label><TextBox Name="FormPassword" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" GotFocus="FormPassword_GotFocus" LostFocus="FormPassword_LostFocus">(hidden)</TextBox>
+                <Label Grid.Column="0" Grid.Row="2">Last Login:</Label><Label Name="FormLastLogin"  Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2">1/1/1980 12:00am</Label>
+                <Label Grid.Column="0" Grid.Row="3">AccessLevel</Label><ComboBox Name="FormAccessLevel" Grid.Column="1" Grid.Row="3" Text="Player" Grid.ColumnSpan="2">Player</ComboBox>
+                <Label Grid.Column="0" Grid.Row="4">Banned</Label><CheckBox Name="FormBanned" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" />
+                <DockPanel Grid.Column="2" Grid.Row="4">
+                    <Button Name="FormReset" Width="60" Click="FormReset_Click">Reset</Button>
+                    <Button Name="FormSave" Width="60" Click="FormSave_Click">Save</Button>
+                </DockPanel>
+            </Grid>
+            <ScrollViewer Grid.Column="0" Grid.Row="1" VerticalScrollBarVisibility="Auto" Grid.RowSpan="3">
+                <TextBlock VerticalAlignment="Stretch" Name="ResultsBlock"></TextBlock>
+            </ScrollViewer>
+            <Label Grid.Column="1" Grid.Row="2" Background="#FFFCFCF2" Height="19" VerticalAlignment="Top" FontSize="9">Addresses:</Label>
+            <ScrollViewer Grid.Column="1" Grid.Row="3" VerticalScrollBarVisibility="Auto">
+                <TextBlock VerticalAlignment="Stretch" Name="AddressesBlock" Background="#FFFCFCF2"></TextBlock>
+            </ScrollViewer>
+            <Label Grid.Column="2" Grid.Row="2" Background="#FFFCEFEF" Height="19" VerticalAlignment="Top" FontSize="9">Restrictions:</Label>
+            <ScrollViewer Grid.Column="2" Grid.Row="3" VerticalScrollBarVisibility="Auto">
+                <TextBlock VerticalAlignment="Stretch" Name="RestrictionsBlock" Background="#FFFCEFEF"></TextBlock>
+            </ScrollViewer>
+        </Grid>
+        
+    </DockPanel>
+    
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="Hyperlink.Click">
+            <SoundPlayerAction Source="..\Resources\click.wav" />        
+        </EventTrigger>
+    </UserControl.Triggers>
+
+    <UserControl.Resources>
+        <BitmapImage x:Key="ClipboardIconImage" UriSource="../Resources/clipboard.png" />
+        <DoubleAnimation x:Key="CopyClickAni" From="0" To="1" Duration="0:0:0.2" AutoReverse="False"  />
+    </UserControl.Resources>
+</UserControl>

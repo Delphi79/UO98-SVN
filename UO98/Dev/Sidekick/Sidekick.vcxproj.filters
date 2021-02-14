@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{1b9c4a05-45ca-435d-8e3f-465439546e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Patches">
+      <UniqueIdentifier>{1061fb81-4367-4319-ade1-7bfb27165a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managed Classes">
+      <UniqueIdentifier>{9967fdd9-cbff-4116-8f7f-ab737b86c040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Native API">
+      <UniqueIdentifier>{6c6ea8ed-56ab-42b7-b9c9-c9cd13258543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Patches\Patching">
+      <UniqueIdentifier>{478dc003-3411-4d53-b150-2083f728b8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Native API\Network">
+      <UniqueIdentifier>{89abb6f9-b0d4-4e34-86a9-0c0e975485f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Native API\Native Classes">
+      <UniqueIdentifier>{e2fa23d9-4b8f-4fc0-a426-3c4a710c4212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DllMain">
+      <UniqueIdentifier>{5b260c83-5964-4e50-bc9c-25165ebbf5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Native">
+      <UniqueIdentifier>{3e885347-4945-4859-bcc2-40ec26e23d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests">
+      <UniqueIdentifier>{64aa3a13-ce7e-4dc4-9edd-a52165492c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managed">
+      <UniqueIdentifier>{5a949078-91c7-489d-be0d-a2f77e3d88f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes.h">
+      <Filter>Header Files\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Header Files\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="patcher.h">
+      <Filter>Header Files\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="patches.h">
+      <Filter>Header Files\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsMain.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes_Managed.h">
+      <Filter>Header Files\Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="StringPointerUtils.h">
+      <Filter>Header Files\Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="UODemo.h">
+      <Filter>Header Files\Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeEvents.h">
+      <Filter>Header Files\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files\Managed</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\DllMain</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\DllMain</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files\DllMain</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemObject.cpp">
+      <Filter>Source Files\Native API</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Native API</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\Native API</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjVars.cpp">
+      <Filter>Source Files\Native API</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScripts.cpp">
+      <Filter>Source Files\Native API</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsMain.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper_Events.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMaster.cpp">
+      <Filter>Source Files\Native API</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patcher.cpp">
+      <Filter>Source Files\Patches\Patching</Filter>
+    </ClCompile>
+    <ClCompile Include="SCommand.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>Source Files\Native API</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Jit.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Packets.cpp">
+      <Filter>Source Files\Native API\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests_World.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests_Lists.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests_ObjectScripts.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests_ObjectVars.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Lists.cpp">
+      <Filter>Source Files\Native API</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes.cpp">
+      <Filter>Source Files\Native API\Native Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Source Files\Native API\Native Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests_Classes.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Initialize.cpp">
+      <Filter>Source Files\DllMain</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEvents.cpp">
+      <Filter>Source Files\Native API</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketEngine.cpp">
+      <Filter>Source Files\Managed Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Source Files\Managed Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

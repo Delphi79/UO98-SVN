@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9792F1CB-5186-4EF2-9092-ED6D77012403}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sharpkick</RootNamespace>
+    <AssemblyName>Sharpkick</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <DocumentationFile>Sharpkick.XML</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Sharpkick.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounting\Accounting.cs" />
+    <Compile Include="Administration\GMCommands.cs" />
+    <Compile Include="Administration\HandledCommands.cs" />
+    <Compile Include="Administration\ScriptCommands.cs" />
+    <Compile Include="Command Tests\Tests\ObjectPropertyTests.cs" />
+    <Compile Include="Command Tests\Tests\ObjVarTests.cs" />
+    <Compile Include="Command Tests\Tests\ScriptsTest.cs" />
+    <Compile Include="Server\LiveCore\LiveCore.cs" />
+    <Compile Include="Server\LiveCore\PacketEngine.cs" />
+    <Compile Include="Server\Server Commands\GameMaster.cs" />
+    <Compile Include="Server\Server Commands\ObjectPropertyCommands.cs" />
+    <Compile Include="Server\Server Commands\ObjVarCommands.cs" />
+    <Compile Include="Server\Server Commands\MobileCommands.cs" />
+    <Compile Include="Server\Server Commands\ScriptCommands.cs" />
+    <Compile Include="Server\Server Commands\Commands.cs" />
+    <Compile Include="Server\LiveCore\ServerTimeManager.cs" />
+    <Compile Include="Server\Server Commands\WorldCommands.cs" />
+    <Compile Include="MyServerConfig.cs" />
+    <Compile Include="Events.cs" />
+    <Compile Include="Server\LiveCore\ServerSpawnLimits.cs" />
+    <Compile Include="Server\TileData.cs" />
+    <Compile Include="Server\LiveCore\LiveCoreInterop.cs" />
+    <Compile Include="Server\ICore.cs" />
+    <Compile Include="Command Tests\OnlineTests.cs" />
+    <Compile Include="Command Tests\TestBase\BaseTest.cs" />
+    <Compile Include="Command Tests\TestBase\BaseTestUtils.cs" />
+    <Compile Include="Command Tests\TestBase\BaseTestState.cs" />
+    <Compile Include="Command Tests\Tests\WorldTests.cs" />
+    <Compile Include="Utility\Extensions.cs" />
+    <Compile Include="Mobiles\Players.cs" />
+    <Compile Include="Server\LiveCore\ServerConfiguration.cs" />
+    <Compile Include="Server\LiveCore\ServerResources.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Mobiles\Mobile.cs" />
+    <Compile Include="ObjectStructures\ContainerObject.cs" />
+    <Compile Include="ObjectStructures\ItemObject.cs" />
+    <Compile Include="ObjectStructures\MobileObject.cs" />
+    <Compile Include="ObjectStructures\PlayerObject.cs" />
+    <Compile Include="Packets\ClientPackets.cs" />
+    <Compile Include="Packets\ClientVersion.cs" />
+    <Compile Include="Packets\GodPackets\GodPackets.cs" />
+    <Compile Include="Packets\Packet.cs" />
+    <Compile Include="Packets\PacketVersions.cs" />
+    <Compile Include="Server\Types.cs" />
+    <Compile Include="Persistance\Persistance.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server\Server.cs" />
+    <Compile Include="Packets\ServerPackets.cs" />
+    <Compile Include="Server\LiveCore\Skills.cs" />
+    <Compile Include="WorldBuilding\Decoration.cs" />
+    <Compile Include="WorldBuilding\DungeonEntrances.cs" />
+    <Compile Include="WorldBuilding\Shrines.cs" />
+    <Compile Include="WorldBuilding\Teleporters.cs" />
+    <Compile Include="WorldBuilding\WorldBuilding.cs" />
+    <Compile Include="Persistance\WorldSave.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sidekick\Sidekick.vcxproj">
+      <Project>{03E63AAF-D966-49E4-8A16-1969A9CB579C}</Project>
+      <Name>Sidekick</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

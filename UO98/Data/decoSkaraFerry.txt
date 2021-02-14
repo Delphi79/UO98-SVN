@@ -1,0 +1,77 @@
+#Skara Ferry
+16045   683  2240    -5     0  ; Static
+16048   683  2233    -5     0  ; Static
+16045   683  2232    -5     0  ; Static
+16054   682  2244    -5     0  ; Static
+16046   683  2239    -5     0  ; Static
+16048   683  2241    -5     0  ; Static
+16046   683  2231    -5     0  ; Static
+16044   683  2242    -5     0  ; Static
+16044   683  2235    -5     0  ; Static
+16043   684  2244    -5     0  ; Static
+16040   684  2243    -5     0  ; Static
+16043   684  2236    -5     0  ; Static
+16044   683  2243    -5     0  ; Static
+16044   683  2234    -5     0  ; Static
+16040   684  2235    -5     0  ; Static
+16040   710  2239    -5     0  ; Static
+16045   709  2236    -5     0  ; Static
+16048   709  2237    -5     0  ; Static
+16044   709  2239    -5     0  ; Static
+16030   710  2236    -5     0  ; Static
+16031   708  2237    -5     0  ; Static
+16064   709  2240    -5     0  ; Static
+16029   708  2236    -5     0  ; Static
+16027   708  2235    -5     0  ; Static
+16084   711  2238    -5     0  ; Static
+16043   710  2240    -5     0  ; Static
+16046   709  2235    -5     0  ; Static
+16026   709  2234    -5     0  ; Static
+16032   710  2237    -5     0  ; Static
+16054   708  2240    -5     0  ; Static
+16044   709  2238    -5     0  ; Static
+16028   710  2235    -5     0  ; Static
+16049   707  2238    -5     0  ; Static
+10000   710  2236    -3     0  ; Static
+16044   710  2238    -5     0  ; Static
+16039   708  2239    -5     0  ; Static
+16033   708  2238    -5     0  ; Static
+10000   711  2236    -3     0  ; Static
+16060   709  2241    -5     0  ; Static
+16060   683  2245    -5     0  ; Static
+16085   681  2234    -5     0  ; Static
+16038   684  2234    -5     0  ; Static
+16032   684  2241    -5     0  ; Static
+16032   684  2233    -5     0  ; Static
+16039   682  2243    -5     0  ; Static
+16033   682  2234    -5     0  ; Static
+16038   684  2242    -5     0  ; Static
+16039   682  2235    -5     0  ; Static
+16033   682  2242    -5     0  ; Static
+16031   682  2233    -5     0  ; Static
+16085   681  2242    -5     0  ; Static
+16064   683  2236    -5     0  ; Static
+16060   683  2237    -5     0  ; Static
+16064   683  2244    -5     0  ; Static
+16054   682  2236    -5     0  ; Static
+16029   682  2240    -5     0  ; Static
+16026   683  2230    -5     0  ; Static
+16027   682  2239    -5     0  ; Static
+16030   684  2232    -5     0  ; Static
+16029   682  2232    -5     0  ; Static
+16027   682  2231    -5     0  ; Static
+16028   684  2231    -5     0  ; Static
+16031   682  2241    -5     0  ; Static
+16028   684  2239    -5     0  ; Static
+16026   683  2238    -5     0  ; Static
+16030   684  2240    -5     0  ; Static
+
+
+ 2592   678  2238    -3     0  ; Static
+ 2968   678  2239    -3     0  ; Static
+ 2994   679  2240     7     0 Skara Brae Ferry :    Step onto the boat and say "I would like to cross ; Static
+
+ 2592   712  2234    -3     0  ; Static
+ 2968   712  2235    -3     0  ; Static
+ 2994   713  2236     7     0 Skara Brae Ferry :    Step onto the boat and say "I would like to cross ; Static
+

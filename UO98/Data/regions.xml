@@ -1,0 +1,3062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServerRegions>
+  <Facet name="Felucca">
+    <region name="BRITAINNIA" priority="0">
+      <rect x="0" y="0" width="5120" height="4096" zmin="0" zmax="0" />
+      <region name="BRITAINNIA_1" priority="10">
+        <rect x="0" y="0" width="1552" height="1280" zmin="0" zmax="0" />
+        <region name="OCEAN" priority="20">
+          <rect x="10" y="10" width="1071" height="234" />
+          <rect x="10" y="245" width="648" height="390" />
+          <rect x="10" y="893" width="224" height="368" />
+          <rect x="1082" y="10" width="470" height="100" zmin="0" zmax="0" />
+        </region>
+        <region name="FORESTNEARTOWN_YEW" priority="25">
+          <rect x="657" y="618" width="185" height="304" />
+          <rect x="699" y="922" width="143" height="340" />
+          <rect x="1552" y="229" width="203" height="606" />
+        </region>
+        <region name="NONE_WIND" priority="45">
+          <rect x="1349" y="848" width="103" height="161" />
+          <region name="NONE_WIND_1" priority="55">
+            <rect x="1357" y="879" width="10" height="18" zmin="0" zmax="0" />
+            <rune name="Wind entrance" />
+          </region>
+        </region>
+        <region name="PLAINS_4" priority="65">
+          <rect x="1297" y="923" width="42" height="83" zmin="0" zmax="0" />
+        </region>
+        <region name="PLAINS" priority="75">
+          <rect x="1457" y="544" width="95" height="184" zmin="0" zmax="0" />
+        </region>
+        <region name="DARKESTFOREST" priority="85">
+          <rect x="1109" y="121" width="443" height="142" zmin="0" zmax="0" />
+          <rect x="713" y="263" width="441" height="355" zmin="0" zmax="0" />
+        </region>
+        <region name="DARKERFOREST_2" priority="100">
+          <rect x="1154" y="263" width="284" height="181" zmin="0" zmax="0" />
+        </region>
+        <region name="DARKERFOREST_4" priority="110">
+          <rect x="1452" y="848" width="100" height="311" zmin="0" zmax="0" />
+        </region>
+        <region name="DARKERFOREST_3" priority="120">
+          <rect x="1154" y="693" width="195" height="230" zmin="0" zmax="0" />
+          <region name="GUARD_5" priority="130">
+            <rect x="1244" y="852" width="20" height="35" zmin="16" zmax="35" />
+            <rect x="1254" y="887" width="13" height="11" zmin="0" zmax="0" />
+            <rune name="a guard post" />
+          </region>
+        </region>
+        <region name="DARKERFOREST_1" priority="145">
+          <rect x="842" y="618" width="312" height="305" zmin="0" zmax="0" />
+          <rune name="forest east of Yew" />
+          <region name="CEMETERYHARD_RUINS_1" priority="155">
+            <rect x="943" y="696" width="25" height="24" zmin="0" zmax="39" />
+            <rect x="959" y="687" width="9" height="9" zmin="0" zmax="39" />
+            <rect x="1011" y="692" width="9" height="19" zmin="0" zmax="19" />
+            <rect x="959" y="751" width="17" height="13" zmin="0" zmax="19" />
+            <rect x="1005" y="818" width="16" height="13" zmin="0" zmax="19" />
+            <rect x="956" y="696" width="67" height="136" zmin="-127" zmax="-1" />
+            <rune name="Yew fort of the damned" />
+          </region>
+        </region>
+        <region name="PLAINS_9" priority="170">
+          <rect x="1293" y="1020" width="159" height="241" zmin="0" zmax="0" />
+          <region name="NONE_DESPISE" priority="180">
+            <rect x="1296" y="1043" width="97" height="100" zmin="0" zmax="0" />
+            <rune name="Despise entrance" />
+            <region name="HOUSING_NO_DESPISE" priority="190">
+              <rect x="1297" y="1046" width="31" height="53" zmin="0" zmax="0" />
+            </region>
+          </region>
+        </region>
+        <region name="FORESTNOTNEARTOWN_2" priority="200">
+          <rect x="1349" y="728" width="203" height="120" zmin="0" zmax="0" />
+          <rune name="northern teritories" />
+          <region name="NONE_CHAOS" priority="210">
+            <rect x="1455" y="839" width="8" height="8" zmin="0" zmax="0" />
+            <rune name="Chaos Shrine" />
+          </region>
+        </region>
+        <region name="FORESTNOTNEARTOWN_3" priority="220">
+          <rect x="842" y="923" width="451" height="338" zmin="0" zmax="0" />
+          <rune name="forest east of Yew" />
+          <region name="GUARD" priority="230">
+            <rect x="1031" y="1075" width="23" height="16" zmin="0" zmax="0" />
+          </region>
+        </region>
+        <region name="FORESTNOTNEARTOWN_4" priority="240">
+          <rect x="1154" y="444" width="244" height="249" zmin="0" zmax="0" />
+          <region name="NONE_JUSTICE" priority="250">
+            <rect x="1296" y="628" width="10" height="15" zmin="0" zmax="0" />
+            <rune name="justice shrine" />
+          </region>
+          <region name="ISLAND_JUSTICE" priority="260">
+            <rect x="1259" y="512" width="28" height="44" zmin="0" zmax="0" />
+            <rune name="justice island" />
+          </region>
+        </region>
+        <region name="JUSTICE_YEW" priority="270">
+          <zrange min="0" max="39" />
+          <rect x="761" y="741" width="19" height="21" zmin="0" zmax="39" />
+          <rect x="92" y="656" width="349" height="225" zmin="0" zmax="39" />
+          <rect x="441" y="746" width="216" height="135" zmin="0" zmax="39" />
+          <rect x="258" y="881" width="399" height="380" zmin="0" zmax="39" />
+          <rect x="657" y="922" width="42" height="307" zmin="0" zmax="39" />
+          <rect x="657" y="806" width="17" height="28" zmin="0" zmax="39" />
+          <rect x="718" y="874" width="38" height="22" zmin="0" zmax="39" />
+          <rune name="Yew" />
+          <region name="ABBEY_YEW" priority="290">
+            <zrange min="0" max="39" />
+            <rect x="624" y="816" width="24" height="40" zmin="0" zmax="39" />
+            <rune name="Empath Abbey in Yew" />
+          </region>
+          <region name="INN_YEW" priority="300">
+            <zrange min="0" max="39" />
+            <rect x="600" y="808" width="24" height="24" zmin="0" zmax="19" />
+            <rune name="Empath Abbey in Yew" />
+          </region>
+          <region name="BANK_YEW" priority="310">
+            <zrange min="0" max="39" />
+            <rect x="648" y="808" width="24" height="24" zmin="0" zmax="19" />
+            <rune name="Empath Abbey in Yew" />
+          </region>
+          <region name="FARM_YEW_1" priority="320">
+            <rect x="639" y="922" width="53" height="36" />
+            <rune name="A Farm in Yew" />
+            <region name="SHEEPSMALL_1" priority="330">
+              <rect x="664" y="928" width="22" height="22" />
+              <rune name="A Field of Sheep in Yew" />
+            </region>
+          </region>
+          <region name="FARM_YEW_2" priority="340">
+            <rect x="661" y="1164" width="34" height="57" />
+            <rune name="A Farm in Yew" />
+            <region name="SHEEPSMALL_2" priority="350">
+              <rect x="664" y="1168" width="22" height="22" />
+              <rune name="A Field of Sheep in Yew" />
+            </region>
+          </region>
+          <region name="FARM_YEW_3" priority="360">
+            <rect x="557" y="1085" width="34" height="54" />
+            <rune name="A Farm in Yew" />
+            <region name="LIVESTK_YEW_1" priority="370">
+              <rect x="560" y="1088" width="22" height="22" />
+            </region>
+          </region>
+          <region name="CITY_YEW" priority="380">
+            <rect x="506" y="955" width="83" height="69" zmin="0" zmax="0" />
+            <region name="HEALER_YEW" priority="390">
+              <rect x="528" y="960" width="17" height="17" zmin="0" zmax="0" />
+              <rune name="Healer of Yew" />
+            </region>
+            <region name="BOWYER_YEW" priority="400">
+              <rect x="560" y="960" width="17" height="17" zmin="0" zmax="0" />
+              <rune name="The Sturdy Bow in Yew" />
+            </region>
+            <region name="BAKER_YEW" priority="410">
+              <rect x="552" y="984" width="9" height="17" zmin="0" zmax="0" />
+              <rune name="The Jolly Baker in Yew" />
+            </region>
+            <region name="TANNER_YEW" priority="420">
+              <rect x="512" y="984" width="9" height="17" zmin="0" zmax="0" />
+              <rune name="The Tanned Hide in Yew" />
+            </region>
+            <region name="BUTCHER_YEW" priority="430">
+              <rect x="528" y="1008" width="17" height="9" zmin="0" zmax="0" />
+              <rune name="Yew's Finest Cuts" />
+            </region>
+            <region name="WOODWORKER_YEW" priority="440">
+              <rect x="560" y="1008" width="17" height="9" zmin="0" zmax="0" />
+              <rune name="Blood Thumb Woodworks in Yew" />
+            </region>
+          </region>
+          <region name="NONE_YEW_1" priority="450">
+            <rect x="608" y="976" width="17" height="9" zmin="0" zmax="0" />
+            <rune name="Counselors Guild in Yew" />
+          </region>
+          <region name="NONE_YEW" priority="460">
+            <rect x="608" y="872" width="17" height="25" zmin="0" zmax="0" />
+            <rune name="Ye Olde Winery" />
+          </region>
+          <region name="MILL_YEW" priority="470">
+            <rect x="544" y="808" width="24" height="24" zmin="0" zmax="0" />
+            <rune name="Yew Mill" />
+            <region name="TOWNRATSMALL_YEW" priority="480">
+              <rect x="544" y="808" width="8" height="12" zmin="0" zmax="0" />
+            </region>
+          </region>
+          <region name="JAIL_YEW" priority="490">
+            <rect x="256" y="759" width="60" height="24" zmin="0" zmax="0" />
+            <rect x="331" y="800" width="15" height="38" zmin="0" zmax="0" />
+            <rect x="307" y="784" width="35" height="16" zmin="0" zmax="0" />
+            <rect x="346" y="831" width="26" height="40" zmin="0" zmax="0" />
+            <rune name="Yew Prision" />
+            <region name="JAIL_CELL_YEW" priority="495">
+              <zrange min="29" max="0" />
+              <rect x="261" y="764" width="39" height="14" zmin="0" zmax="29" />
+              <rune name="Yew Prision" />
+            </region>
+            <region name="JAILORSMALL_YEW_1" priority="505">
+              <zrange min="20" max="29" />
+              <rect x="313" y="785" width="14" height="14" zmin="20" zmax="29" />
+              <rect x="352" y="832" width="7" height="7" zmin="20" zmax="29" />
+            </region>
+          </region>
+          <region name="COURT_YEW" priority="520">
+            <rect x="336" y="871" width="36" height="16" zmin="0" zmax="0" />
+            <rect x="344" y="887" width="28" height="17" zmin="0" zmax="0" />
+            <rune name="Court of Truth" />
+          </region>
+          <region name="GUARD_YEW" priority="535">
+            <rect x="372" y="884" width="24" height="20" zmin="0" zmax="0" />
+            <rect x="356" y="904" width="40" height="16" zmin="0" zmax="0" />
+            <rune name="Court of Truth" />
+          </region>
+          <region name="FARM_YEW_4" priority="550">
+            <rect x="652" y="993" width="54" height="32" zmin="0" zmax="0" />
+            <rune name="a farm in Yew" />
+          </region>
+          <region name="FARM_YEW_5" priority="560">
+            <rect x="542" y="1203" width="44" height="55" zmin="0" zmax="0" />
+            <rune name="a farm in Yew" />
+            <region name="WHEAT_YEW_1" priority="570">
+              <rect x="560" y="1232" width="16" height="16" />
+              <rune name="A Wheatfield in Yew" />
+            </region>
+          </region>
+          <region name="FARM_YEW_6" priority="580">
+            <rect x="362" y="1173" width="54" height="85" zmin="0" zmax="0" />
+            <rune name="a farm in Yew" />
+            <region name="WHEAT_YEW_2" priority="590">
+              <rect x="368" y="1176" width="14" height="32" />
+              <rune name="A wheatfield in Yew" />
+            </region>
+          </region>
+        </region>
+        <region name="CEMETERY_YEW" priority="600">
+          <rect x="711" y="1103" width="25" height="33" zmin="0" zmax="0" />
+          <rune name="Yew Cemetary" />
+        </region>
+        <region name="ISLAND_DOT" priority="610">
+          <rect x="1501" y="360" width="8" height="11" zmin="0" zmax="0" />
+          <rune name="dot island" />
+        </region>
+      </region>
+      <region name="BRITAINNIA_2" priority="620">
+        <rect x="1552" y="0" width="1136" height="1280" zmin="0" zmax="0" />
+        <region name="OCEAN" priority="630">
+          <rect x="1552" y="0" width="324" height="155" zmin="0" zmax="0" />
+          <rect x="2198" y="10" width="115" height="216" zmin="0" zmax="0" />
+          <rune name="2120" />
+        </region>
+        <region name="PLAINS" priority="645">
+          <rect x="2035" y="762" width="252" height="174" zmin="0" zmax="0" />
+          <rect x="2092" y="936" width="195" height="94" zmin="0" zmax="0" />
+          <rune name="bloody plains" />
+          <region name="GUARD_9" priority="660">
+            <rect x="2039" y="788" width="38" height="32" zmin="0" zmax="39" />
+            <rect x="2261" y="918" width="24" height="18" zmin="0" zmax="34" />
+          </region>
+        </region>
+        <region name="PLAINS" priority="675">
+          <rect x="1600" y="155" width="276" height="315" zmin="0" zmax="0" />
+          <rect x="1552" y="470" width="260" height="311" zmin="0" zmax="0" />
+          <rect x="2197" y="263" width="90" height="499" zmin="0" zmax="0" />
+          <rune name="northern territories" />
+        </region>
+        <region name="DARKESTFOREST_3" priority="695">
+          <rect x="1876" y="9" width="321" height="201" zmin="0" zmax="0" />
+          <rune name="northern territories" />
+        </region>
+        <region name="DARKESTFOREST_2" priority="705">
+          <rect x="1876" y="210" width="321" height="260" zmin="0" zmax="0" />
+          <rune name="northern territories" />
+          <region name="HOUSING_NO_WRONG" priority="715">
+            <rect x="1939" y="215" width="134" height="137" />
+            <rune name="Wrong Entrance" />
+          </region>
+        </region>
+        <region name="DARKESTFOREST_1" priority="725">
+          <rect x="1812" y="470" width="223" height="331" zmin="0" zmax="0" />
+          <rect x="2036" y="470" width="161" height="292" zmin="0" zmax="0" />
+          <rune name="northern territories" />
+          <region name="GUARD_4" priority="740">
+            <rect x="1815" y="718" width="9" height="13" zmin="0" zmax="0" />
+          </region>
+        </region>
+        <region name="SWAMP" priority="750">
+          <rect x="1953" y="936" width="139" height="137" zmin="0" zmax="0" />
+          <rune name="bog of desolation" />
+        </region>
+        <region name="PLAINS" priority="760">
+          <rect x="1953" y="1073" width="139" height="207" zmin="0" zmax="0" />
+          <rune name="2140" />
+        </region>
+        <region name="PLAINS" priority="770">
+          <rect x="2313" y="4" width="375" height="224" zmin="0" zmax="0" />
+          <rune name="north mines" />
+        </region>
+        <region name="FORESTNOTNEARTOWN_1" priority="780">
+          <rect x="1552" y="781" width="260" height="499" zmin="0" zmax="0" />
+        </region>
+        <region name="FORESTNOTNEARTOWN_2" priority="790">
+          <rect x="1812" y="977" width="141" height="303" zmin="0" zmax="0" />
+          <region name="GUARD_9" priority="800">
+            <rect x="1922" y="1141" width="21" height="17" zmin="0" zmax="0" />
+            <rune name="a guard post" />
+          </region>
+        </region>
+        <region name="FORESTNOTNEARTOWN_3" priority="810">
+          <rect x="2288" y="739" width="401" height="291" zmin="0" zmax="0" />
+          <rune name="forest near Minoc" />
+          <region name="HOUSING_NO_COVETOUS" priority="820">
+            <rect x="2433" y="846" width="128" height="128" />
+            <rune name="Covetous Entrance" />
+          </region>
+        </region>
+        <region name="FORESTNEARTOWN_VESPER" priority="830">
+          <rect x="2601" y="1030" width="87" height="250" zmin="0" zmax="0" />
+          <rune name="forest near Vesper" />
+        </region>
+        <region name="DARKFOREST_5" priority="840">
+          <rect x="2387" y="1030" width="214" height="250" zmin="0" zmax="0" />
+          <rune name="forest near Cove" />
+          <region name="CEMETERY_COVE" priority="850">
+            <zrange max="47" />
+            <rect x="2431" y="1081" width="22" height="15" zmin="0" zmax="47" />
+            <rect x="2423" y="1096" width="30" height="24" zmin="0" zmax="47" />
+            <rune name="Cove Cemetary" />
+          </region>
+          <region name="RUINS_6" priority="865">
+            <rect x="2509" y="1098" width="10" height="11" zmin="0" zmax="0" />
+          </region>
+          <region name="LICH_SMALL" priority="875">
+            <rect x="2578" y="1111" width="10" height="17" zmin="0" zmax="0" />
+          </region>
+        </region>
+        <region name="FORESTNEARTOWN_COVE" priority="885">
+          <rect x="2092" y="1030" width="294" height="250" zmin="0" zmax="0" />
+          <region name="JUSTICE_CITY_COVE" priority="895" type="TownRegion">
+            <rect x="2200" y="1110" width="49" height="136" />
+            <rect x="2249" y="1187" width="37" height="59" />
+            <rune name="Cove" />
+            <region name="GUARD_COVE" priority="910">
+              <rect x="2208" y="1111" width="7" height="9" zmin="0" zmax="59" />
+              <rect x="2271" y="1196" width="8" height="7" zmin="0" zmax="39" />
+              <rect x="2280" y="1223" width="7" height="9" zmin="0" zmax="39" />
+              <rune name="a guard tower in Cove" />
+            </region>
+            <region name="WEAPONRY_COVE" priority="930">
+              <rect x="2209" y="1165" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="The Warrior's Supplies in Cove" />
+            </region>
+            <region name="ARMORER_COVE" priority="940">
+              <rect x="2217" y="1165" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="The Warrior's Supplies in Cove" />
+            </region>
+            <region name="FARM_COVE" priority="950">
+              <rect x="2213" y="1184" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Farmers' Market in Cove" />
+            </region>
+            <region name="HEALER_COVE" priority="960">
+              <rect x="2241" y="1225" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="The Healing Hand in Cove" />
+            </region>
+          </region>
+          <region name="DOCKS_COVE" priority="970">
+            <rect x="2250" y="1166" width="14" height="20" zmin="0" zmax="0" />
+            <rune name="Docks in Cove" />
+          </region>
+        </region>
+        <region name="DESERT" priority="980">
+          <rect x="1812" y="801" width="223" height="74" zmin="0" zmax="0" />
+          <rect x="1813" y="875" width="207" height="30" zmin="0" zmax="0" />
+          <rect x="1813" y="905" width="172" height="31" zmin="0" zmax="0" />
+          <rect x="1813" y="936" width="140" height="34" zmin="0" zmax="0" />
+          <rune name="desert of compassion" />
+          <region name="NONE_COMPASSION" priority="985">
+            <rect x="1851" y="865" width="12" height="16" zmin="0" zmax="0" />
+            <rune name="Shrine of Compassion" />
+          </region>
+        </region>
+        <region name="FORESTNEARTOWN_MINOC" priority="995">
+          <rect x="2287" y="228" width="401" height="511" zmin="0" zmax="0" />
+          <region name="JUSTICE_MINOC" priority="1005" type="TownRegion">
+            <rect x="2411" y="366" width="135" height="241" />
+            <rect x="2546" y="495" width="74" height="55" />
+            <rect x="2565" y="585" width="63" height="61" />
+            <rect x="2499" y="627" width="66" height="63" />
+            <rune name="Minoc" />
+            <region name="CITY_MINOC" priority="1010" type="TownRegion">
+              <rect x="2412" y="367" width="133" height="239" />
+              <region name="INN_MINOC" priority="1020">
+                <rect x="2457" y="397" width="40" height="8" />
+                <rect x="2465" y="405" width="8" height="8" />
+                <rect x="2481" y="405" width="8" height="8" />
+                <rune name="The Barnacle in Minoc" />
+              </region>
+              <region name="STABLES_MINOC" priority="1040">
+                <rect x="2516" y="372" width="24" height="8" zmin="0" zmax="0" />
+                <rune name="Minoc Stables" />
+              </region>
+              <region name="BUTCHER_MINOC" priority="1050">
+                <rect x="2432" y="409" width="16" height="8" zmin="0" zmax="0" />
+                <rect x="2432" y="400" width="9" height="9" zmin="0" zmax="0" />
+                <rune name="The Slaughtered Cow in Minoc" />
+              </region>
+              <region name="PROVISIONER_MINOC_1" priority="1065">
+                <rect x="2448" y="424" width="16" height="8" zmin="0" zmax="0" />
+                <rect x="2448" y="432" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="The Old Miners' Supplies in Minoc" />
+              </region>
+              <region name="FIGHTERGUILD_MINOC" priority="1080">
+                <rect x="2472" y="424" width="16" height="9" zmin="0" zmax="0" />
+                <rect x="2480" y="433" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="The New World Order in Minoc" />
+              </region>
+              <region name="MINERSGUILD_MINOC" priority="1095">
+                <rect x="2496" y="423" width="16" height="17" zmin="0" zmax="34" />
+                <rune name="The Golden Pickaxe in Minoc" />
+              </region>
+              <region name="TINKER_MINOC" priority="1105">
+                <rect x="2458" y="458" width="8" height="8" zmin="0" zmax="0" />
+                <rect x="2450" y="450" width="24" height="8" zmin="0" zmax="0" />
+              </region>
+              <region name="CARPENTER_MINOC" priority="1120">
+                <rect x="2515" y="475" width="8" height="8" zmin="0" zmax="0" />
+                <rect x="2507" y="467" width="8" height="16" zmin="0" zmax="0" />
+                <rune name="The Oak Throne in Minoc" />
+              </region>
+              <region name="MINERSGUILD_MINOC" priority="1135">
+                <rect x="2451" y="475" width="8" height="16" zmin="0" zmax="0" />
+                <rune name="The Matewan in Minoc" />
+              </region>
+              <region name="JEWELER_MINOC" priority="1145">
+                <rect x="2451" y="491" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="The Matewan in Minoc" />
+              </region>
+              <region name="MINER_MINOC" priority="1155">
+                <rect x="2460" y="483" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="The Matewan in Minoc" />
+              </region>
+              <region name="TOWNHALL_MINOC" priority="1165">
+                <rect x="2416" y="521" width="24" height="16" zmin="0" zmax="0" />
+                <rune name="Minoc Town Hall" />
+              </region>
+              <region name="TANNER_MINOC" priority="1175">
+                <rect x="2512" y="520" width="16" height="8" zmin="0" zmax="0" />
+                <rect x="2520" y="528" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="The Stretched Hide in Britain" />
+              </region>
+              <region name="BLACKSMITH_MINOC_1" priority="1190">
+                <rect x="2465" y="554" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="The Forgery in Minoc" />
+              </region>
+              <region name="WEAPONRY_MINOC" priority="1200">
+                <rect x="2465" y="562" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="The Forgery in Minoc" />
+              </region>
+              <region name="ARMORER_MINOC" priority="1210">
+                <rect x="2473" y="562" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="The Forgery in Minoc" />
+              </region>
+              <region name="BARDGUILD_MINOC" priority="1220">
+                <rect x="2424" y="552" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="The Mystical Lute in Minoc" />
+              </region>
+              <region name="BARD_MINOC" priority="1230">
+                <rect x="2416" y="544" width="8" height="16" zmin="0" zmax="0" />
+                <rune name="The Mystical Lute in Minoc" />
+              </region>
+              <region name="PROVISIONER_MINOC_2" priority="1240">
+                <rect x="2528" y="553" width="8" height="8" zmin="0" zmax="0" />
+                <rect x="2520" y="545" width="16" height="8" zmin="0" zmax="0" />
+                <rune name="The Survival Shop in Minoc" />
+              </region>
+              <region name="BANK_MINOC" priority="1255">
+                <rect x="2496" y="544" width="16" height="16" zmin="0" zmax="0" />
+                <rune name="Bank of Minoc" />
+              </region>
+              <region name="ARMORER_MINOC" priority="1265">
+                <rect x="2522" y="571" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="Warriors' Battle Gear in Minoc" />
+              </region>
+              <region name="BLACKSMITH_MINOC_3" priority="1275">
+                <rect x="2530" y="571" width="8" height="16" zmin="0" zmax="0" />
+                <rune name="Warriors' Battle Gear in Minoc" />
+              </region>
+            </region>
+            <region name="GYPSYLARGE_MINOC" priority="1285">
+              <rect x="2504" y="632" width="55" height="54" zmin="0" zmax="0" />
+              <rune name="gypsy camp near Minoc" />
+            </region>
+            <region name="MINER_MINOC" priority="1295">
+              <rect x="2562" y="513" width="39" height="30" zmin="0" zmax="0" />
+              <rune name="a mining camp near Minoc" />
+              <region name="BLACKSMITH_MINOC_2" priority="1305">
+                <rect x="2579" y="515" width="12" height="11" zmin="0" zmax="0" />
+              </region>
+            </region>
+            <region name="HEALER_MINOC" priority="1315">
+              <rect x="2570" y="595" width="17" height="9" zmin="0" zmax="0" />
+              <rect x="2570" y="587" width="9" height="8" zmin="0" zmax="0" />
+              <rune name="The Healing Hand in Minoc" />
+            </region>
+            <region name="PEASANT_MINOC" priority="1330">
+              <rect x="2591" y="607" width="35" height="38" zmin="0" zmax="0" />
+              <rect x="2477" y="590" width="40" height="14" zmin="0" zmax="0" />
+              <rect x="2413" y="463" width="20" height="43" zmin="0" zmax="0" />
+            </region>
+          </region>
+          <region name="NONE_MINOC" priority="1350">
+            <rect x="2550" y="451" width="68" height="58" zmin="0" zmax="0" />
+            <rune name="mount kendall" />
+          </region>
+        </region>
+      </region>
+      <region name="BRITAINNIA_3" priority="1360">
+        <rect x="0" y="1280" width="2688" height="752" zmin="0" zmax="0" />
+        <region name="OCEAN" priority="1370">
+          <rect x="5" y="1606" width="344" height="421" zmin="-127" zmax="127" />
+          <rect x="349" y="1785" width="279" height="213" zmin="-127" zmax="127" />
+          <rect x="1751" y="1603" width="511" height="305" zmin="-127" zmax="127" />
+          <rect x="2262" y="1301" width="420" height="692" zmin="-127" zmax="127" />
+        </region>
+        <region name="JUSTICE_BRITAIN" priority="1375">
+          <rect x="1416" y="1498" width="324" height="339" zmin="-10" zmax="127" />
+          <rect x="1093" y="1538" width="323" height="369" zmin="-10" zmax="127" />
+          <rect x="1500" y="1408" width="46" height="90" zmin="0" zmax="127" />
+          <rect x="1330" y="1991" width="13" height="13" zmin="-10" zmax="127" />
+          <rune name="Britain" />
+          <region name="FARM_BRITAIN_1" priority="1380">
+            <rect x="1132" y="1542" width="42" height="54" zmin="0" zmax="20" />
+            <rune name="a farm in Britain" />
+            <region name="WHEAT_BRITAIN_1" priority="1390">
+              <rect x="1136" y="1560" width="32" height="32" zmin="0" zmax="20" />
+              <rune name="a wheatfield in Britain" />
+            </region>
+          </region>
+          <region name="BLACKTHORN_BRITAIN" priority="1400">
+            <rect x="1521" y="1411" width="22" height="59" zmin="0" zmax="65" />
+            <rect x="1507" y="1421" width="14" height="35" zmin="0" zmax="25" />
+            <rune name="Lord Blackthorn's Castle" />
+            <region name="BLACKTHORNGUARD_BRITAIN" priority="1415">
+              <rect x="1521" y="1458" width="6" height="5" zmin="15" zmax="25" />
+            </region>
+          </region>
+          <region name="LBCASTLE_BRITAIN" priority="1425">
+            <rect x="1296" y="1560" width="112" height="136" zmin="30" zmax="90" />
+            <rune name="Lord British's Castle" />
+            <region name="BLACKSMITH_BRITAIN_3" priority="1435">
+              <rect x="1360" y="1591" width="15" height="8" zmin="30" zmax="50" />
+              <rune name="The Lord's Arms Britain" />
+            </region>
+            <region name="STABLES_BRITAIN_3" priority="1445">
+              <rect x="1383" y="1639" width="12" height="43" zmin="30" zmax="50" />
+              <rune name="Stables in Britain" />
+            </region>
+            <region name="CLOTHIER_BRITAIN_3" priority="1455">
+              <rect x="1384" y="1595" width="8" height="12" zmin="30" zmax="50" />
+              <rune name="The Lord's Clothes Britain" />
+            </region>
+          </region>
+          <region name="FARM_BRITAIN_2" priority="1465">
+            <rect x="1103" y="1605" width="62" height="38" zmin="0" zmax="0" />
+            <rune name="a farm in Britain" />
+            <region name="WHEAT_BRITAIN_5" priority="1475">
+              <rect x="1104" y="1608" width="32" height="32" />
+              <rune name="A Wheatfield in Britain" />
+            </region>
+          </region>
+          <region name="FARM_BRITAIN_3" priority="1485">
+            <rect x="1205" y="1566" width="51" height="69" zmin="0" zmax="0" />
+            <rune name="a farm in Britain" />
+            <region name="TURNIP_BRITAIN_1" priority="1495">
+              <rect x="1208" y="1592" width="16" height="24" />
+              <rune name="A Turnip Field in Britain" />
+            </region>
+            <region name="CARROT_BRITAIN_1" priority="1505">
+              <rect x="1224" y="1592" width="16" height="24" />
+              <rune name="A Carrot Field in Britain" />
+            </region>
+          </region>
+          <region name="FARM_BRITAIN_4" priority="1515">
+            <rect x="1170" y="1657" width="38" height="67" />
+            <rune name="a farm in Britain" />
+            <region name="CABBAGE_BRITAIN_1" priority="1525">
+              <rect x="1176" y="1672" width="16" height="23" />
+              <rune name="A Cabbage Field in Britain" />
+            </region>
+            <region name="CABBAGE_BRITAIN_1" priority="1535">
+              <rect x="1192" y="1672" width="16" height="24" />
+              <rune name="A Turnip Field in Britain" />
+            </region>
+          </region>
+          <region name="FARM_BRITAIN_5" priority="1545">
+            <rect x="1208" y="1694" width="51" height="48" />
+            <rune name="a farm in Britain" />
+            <region name="CARROT_BRITAIN_2" priority="1555">
+              <rect x="1208" y="1712" width="16" height="24" />
+              <rune name="A Carrot Field in Britain" />
+            </region>
+            <region name="ONION_BRITAIN_1" priority="1565">
+              <rect x="1224" y="1712" width="16" height="24" />
+              <rune name="A Onion Field in Britain" />
+            </region>
+          </region>
+          <region name="FARM_BRITAIN_6" priority="1575">
+            <rect x="1113" y="1770" width="51" height="58" />
+            <rune name="a farm in Britain" />
+            <region name="WHEAT_BRITAIN_2" priority="1585">
+              <rect x="1120" y="1776" width="32" height="32" />
+              <rune name="A Wheatfield in Britain" />
+            </region>
+          </region>
+          <region name="FARM_BRITAIN_7" priority="1595">
+            <rect x="1179" y="1804" width="42" height="58" />
+            <rune name="a farm in Britain" />
+            <region name="WHEAT_BRITAIN_3" priority="1605">
+              <rect x="1184" y="1808" width="32" height="32" />
+              <rune name="A Wheatfield in Britain" />
+            </region>
+          </region>
+          <region name="FARM_BRITAIN_8" priority="1615">
+            <rect x="1196" y="1863" width="82" height="41" />
+            <rune name="a farm in Britain" />
+            <region name="WHEAT_BRITAIN_4" priority="1625">
+              <rect x="1216" y="1872" width="32" height="32" />
+              <rune name="A Wheatfield in Britain" />
+            </region>
+          </region>
+          <region name="LIVESTK_BRITAIN" priority="1635">
+            <rect x="1311" y="1799" width="16" height="32" />
+          </region>
+          <region name="STABLES_BRITAIN_2" priority="1645">
+            <rect x="1287" y="1751" width="20" height="32" zmin="10" zmax="30" />
+            <rune name="Sosarian Steeds in Britain" />
+          </region>
+          <region name="FIGHTERGUILD_BRITAIN_1" priority="1655">
+            <rect x="1336" y="1726" width="16" height="16" zmin="20" zmax="100" />
+            <rune name="Warriors Guild in Britain" />
+          </region>
+          <region name="BLACKSMITH_BRITAIN_2" priority="1665">
+            <rect x="1344" y="1768" width="16" height="22" zmin="15" zmax="35" />
+            <rune name="Britain's Blacksmith Guild" />
+          </region>
+          <region name="PEASANTMEDIUM_BRITAIN_1" priority="1675">
+            <rect x="1383" y="1800" width="26" height="26" zmin="0" zmax="20" />
+            <rune name="Britain" />
+          </region>
+          <region name="CITY_BRITAIN" priority="1685">
+            <rect x="1419" y="1510" width="262" height="268" zmin="-10" zmax="127" />
+            <rect x="1419" y="1539" width="293" height="54" zmin="0" zmax="0" />
+            <rune name="City of Britain" />
+            <region name="BARDGUILD__BRITAIN" priority="1700">
+              <rect x="1435" y="1547" width="41" height="21" zmin="30" zmax="69" />
+              <rune name="Lord British's Conservatory of Music" />
+            </region>
+            <region name="DOCKS_BRITAIN_2" priority="1710">
+              <rect x="1468" y="1752" width="34" height="20" zmin="-5" zmax="25" />
+              <rect x="1481" y="1745" width="18" height="7" zmin="-5" zmax="25" />
+              <rune name="docks in Britain" />
+            </region>
+            <region name="DOCKS_BRITAIN_1" priority="1725">
+              <rect x="1434" y="1754" width="22" height="22" zmin="-5" zmax="25" />
+              <rune name="docks in Britain" />
+            </region>
+            <region name="INN_BRITAIN_5" priority="1735">
+              <rect x="1576" y="1584" width="24" height="16" zmin="20" zmax="60" />
+              <rune name="The Wayfarer's Inn in Britain" />
+            </region>
+            <region name="STABLES_BRITAIN_1" priority="1745">
+              <rect x="1507" y="1539" width="22" height="14" zmin="25" zmax="45" />
+              <rune name="The Bucking Horse Stables in Britain" />
+            </region>
+            <region name="NONE_BRITAIN_1" priority="1755">
+              <rect x="1508" y="1539" width="21" height="14" zmin="40" zmax="60" />
+              <rune name="Counselor's Guild in Britain" />
+            </region>
+            <region name="BLACKSMITH_BRITAIN_1" priority="1765">
+              <rect x="1416" y="1544" width="13" height="16" zmin="30" zmax="50" />
+              <rune name="The Hammer and Anvil in Britain" />
+            </region>
+            <region name="MAGEGUILD_BRITAIN" priority="1775">
+              <rect x="1484" y="1544" width="16" height="16" zmin="30" zmax="90" />
+              <rune name="The Sorcerers Delight in Britain" />
+            </region>
+            <region name="INN_BRITAIN_6" priority="1785">
+              <rect x="1456" y="1512" width="16" height="16" zmin="20" zmax="40" />
+              <rect x="1472" y="1512" width="8" height="8" zmin="20" zmax="40" />
+              <rune name="The North Side Inn in Britain" />
+            </region>
+            <region name="TAVERN_BRITAIN_4" priority="1800">
+              <rect x="1544" y="1760" width="16" height="16" zmin="10" zmax="30" />
+              <rect x="1560" y="1760" width="8" height="8" zmin="10" zmax="30" />
+              <rune name="The Unicorn's Horn in Britain" />
+            </region>
+            <region name="TINKERGUILD_BRITAIN" priority="1815">
+              <rect x="1422" y="1647" width="10" height="20" zmin="10" zmax="30" />
+              <rune name="The Tinkers' Guild in Britain" />
+            </region>
+            <region name="BANK_BRITAIN_1" priority="1825">
+              <rect x="1423" y="1674" width="9" height="19" zmin="0" zmax="10" />
+              <rect x="1432" y="1682" width="10" height="11" zmin="0" zmax="10" />
+              <rune name="First Bank of Britain" />
+            </region>
+            <region name="VET_BRITAIN" priority="1840">
+              <rect x="1505" y="1564" width="13" height="13" zmin="20" zmax="40" />
+              <rune name="Britannia Animal Care" />
+            </region>
+            <region name="ARTISAN_BRITAIN" priority="1850">
+              <rect x="1440" y="1660" width="16" height="10" zmin="10" zmax="30" />
+              <rune name="Artists' Guild in Britain" />
+            </region>
+            <region name="INN_BRITAIN_1" priority="1860">
+              <rect x="1492" y="1602" width="8" height="19" zmin="21" zmax="60" />
+              <rect x="1499" y="1608" width="8" height="18" zmin="21" zmax="60" />
+              <rect x="1492" y="1619" width="7" height="6" zmin="40" zmax="60" />
+              <rune name="Sweet Dreams Inn in Britain" />
+            </region>
+            <region name="BOWYER_BRITAIN" priority="1880">
+              <rect x="1468" y="1592" width="12" height="12" zmin="20" zmax="40" />
+              <rune name="Quality Fletching in Britain" />
+            </region>
+            <region name="MERCHANTGUILD_BRITAIN" priority="1890">
+              <rect x="1468" y="1592" width="17" height="8" zmin="20" zmax="40" />
+              <rune name="Merchant's Guild in Britain" />
+            </region>
+            <region name="ARMORER_BRITAIN_2" priority="1900">
+              <rect x="1436" y="1646" width="16" height="8" zmin="10" zmax="30" />
+              <rune name="Heavy Metal Armoror in Britain" />
+            </region>
+            <region name="JEWELER_BRITAIN_1" priority="1910">
+              <rect x="1450" y="1678" width="8" height="16" zmin="0" zmax="20" />
+              <rune name="Premier Gems in Britain" />
+            </region>
+            <region name="BAKER_BRITAIN" priority="1920">
+              <rect x="1448" y="1608" width="14" height="8" zmin="20" zmax="40" />
+              <rune name="Good Eats in Britain" />
+            </region>
+            <region name="ARMORER_BRITAIN_1" priority="1930">
+              <rect x="1480" y="1580" width="9" height="12" zmin="20" zmax="40" />
+              <rune name="Strength and Steel in Britain" />
+            </region>
+            <region name="WOODWORKER_BRITAIN_1" priority="1940">
+              <rect x="1428" y="1591" width="13" height="8" zmin="20" zmax="40" />
+              <rune name="The Saw Horse Britain" />
+            </region>
+            <region name="TANNER_BRITAIN" priority="1950">
+              <rect x="1428" y="1608" width="13" height="8" zmin="20" zmax="40" />
+              <rune name="The Best Hides of Britain" />
+            </region>
+            <region name="HEALER_BRITAIN" priority="1960">
+              <rect x="1468" y="1608" width="12" height="8" zmin="20" zmax="40" />
+              <rune name="Healer of Britain" />
+            </region>
+            <region name="PROVISIONER_BRITAIN" priority="1970">
+              <rect x="1464" y="1664" width="8" height="12" zmin="0" zmax="20" />
+              <rune name="Britain's Premier Provisioners and Fish Shoppe" />
+            </region>
+            <region name="FISHER_BRITAIN" priority="1980">
+              <rect x="1480" y="1664" width="8" height="12" zmin="0" zmax="20" />
+              <rune name="Britain's Premier Provisioners and Fish Shoppe" />
+            </region>
+            <region name="ALCHEMIST_BRITAIN_1" priority="1990">
+              <rect x="1496" y="1656" width="12" height="8" zmin="27" zmax="47" />
+              <rect x="1496" y="1665" width="8" height="4" zmin="27" zmax="47" />
+              <rune name="Ethereal Goods in Britain" />
+            </region>
+            <region name="CLOTHIER_BRITAIN_1" priority="2005">
+              <rect x="1466" y="1683" width="8" height="12" zmin="0" zmax="20" />
+              <rect x="1474" y="1683" width="4" height="10" zmin="0" zmax="20" />
+              <rune name="The Lord's Clothiers in Britain" />
+            </region>
+            <region name="TAVERN_BRITAIN_2" priority="2020">
+              <rect x="1432" y="1712" width="8" height="12" zmin="20" zmax="40" />
+              <rect x="1424" y="1712" width="8" height="24" zmin="20" zmax="40" />
+              <rune name="The Cat's Lair in Britain" />
+            </region>
+            <region name="CUSTOMS_BRITAIN_1" priority="2035">
+              <rect x="1472" y="1736" width="12" height="8" zmin="0" zmax="20" />
+              <rect x="1472" y="1744" width="8" height="8" zmin="0" zmax="20" />
+              <rune name="Customs in Britain" />
+            </region>
+            <region name="THEATER_BRITAIN" priority="2050">
+              <rect x="1448" y="1575" width="13" height="26" zmin="20" zmax="50" />
+              <rect x="1439" y="1575" width="9" height="10" zmin="20" zmax="50" />
+              <rune name="The Kings Men Theater in Britain" />
+            </region>
+            <region name="PEASANTSMALL_BRITAIN_1" priority="2065">
+              <rect x="1507" y="1592" width="8" height="11" zmin="10" zmax="30" />
+              <rect x="1655" y="1576" width="10" height="9" zmin="0" zmax="20" />
+              <rect x="1639" y="1575" width="10" height="10" zmin="0" zmax="20" />
+              <rune name="a house in Britain" />
+            </region>
+            <region name="TAVERN_BRITAIN_1" priority="2085">
+              <rect x="1486" y="1684" width="8" height="8" zmin="20" zmax="40" />
+              <rect x="1494" y="1676" width="8" height="24" zmin="20" zmax="40" />
+              <rune name="The Blue Boar in Britain" />
+            </region>
+            <region name="BUTCHER_BRITAIN" priority="2100">
+              <rect x="1448" y="1710" width="8" height="8" zmin="0" zmax="20" />
+              <rune name="The Cleaver in Britain" />
+            </region>
+            <region name="LIBRARY_BRITAIN_2" priority="2110">
+              <rect x="1492" y="1713" width="8" height="11" zmin="7" zmax="17" />
+              <rune name="The First Library of Britain" />
+            </region>
+            <region name="TAVERN_BRITAIN_3" priority="2120">
+              <rect x="1608" y="1584" width="24" height="8" zmin="0" zmax="20" />
+              <rect x="1616" y="1576" width="8" height="8" zmin="0" zmax="20" />
+              <rune name="The Salty Dog in Britain" />
+            </region>
+            <region name="LIBRARY_BRITAIN_1" priority="2135">
+              <rect x="1407" y="1587" width="13" height="25" zmin="30" zmax="49" />
+              <rect x="1407" y="1592" width="13" height="20" zmin="50" zmax="60" />
+              <rune name="Britain Public Library" />
+            </region>
+            <region name="SHIPWRIGHT_BRITAIN" priority="2150">
+              <rect x="1412" y="1744" width="12" height="16" zmin="10" zmax="30" />
+              <rune name="The Oaken Oar in Britain" />
+            </region>
+            <region name="MINERSGUILD_BRITAIN" priority="2160">
+              <rect x="1415" y="1575" width="17" height="9" zmin="30" zmax="50" />
+              <rune name="The Miner's Guild in Britain" />
+            </region>
+            <region name="NOBLE_BRITAIN_1" priority="2170">
+              <rect x="1591" y="1511" width="26" height="10" zmin="40" zmax="50" />
+              <rect x="1599" y="1521" width="10" height="8" zmin="40" zmax="50" />
+              <rect x="1615" y="1559" width="10" height="10" zmin="20" zmax="60" />
+              <rect x="1647" y="1543" width="10" height="10" zmin="25" zmax="55" />
+              <rect x="1663" y="1543" width="18" height="10" zmin="30" zmax="60" />
+              <rect x="1687" y="1543" width="10" height="10" zmin="45" zmax="75" />
+              <rect x="1703" y="1552" width="9" height="17" zmin="50" zmax="60" />
+              <rect x="1672" y="1568" width="25" height="9" zmin="20" zmax="30" />
+              <rect x="1671" y="1584" width="10" height="17" zmin="7" zmax="17" />
+              <rect x="1537" y="1679" width="15" height="18" zmin="30" zmax="40" />
+              <rect x="1552" y="1679" width="8" height="10" zmin="30" zmax="40" />
+              <rect x="1537" y="1703" width="16" height="18" zmin="20" zmax="30" />
+              <rune name="a home in Britain" />
+            </region>
+            <region name="FIGHTERGUILD_BRITAIN_2" priority="2175">
+              <rect x="1575" y="1551" width="18" height="18" zmin="20" zmax="30" />
+              <rect x="1593" y="1551" width="8" height="10" zmin="20" zmax="30" />
+              <rune name="Calvary Guild" />
+            </region>
+            <region name="NONE_BRITAIN_3" priority="2190">
+              <rect x="1536" y="1583" width="16" height="33" zmin="0" zmax="0" />
+              <rect x="1552" y="1591" width="8" height="17" zmin="10" zmax="20" />
+              <rune name="the chamber of virtues" />
+            </region>
+            <region name="BANK_BRITAIN_2" priority="2205">
+              <rect x="1647" y="1599" width="10" height="18" zmin="20" zmax="30" />
+              <rect x="1657" y="1599" width="8" height="11" zmin="20" zmax="30" />
+              <rune name="east Britain bank" />
+            </region>
+            <region name="CLOTHIER_BRITAIN_2" priority="2220">
+              <rect x="1543" y="1647" width="10" height="18" zmin="26" zmax="36" />
+              <rect x="1559" y="1647" width="10" height="18" zmin="26" zmax="36" />
+              <rect x="1553" y="1655" width="6" height="10" zmin="26" zmax="36" />
+              <rune name="The Right Fit" />
+            </region>
+            <region name="MAGE_BRITAIN_1" priority="2240">
+              <rect x="1584" y="1648" width="24" height="9" zmin="10" zmax="20" />
+              <rect x="1584" y="1657" width="17" height="7" zmin="10" zmax="20" />
+              <rune name="Incantations &amp; Enchantments" />
+            </region>
+            <region name="NONE_BRITAIN_2" priority="2255">
+              <rect x="1624" y="1656" width="17" height="17" zmin="0" zmax="0" />
+              <rune name="Britain Counselors Guild" />
+            </region>
+            <region name="JEWELER_BRITAIN_2" priority="2265">
+              <rect x="1647" y="1632" width="17" height="17" zmin="0" zmax="10" />
+              <rect x="1647" y="1649" width="10" height="8" zmin="0" zmax="10" />
+              <rune name="A Girl's Best Friend" />
+            </region>
+            <region name="SCRIBE_BRITAIN_1" priority="2280">
+              <rect x="1567" y="1696" width="17" height="17" zmin="35" zmax="45" />
+              <rect x="1568" y="1713" width="8" height="8" zmin="35" zmax="45" />
+              <rune name="Sage Advice" />
+            </region>
+            <region name="PROVISIONER_BRITAIN_2" priority="2295">
+              <rect x="1600" y="1704" width="8" height="17" zmin="20" zmax="30" />
+              <rect x="1608" y="1704" width="7" height="9" zmin="20" zmax="30" />
+              <rune name="Profuse Provisions" />
+            </region>
+            <region name="ARMORER_BRITAIN_2" priority="2310">
+              <rect x="1632" y="1688" width="8" height="25" zmin="37" zmax="47" />
+              <rect x="1640" y="1696" width="8" height="9" zmin="37" zmax="47" />
+              <rune name="Artistic Armor" />
+            </region>
+            <region name="TOWNRATLARGE_BRITAIN" priority="2325">
+              <rect x="1559" y="1736" width="25" height="17" zmin="0" zmax="0" />
+              <rune name="a warehouse" />
+            </region>
+            <region name="GUARD_BRITAIN" priority="2335">
+              <rect x="1537" y="1736" width="14" height="15" zmin="15" zmax="45" />
+              <rect x="1616" y="1759" width="7" height="8" zmin="60" zmax="110" />
+              <rect x="1407" y="1711" width="9" height="8" zmin="20" zmax="30" />
+              <rune name="A guard post in Britain" />
+            </region>
+          </region>
+          <region name="NOBLE_BRTIAIN_3" priority="2355">
+            <rect x="1631" y="1503" width="10" height="18" zmin="35" zmax="45" />
+            <rune name="a home in Britain" />
+          </region>
+        </region>
+        <region name="FORESTNEARTOWN_BRITAIN_1" priority="2365">
+          <rect x="1155" y="1280" width="658" height="128" zmin="-127" zmax="127" />
+          <rune name="Forest near Britain" />
+        </region>
+        <region name="DARKERFOREST" priority="2375">
+          <rect x="372" y="1601" width="331" height="178" zmin="-127" zmax="127" />
+          <region name="RUINS_1" priority="2385">
+            <rect x="466" y="1644" width="22" height="19" zmin="-127" zmax="127" />
+            <rune name="ruins" />
+          </region>
+        </region>
+        <region name="PLAINS" priority="2395">
+          <rect x="637" y="1781" width="468" height="251" zmin="-127" zmax="127" />
+          <rune name="plains near Britain" />
+        </region>
+        <region name="DARKFOREST" priority="2405">
+          <rect x="100" y="1280" width="988" height="321" zmin="-127" zmax="127" />
+          <rune name="3020" />
+          <region name="GUARD_1" priority="2415">
+            <rect x="709" y="1473" width="31" height="18" zmin="-127" zmax="127" />
+            <rect x="739" y="1289" width="22" height="36" zmin="-127" zmax="127" />
+            <rune name="a guard post" />
+          </region>
+          <region name="LICHSMALL" priority="2430">
+            <rect x="749" y="1394" width="18" height="16" zmin="-127" zmax="127" />
+            <rune name="ruins" />
+          </region>
+          <region name="RUINS_2" priority="2440">
+            <rect x="466" y="1644" width="22" height="19" zmin="-127" zmax="127" />
+            <rect x="563" y="1305" width="15" height="12" zmin="-127" zmax="127" />
+            <rect x="132" y="1483" width="23" height="21" zmin="-127" zmax="127" />
+            <rect x="841" y="1532" width="22" height="21" zmin="0" zmax="0" />
+            <rune name="ruins" />
+          </region>
+          <region name="ORC_2" priority="2445">
+            <rect x="572" y="1417" width="122" height="132" zmin="-127" zmax="127" />
+            <region name="ORCCAMP_2" priority="2455">
+              <rect x="623" y="1479" width="24" height="18" zmin="0" zmax="10" />
+              <rune name="Yew orc fort" />
+            </region>
+            <region name="ORCCAPSMALL_1" priority="2465">
+              <rect x="630" y="1475" width="9" height="8" zmin="14" zmax="25" />
+              <rune name="Yew orc fort" />
+            </region>
+          </region>
+          <region name="RATMANLARGE" priority="2475">
+            <rect x="939" y="1305" width="150" height="174" zmin="0" zmax="0" />
+            <rune name="rat valley" />
+          </region>
+        </region>
+        <region name="FORESTNOTNEARTOWN_1" priority="2485">
+          <rect x="1815" y="1280" width="226" height="128" zmin="-127" zmax="127" />
+          <rect x="1923" y="1408" width="118" height="164" zmin="-127" zmax="127" />
+        </region>
+        <region name="FORESTNOTNEARTOWN_2" priority="2500">
+          <rect x="704" y="1603" width="363" height="176" zmin="-127" zmax="127" />
+          <region name="BRIGANDLARGE" priority="2510">
+            <rect x="836" y="1672" width="35" height="31" zmin="-127" zmax="127" />
+            <rune name="a brigand camp" />
+          </region>
+          <region name="GUARD_2" priority="2520">
+            <rect x="949" y="1757" width="24" height="14" zmin="-127" zmax="127" />
+          </region>
+        </region>
+        <region name="NEWBIE_BRITAIN_2" priority="2530">
+          <rect x="1173" y="1908" width="403" height="124" zmin="-127" zmax="127" />
+          <rect x="1416" y="1837" width="187" height="70" zmin="-127" zmax="127" />
+          <rune name="Forest near Britain" />
+        </region>
+        <region name="NEWBIE_BRITAIN_1" priority="2545">
+          <rect x="1178" y="1408" width="238" height="128" zmin="-127" zmax="127" />
+          <rect x="1416" y="1408" width="52" height="90" zmin="-127" zmax="127" />
+          <rect x="1595" y="1408" width="319" height="86" zmin="-127" zmax="127" />
+          <rect x="1743" y="1495" width="171" height="92" zmin="-127" zmax="127" />
+          <rune name="Forest near Britain" />
+          <region name="CEMETERY_BRITAIN" priority="2550">
+            <rect x="1337" y="1444" width="52" height="66" zmin="10" zmax="30" />
+            <rune name="Britain Cemetary" />
+          </region>
+        </region>
+        <region name="ORC_COVE" priority="2560">
+          <rect x="2137" y="1280" width="90" height="146" zmin="-127" zmax="127" />
+          <rune name="near Cove orc fort" />
+          <region name="ORCCAMP_COVE" priority="2570">
+            <rect x="2151" y="1343" width="41" height="31" zmin="-127" zmax="127" />
+            <rect x="2192" y="1360" width="16" height="23" zmin="-127" zmax="127" />
+            <rect x="2160" y="1374" width="32" height="9" zmin="-127" zmax="127" />
+            <rect x="2175" y="1383" width="25" height="17" zmin="-127" zmax="127" />
+            <rune name="Cove orc fort" />
+          </region>
+        </region>
+        <region name="FORESTNEARTOWN_EIFFEL" priority="2575">
+          <rect x="1641" y="1929" width="132" height="103" zmin="-127" zmax="127" />
+          <rune name="Eiffel Island" />
+        </region>
+        <region name="FORESTNEARTOWN_OCARINIA" priority="2585">
+          <rect x="1997" y="1917" width="150" height="115" zmin="-127" zmax="127" />
+          <rune name="Ocarina Isle" />
+        </region>
+        <region name="FORESTNEARTOWN_BLANCHE" priority="2595">
+          <rect x="2170" y="1969" width="37" height="36" zmin="-127" zmax="127" />
+          <rune name="Blanche Island" />
+        </region>
+      </region>
+      <region name="BRITAINNIA_4" priority="2605">
+        <rect x="0" y="2032" width="2688" height="2064" zmin="0" zmax="0" />
+        <region name="NONE_BUCDEN_1" priority="2615">
+          <rect x="2570" y="2032" width="118" height="328" zmin="0" zmax="0" />
+          <rune name="Buccaneer's Den" />
+          <region name="TOWN_BUCDEN" priority="2625">
+            <rect x="2612" y="2057" width="76" height="210" />
+            <music name="Bucsden" />
+            <region name="TAVERN_BUCDEN" priority="2635">
+              <rect x="2664" y="2232" width="24" height="8" />
+              <rect x="2672" y="2240" width="16" height="8" />
+              <rune name="The Pirate's Plunder in Buccaneer's Den" />
+            </region>
+            <region name="BLACKSMITH_BUCDEN" priority="2650">
+              <rect x="2632" y="2080" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Cutlass Smithing in Buccaneer's Den" />
+            </region>
+            <region name="WOODWORKER_BUCDEN" priority="2660">
+              <rect x="2624" y="2096" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Violente Woodworks in Buccaneer's Den" />
+            </region>
+            <region name="PIRATE_BUCDEN" priority="2670">
+              <rect x="2656" y="2185" width="8" height="24" zmin="0" zmax="0" />
+              <rect x="2648" y="2192" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Pirate's Den in Buccaneer's Den" />
+            </region>
+          </region>
+          <region name="JUNGLE_BUCDEN_1" priority="2685">
+            <rect x="2605" y="2267" width="76" height="57" zmin="0" zmax="127" />
+          </region>
+        </region>
+        <region name="NONE_SKARA_BRAE" priority="2695" type="TownRegion">
+          <rect x="518" y="2050" width="182" height="252" zmin="0" zmax="0" />
+          <rune name="Skara Brae" />
+          <region name="JUSTICE_SKARA_BRAE_MOONGATE" priority="2705">
+            <rect x="638" y="2062" width="12" height="11" />
+          </region>
+          <region name="JUSTICE_CITY_SKARA_BRAE" priority="2715">
+            <rect x="538" y="2107" width="150" height="190" />
+            <region name="INN_SKARA_BRAE" priority="2725">
+              <rect x="600" y="2232" width="16" height="24" />
+              <rect x="592" y="2240" width="8" height="16" />
+              <rect x="616" y="2240" width="8" height="16" />
+              <rune name="The Falconer's Inn in Skara Brae" />
+            </region>
+            <region name="TAVERN_SKARA_BRAE" priority="2745">
+              <rect x="552" y="2168" width="16" height="24" />
+              <rect x="568" y="2168" width="8" height="8" />
+              <rune name="The Shattered Skull in Skara Brae" />
+            </region>
+            <region name="LIVESTK_SKARA_BRAE" priority="2760">
+              <rect x="544" y="2112" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="a livestock pen in Skara Brae" />
+            </region>
+            <region name="STABLES_SKARA_BRAE" priority="2770">
+              <rect x="568" y="2120" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Beasts of Burden in Skara Brae" />
+            </region>
+            <region name="NONE_SKARA_BRAE_0" priority="2780">
+              <rect x="616" y="2112" width="8" height="32" zmin="0" zmax="0" />
+              <rect x="624" y="2120" width="8" height="16" zmin="0" zmax="0" />
+              <rect x="608" y="2120" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Counselors Guild in Skara Brae" />
+            </region>
+            <region name="RANGERGUILD_SKARA_BRAE" priority="2800">
+              <rect x="552" y="2136" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Rangers' Guild in Skara Brae" />
+            </region>
+            <region name="BOWYER_SKARA_BRAE_1" priority="2810">
+              <rect x="552" y="2152" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Rangers' Guild in Skara Brae" />
+            </region>
+            <region name="NONE_SKARA_BRAE_1" priority="2820">
+              <rect x="568" y="2144" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Rangers' Guild in Skara Brae" />
+            </region>
+            <region name="BANK_SKARA_BRAE" priority="2830">
+              <rect x="584" y="2136" width="8" height="16" zmin="0" zmax="0" />
+              <rect x="592" y="2144" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Bank of Skara Brae" />
+            </region>
+            <region name="VEGGIESTALL_SKARA_BRAE" priority="2845">
+              <rect x="608" y="2152" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Farmer's Market in Skara Brae" />
+            </region>
+            <region name="WOODWORKER_SKARA_BRAE" priority="2855">
+              <rect x="624" y="2153" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Builders Delight in Skara Brae" />
+            </region>
+            <region name="WEAPONRY_SKARA_BRAE" priority="2865">
+              <rect x="649" y="2160" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Gore Galore in Skara Brae" />
+            </region>
+            <region name="ARMORER_SKARA_BRAE" priority="2875">
+              <rect x="584" y="2160" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="More Then Just Mail in Skara Brae" />
+            </region>
+            <region name="BUTCHER_SKARA_BRAE" priority="2885">
+              <rect x="576" y="2184" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Bountiful Meats in Skara Brae" />
+            </region>
+            <region name="MAGE_SKARA_BRAE" priority="2895">
+              <rect x="600" y="2177" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Mages' Menagerie in Skara Brae" />
+            </region>
+            <region name="BLACKSMITH_SKARA_BRAE" priority="2905">
+              <rect x="616" y="2192" width="24" height="8" zmin="0" zmax="0" />
+              <rune name="On Guard Armory in Skara Brae" />
+            </region>
+            <region name="ARMORER_WEAPONRY_SKARA_BRAE" priority="2915">
+              <rect x="624" y="2184" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="On Guard Armory in Skara Brae" />
+            </region>
+            <region name="TOWNHALL_SKARA_BRAE" priority="2925">
+              <rect x="552" y="2200" width="16" height="24" zmin="0" zmax="0" />
+              <rune name="Skara Brae Town Hall" />
+            </region>
+            <region name="NONE_SKARA_BRAE_2" priority="2935">
+              <rect x="544" y="2208" width="8" height="8" zmin="0" zmax="0" />
+              <rect x="568" y="2208" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Skara Brae Town Hall" />
+            </region>
+            <region name="BOWYER_SKARA_BRAE_2" priority="2950">
+              <rect x="584" y="2200" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Bloody Bowman in Skara Brae" />
+            </region>
+            <region name="HEALER_SKARA_BRAE" priority="2960">
+              <rect x="616" y="2208" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Healer of Skara Brae" />
+            </region>
+            <region name="PROVISIONER_SKARA_BRAE" priority="2970">
+              <rect x="576" y="2224" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Sundry Supplies in Skara Brae" />
+            </region>
+            <region name="SHIPWRIGHT_SKARA_BRAE" priority="2980">
+              <rect x="600" y="2272" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Supperior Ships in Skara Brae" />
+            </region>
+            <region name="DOCKS_SKARA_BRAE" priority="2990">
+              <rect x="638" y="2224" width="44" height="24" zmin="0" zmax="0" />
+              <rune name="docks in Skara Brae" />
+            </region>
+            <region name="CLOTHIER_SKARA_BRAE" priority="3000">
+              <rect x="648" y="2176" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Shear Pleasure in Skara Brae" />
+            </region>
+            <region name="MAGE_SKARA_BRAE_2" priority="3010">
+              <rect x="656" y="2136" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Mystic Treasures in Skara Brae" />
+            </region>
+          </region>
+        </region>
+        <region name="FORESTNEARTOWN_SKARA_BRAE" priority="3020">
+          <rect x="714" y="2032" width="320" height="529" zmin="0" zmax="0" />
+          <rune name="forest near Skara Brae" />
+          <region name="RANGER_SKARA_BRAE" priority="3030">
+            <rect x="714" y="2117" width="227" height="316" zmin="0" zmax="0" />
+            <rune name="Skara Brae" />
+            <region name="RANGERGUILD_SKARA_BRAE_2" priority="3040">
+              <rect x="736" y="2136" width="24" height="24" zmin="0" zmax="0" />
+              <rune name="Rangers Guild in Skara Brae" />
+            </region>
+            <region name="FARM_SKARA_BRAE_1" priority="3050">
+              <rect x="793" y="2149" width="43" height="56" zmin="0" zmax="0" />
+              <rune name="a farm in Skara Brae" />
+              <region name="WHEAT_SKARA_BRAE_1" priority="3060">
+                <rect x="796" y="2152" width="36" height="24" />
+                <rune name="A Wheatfield in Skara Brae" />
+              </region>
+            </region>
+            <region name="FARM_SKARA_BRAE_2" priority="3070">
+              <rect x="791" y="2248" width="43" height="52" zmin="0" zmax="0" />
+              <rune name="a farm in Skara Brae" />
+              <region name="CARROT_SKARA_BRAE" priority="3080">
+                <rect x="816" y="2251" width="16" height="8" />
+                <rune name="A Carrot Field in Skara Brae" />
+              </region>
+              <region name="ONION_SKARA_BRAE" priority="3090">
+                <rect x="816" y="2261" width="16" height="8" />
+                <rune name="An Onion Field in Skara Brae" />
+              </region>
+              <region name="CABBAGE_SKARA_BRAE_1" priority="3100">
+                <rect x="816" y="2271" width="16" height="8" />
+                <rune name="A Cabbage Field in Skara Brae" />
+              </region>
+              <region name="CABBAGE_SKARA_BRAE_2" priority="3110">
+                <rect x="816" y="2281" width="16" height="8" />
+                <rune name="A Cabbage Field in Skara Brae" />
+              </region>
+            </region>
+            <region name="FARM_SKARA_BRAE_3" priority="3120">
+              <rect x="808" y="2320" width="46" height="51" zmin="0" zmax="0" />
+              <rune name="a farm in Skara Brae" />
+              <region name="COTTON_SKARA_BRAE" priority="3130">
+                <rect x="816" y="2344" width="16" height="24" />
+                <rune name="A Cotton Field in Skara Brae" />
+              </region>
+              <region name="WHEAT_SKARA_BRAE_2" priority="3140">
+                <rect x="835" y="2344" width="16" height="16" />
+                <rune name="A Wheatfield in Skara Brae" />
+              </region>
+            </region>
+            <region name="FARM_SKARA_BRAE_4" priority="3150">
+              <rect x="872" y="2376" width="44" height="50" zmin="0" zmax="0" />
+              <rune name="a farm in Skara Brae" />
+            </region>
+            <region name="RANGER_SKARA_BRAE" priority="3160">
+              <rect x="784" y="2216" width="8" height="8" zmin="0" zmax="0" />
+              <rect x="744" y="2264" width="8" height="8" zmin="0" zmax="0" />
+              <rect x="736" y="2344" width="8" height="8" zmin="0" zmax="0" />
+              <rect x="864" y="2312" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="a ranger hut in Skara Brae" />
+            </region>
+          </region>
+        </region>
+        <region name="NONE_HEDGEMAZE" priority="3165">
+          <rect x="1034" y="2159" width="224" height="145" zmin="0" zmax="0" />
+          <rune name="Hedge Maze" />
+        </region>
+        <region name="SWAMP_2" priority="3175">
+          <rect x="1094" y="2751" width="133" height="168" zmin="0" zmax="0" />
+          <rect x="1080" y="2919" width="190" height="134" zmin="0" zmax="0" />
+          <rune name="Destard Swamps" />
+        </region>
+        <region name="FORESTNOTNEARTOWN_0" priority="3190">
+          <rect x="1034" y="2032" width="508" height="127" zmin="0" zmax="0" />
+          <rune name="forest south of Britain" />
+          <region name="GUARD_9" priority="3200">
+            <rect x="1409" y="2098" width="19" height="14" zmin="0" zmax="0" />
+            <rune name="a guard tower south of Britain" />
+          </region>
+        </region>
+        <region name="DARKFOREST_5" priority="3210">
+          <rect x="1258" y="2159" width="284" height="145" zmin="0" zmax="0" />
+          <rune name="forest south of Britain" />
+        </region>
+        <region name="DARKERFOREST_3" priority="3220">
+          <rect x="1296" y="2304" width="246" height="257" zmin="0" zmax="0" />
+          <rune name="forest northeast of Trinsic" />
+          <region name="RUINS_14" priority="3230">
+            <rect x="1464" y="2500" width="16" height="16" zmin="0" zmax="0" />
+          </region>
+        </region>
+        <region name="DARKERFOREST_2" priority="3240">
+          <rect x="1227" y="2561" width="315" height="304" zmin="0" zmax="0" />
+        </region>
+        <region name="FORESTNOTNEARTOWN_5" priority="3250">
+          <rect x="1034" y="2304" width="262" height="257" zmin="0" zmax="0" />
+          <rune name="forest east of Skara Brae" />
+        </region>
+        <region name="FORESTNOTNEARTOWN_4" priority="3260">
+          <rect x="910" y="2561" width="317" height="190" zmin="0" zmax="0" />
+          <rune name="forest near Destard" />
+        </region>
+        <region name="JUNGLE_0" priority="3270">
+          <rect x="1286" y="2865" width="256" height="397" zmin="0" zmax="0" />
+        </region>
+        <region name="JUNGLE_1" priority="3280">
+          <rect x="1542" y="2865" width="249" height="449" zmin="0" zmax="0" />
+          <rune name="Trinsic jungles" />
+          <region name="NONE_HIDDENVALLEY" priority="3290">
+            <rect x="1651" y="2938" width="35" height="62" zmin="0" zmax="0" />
+            <rect x="1686" y="2962" width="13" height="44" zmin="0" zmax="0" />
+            <rune name="hidden valley" />
+          </region>
+        </region>
+        <region name="JUNGLE_2" priority="3305">
+          <rect x="1791" y="3156" width="332" height="158" zmin="0" zmax="0" />
+          <rune name="Trinsic jungles" />
+          <region name="RUINS_10" priority="3315">
+            <rect x="1835" y="3193" width="25" height="23" zmin="0" zmax="0" />
+            <rect x="1975" y="3197" width="21" height="20" zmin="0" zmax="0" />
+            <rune name="runis south of trinsic" />
+          </region>
+        </region>
+        <region name="JUNGLE_3" priority="3330">
+          <rect x="1570" y="3314" width="221" height="260" zmin="0" zmax="0" />
+          <region name="NONE_HONOR" priority="3340">
+            <rect x="1724" y="3529" width="13" height="11" />
+            <rune name="Honor Shrine" />
+          </region>
+          <region name="RUINS_11" priority="3350">
+            <rect x="1603" y="3367" width="12" height="13" zmin="0" zmax="0" />
+            <rect x="1740" y="3431" width="16" height="18" zmin="0" zmax="0" />
+            <rune name="ruins" />
+          </region>
+          <region name="PIRATESMALL_1" priority="3365">
+            <rect x="1602" y="3525" width="15" height="14" zmin="0" zmax="0" />
+            <rune name="a pirate camp" />
+          </region>
+        </region>
+        <region name="JUNGLE_4" priority="3375">
+          <rect x="1791" y="3314" width="239" height="209" zmin="0" zmax="0" />
+          <region name="RUINS_12" priority="3385">
+            <rect x="1919" y="3412" width="17" height="17" zmin="0" zmax="0" />
+            <rect x="2012" y="3374" width="14" height="14" zmin="0" zmax="0" />
+            <rune name="ruins" />
+          </region>
+        </region>
+        <region name="PLAINS_3" priority="3400">
+          <rect x="1791" y="2928" width="404" height="228" zmin="0" zmax="0" />
+          <rune name="Plains south of Trinsic" />
+          <region name="JUSTICE_TRINSIC" priority="3410">
+            <rect x="1823" y="2943" width="11" height="11" />
+            <rune name="Trinsic Moongate" />
+          </region>
+        </region>
+        <region name="FORESTNOTNEARTOWN_1" priority="3420">
+          <rect x="1542" y="2032" width="249" height="207" zmin="0" zmax="0" />
+          <rune name="forest south of Britain" />
+          <region name="BRIGAND_SMALL" priority="3430">
+            <rect x="1582" y="2139" width="16" height="28" zmin="0" zmax="0" />
+            <rune name="a small brigand camp" />
+          </region>
+        </region>
+        <region name="PLAINS_1" priority="3440">
+          <rect x="1791" y="2050" width="214" height="189" zmin="0" zmax="0" />
+          <region name="NONE_MARBLE" priority="3450">
+            <rect x="1832" y="2058" width="151" height="96" zmin="0" zmax="0" />
+            <rune name="Marble Island" />
+          </region>
+        </region>
+        <region name="FORESTNOTNEARTOWN_HORSESHOE" priority="3460">
+          <rect x="2005" y="2050" width="208" height="162" zmin="0" zmax="0" />
+          <rune name="Horseshoe Island" />
+        </region>
+        <region name="SWAMP_1" priority="3470">
+          <rect x="1805" y="2239" width="145" height="202" zmin="0" zmax="0" />
+          <rect x="1950" y="2239" width="215" height="176" zmin="0" zmax="0" />
+          <rune name="Fens of the Dead" />
+        </region>
+        <region name="PLAINS_2" priority="3485">
+          <rect x="1772" y="2441" width="145" height="190" zmin="0" zmax="0" />
+          <rune name="Plains north of Trinsic" />
+        </region>
+        <region name="FORESTNEARTOWN_TRINSIC" priority="3495">
+          <rect x="1542" y="2631" width="249" height="234" zmin="0" zmax="0" />
+          <rune name="forest west of Tinsic" />
+          <region name="GUARD_11" priority="3505">
+            <rect x="1677" y="2672" width="14" height="10" zmin="0" zmax="0" />
+            <rune name="a guard post west of Trinsic" />
+          </region>
+        </region>
+        <region name="NONE_TRINSIC" priority="3515">
+          <rect x="1791" y="2631" width="373" height="297" zmin="0" zmax="0" />
+          <region name="PLAINS_BARRIER" priority="3525">
+            <rect x="2099" y="2655" width="62" height="183" />
+            <region name="JUSTICE_TRINSIC" priority="3535">
+              <rect x="2099" y="2782" width="18" height="25" />
+            </region>
+          </region>
+          <region name="JUSTICE_CITY_TRINSIC" priority="3545">
+            <rect x="1856" y="2636" width="75" height="28" />
+            <rect x="1816" y="2664" width="283" height="231" />
+            <rect x="1970" y="2895" width="47" height="32" />
+            <rect x="1796" y="2696" width="20" height="67" zmin="0" />
+            <rect x="1800" y="2796" width="16" height="52" zmin="0" />
+            <rune name="Trinsic" />
+            <region name="STABLES_TRINSIC_1" priority="3555">
+              <rect x="1817" y="2729" width="11" height="14" />
+              <rune name="A Stable in Trinsic" />
+            </region>
+            <region name="STABLES_TRINSIC_2" priority="3565">
+              <rect x="2005" y="2799" width="18" height="14" />
+              <rune name="A Stable in Trinsic" />
+            </region>
+            <region name="INN_TRINSIC_1" priority="3575">
+              <rect x="1834" y="2728" width="22" height="16" />
+              <rune name="The Travelers Inn in Trinsic" />
+            </region>
+            <region name="INN_TRINSIC_2" priority="3585">
+              <rect x="2024" y="2784" width="16" height="20" />
+              <rect x="2026" y="2804" width="14" height="2" />
+              <rect x="2024" y="2806" width="16" height="7" />
+              <rune name="The Keg and Anchor in Trinsic" />
+            </region>
+            <region name="TAVERN_TRINSIC_1" priority="3605">
+              <rect x="1923" y="2786" width="12" height="22" />
+              <rect x="1935" y="2786" width="7" height="14" />
+              <rune name="The Rusty Anchor in Trinsic" />
+            </region>
+            <region name="TINKERGUILD_TRINSIC" priority="3620">
+              <rect x="1838" y="2672" width="24" height="16" zmin="0" zmax="39" />
+              <rune name="Tinkers Guild in Trinsic" />
+            </region>
+            <region name="ARMORER_TRINSIC" priority="3630">
+              <rect x="1884" y="2645" width="24" height="14" zmin="0" zmax="0" />
+              <rune name="Shining Path Armory in Trinsic" />
+            </region>
+            <region name="MAGE_TRINSIC" priority="3640">
+              <rect x="1836" y="2700" width="16" height="20" zmin="0" zmax="0" />
+              <rune name="Encyclopedia Magicka in Trinsic" />
+            </region>
+            <region name="BANK_TRINSIC_1" priority="3650">
+              <rect x="1880" y="2680" width="24" height="16" zmin="10" zmax="50" />
+              <rune name="Trinsic Royal Bank" />
+            </region>
+            <region name="TOWNHALL_TRINSIC" priority="3660">
+              <rect x="1876" y="2700" width="36" height="40" zmin="0" zmax="39" />
+              <rune name="Trinsic Meeting Hall" />
+            </region>
+            <region name="PALADIN_TRINSIC_1" priority="3670">
+              <rect x="1859" y="2639" width="17" height="16" zmin="0" zmax="29" />
+              <rect x="1820" y="2668" width="16" height="16" zmin="0" zmax="10" />
+              <rect x="1800" y="2700" width="16" height="16" zmin="0" zmax="0" />
+              <rect x="1844" y="2756" width="20" height="20" zmin="0" zmax="29" />
+              <rect x="2039" y="2767" width="12" height="15" zmin="0" zmax="0" />
+              <rect x="1979" y="2902" width="19" height="19" zmin="0" zmax="0" />
+              <rect x="2051" y="2773" width="17" height="11" zmin="0" zmax="0" />
+              <rect x="1803" y="2799" width="16" height="18" zmin="0" zmax="0" />
+            </region>
+            <region name="PALADIN_TRINSIC_2" priority="3675">
+              <rect x="1932" y="2674" width="36" height="42" zmin="0" zmax="49" />
+              <rune name="Barracks in Trinsic" />
+            </region>
+            <region name="FIGHTERGUILD_TRINSIC_1" priority="3685">
+              <rect x="1932" y="2743" width="12" height="10" zmin="0" zmax="0" />
+              <rect x="1935" y="2735" width="8" height="8" zmin="0" zmax="0" />
+              <rect x="1932" y="2722" width="12" height="13" zmin="0" zmax="0" />
+              <rune name="Brotherhood of Trinsic" />
+            </region>
+            <region name="WEAPONRY_TRINSIC" priority="3705">
+              <rect x="1928" y="2768" width="12" height="8" zmin="0" zmax="0" />
+              <rune name="Honorable Arms in Trinsic" />
+            </region>
+            <region name="FIGHTERGUILD_TRINSIC_2" priority="3715">
+              <rect x="1934" y="2758" width="16" height="10" zmin="0" zmax="0" />
+              <rune name="Honorable Arms in Trinsic" />
+            </region>
+            <region name="LIBRARY_TRINSIC" priority="3725">
+              <rect x="1992" y="2714" width="22" height="10" zmin="0" zmax="0" />
+              <rect x="1995" y="2724" width="16" height="4" zmin="0" zmax="0" />
+            </region>
+            <region name="PROVISIONER_TRINSIC" priority="3740">
+              <rect x="1844" y="2786" width="18" height="14" zmin="0" zmax="0" />
+              <rune name="Brittania Provisions in Trinsic" />
+            </region>
+            <region name="BAKER_TRINSIC" priority="3750">
+              <rect x="1877" y="2803" width="14" height="10" zmin="10" zmax="19" />
+              <rune name="Baked Delights in Trinsic" />
+            </region>
+            <region name="JEWELER_TRINSIC" priority="3760">
+              <rect x="1891" y="2802" width="15" height="12" zmin="0" zmax="19" />
+              <rune name="Pearl of Trinsic" />
+            </region>
+            <region name="HEALER_TRINSIC_1" priority="3770">
+              <rect x="1907" y="2803" width="16" height="10" zmin="0" zmax="0" />
+              <rune name="Trinsic Healer" />
+            </region>
+            <region name="BANK_TRINSIC_2" priority="3780">
+              <rect x="1809" y="2819" width="9" height="19" zmin="0" zmax="19" />
+              <rune name="Bank of Britainnia in Trinsic" />
+            </region>
+            <region name="WEAVER_TRINSIC" priority="3790">
+              <rect x="1976" y="2829" width="9" height="16" zmin="15" zmax="34" />
+              <rune name="Adventurer's Clothing in Trinsic" />
+            </region>
+            <region name="CLOTHIER_TRINSIC" priority="3800">
+              <rect x="1986" y="2836" width="8" height="9" zmin="15" zmax="34" />
+              <rune name="Adventurer's Clothing in Trinsic" />
+            </region>
+            <region name="FISHERGUILD_TRINSIC" priority="3810">
+              <rect x="2020" y="2832" width="16" height="24" zmin="0" zmax="49" />
+              <rect x="2020" y="2856" width="12" height="14" zmin="0" zmax="0" />
+              <rune name="Sons of the Sea in Trinsic" />
+            </region>
+            <region name="TANNER_TRINSIC" priority="3825">
+              <rect x="1985" y="2858" width="12" height="18" zmin="20" zmax="39" />
+              <rune name="Trinsic Fine Skins" />
+            </region>
+            <region name="BUTCHER_TRINSIC" priority="3835">
+              <rect x="1984" y="2878" width="16" height="14" zmin="5" zmax="24" />
+              <rect x="1984" y="2892" width="10" height="10" zmin="0" zmax="0" />
+              <rune name="The Trinsic Cut" />
+            </region>
+            <region name="DOCK_TRINSIC" priority="3850">
+              <rect x="2056" y="2848" width="32" height="16" zmin="0" zmax="0" />
+              <rune name="docks in Trinsic" />
+            </region>
+          </region>
+        </region>
+        <region name="FORESTNOTNEARTOWN_3" priority="3860">
+          <rect x="1542" y="2441" width="230" height="190" zmin="0" zmax="0" />
+          <rune name="forest northwest of Trinsic" />
+          <region name="NONE_SPIRITUALITY" priority="3870">
+            <rect x="1588" y="2484" width="15" height="13" />
+            <rune name="Spirituality Shrine" />
+          </region>
+          <region name="GUARD_10" priority="3880">
+            <rect x="1685" y="2445" width="10" height="54" zmin="0" zmax="0" />
+            <rect x="1652" y="2468" width="33" height="7" zmin="0" zmax="0" />
+            <rune name="a guard post northeast of Trinsic" />
+          </region>
+        </region>
+        <region name="FORESTNOTNEARTOWN_2" priority="3895">
+          <rect x="1542" y="2239" width="263" height="202" zmin="0" zmax="0" />
+          <rune name="forest north of Trinsic" />
+        </region>
+        <region name="JUNGLE_5" priority="3905">
+          <rect x="2030" y="3314" width="206" height="346" zmin="0" zmax="0" />
+          <rune name="Cape of Heroes" />
+          <region name="RUINS_13" priority="3915">
+            <rect x="2171" y="3362" width="17" height="16" zmin="0" zmax="0" />
+            <rune name="ruins" />
+          </region>
+        </region>
+        <region name="FORESTNEARTOWN_IVERS" priority="3925">
+          <rect x="430" y="2032" width="79" height="94" />
+          <rune name="Iver's Rounding" />
+        </region>
+        <region name="HOUSING_NO_JHELOM" priority="3935" type="NoHousingRegion">
+          <rect x="1078" y="3588" width="124" height="121" />
+          <rect x="1224" y="3592" width="309" height="473" />
+          <rect x="1046" y="3361" width="184" height="227" zmin="0" zmax="0" />
+          <music name="Jhelom" />
+          <rune name="Jhelom Islands" />
+          <region name="LIVESTK_JHELOM_1" priority="3955">
+            <rect x="1112" y="3568" width="30" height="20" zmin="0" zmax="0" />
+            <rune name="a farm on Jhelom Islands" />
+          </region>
+          <region name="FARM_JHELOM_1" priority="3965">
+            <rect x="1112" y="3588" width="30" height="31" zmin="0" zmax="0" />
+            <rune name="a farm on Jhelom Islands" />
+          </region>
+          <region name="JUSTICE_CITY_JHELOM" priority="3975" type="TownRegion">
+            <zrange min="-20" />
+            <rect x="1303" y="3670" width="189" height="225" zmin="0" />
+            <rect x="1338" y="3895" width="74" height="28" zmin="0" />
+            <rect x="1383" y="3951" width="109" height="94" zmin="0" />
+            <music name="Jhelom" />
+            <rune name="Jhelom" />
+            <region name="INN_JHELOM" priority="3995">
+              <zrange min="-20" />
+              <rect x="1352" y="3800" width="16" height="32" zmin="-20" />
+              <rect x="1368" y="3808" width="8" height="16" zmin="-20" />
+              <rune name="The Morning Star Inn in Jhelom" />
+            </region>
+            <region name="TAVERN_JHELOM" priority="4010">
+              <zrange min="-20" />
+              <rect x="1432" y="3768" width="32" height="8" zmin="-20" />
+              <rect x="1440" y="3776" width="24" height="8" zmin="-20" />
+              <rune name="The Horse's Head in Jhelom" />
+            </region>
+            <region name="DOCKS_JHELOM" priority="4025">
+              <rect x="1362" y="3882" width="22" height="36" zmin="0" zmax="0" />
+              <rect x="1490" y="3680" width="28" height="32" zmin="0" zmax="0" />
+              <rect x="1499" y="3980" width="24" height="20" zmin="0" zmax="0" />
+              <rune name="docks in Jhelom" />
+            </region>
+            <region name="FIGHTERGUILD_JHELOM_1" priority="4045">
+              <rect x="1352" y="3696" width="24" height="16" zmin="0" zmax="0" />
+              <rune name="Brothers in Arms in Jhelom" />
+            </region>
+            <region name="BLACKSMITH_JHELOM_1" priority="4055">
+              <rect x="1384" y="3704" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="1392" y="3712" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="First Defense in Jhelom" />
+            </region>
+            <region name="NONE_JHELOM_0" priority="4070">
+              <rect x="1408" y="3696" width="16" height="24" zmin="0" zmax="0" />
+              <rect x="1424" y="3696" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Counselors Guild in Jhelom" />
+            </region>
+            <region name="ARMORER_JHELOM" priority="4085">
+              <rect x="1432" y="3712" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Second Skin in Jhelom" />
+            </region>
+            <region name="BAKER_JHELOM" priority="4095">
+              <rect x="1360" y="3736" width="8" height="8" zmin="0" zmax="0" />
+              <rect x="1352" y="3728" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Bakers Dozen in Jhelom" />
+            </region>
+            <region name="FISHER_JHELOM" priority="4110">
+              <rect x="1432" y="3736" width="8" height="24" zmin="0" zmax="0" />
+              <rune name="Ocean's Treasure in Jhelom" />
+            </region>
+            <region name="SHIPWRIGHT_JHELOM" priority="4120">
+              <rect x="1448" y="3736" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="1448" y="3744" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Sailors Keeper in Jhelom" />
+            </region>
+            <region name="BANK_JHELOM" priority="4135">
+              <rect x="1312" y="3768" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Jhelom bank and Jewler" />
+            </region>
+            <region name="JEWELER_JHELOM" priority="4145">
+              <rect x="1312" y="3776" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Jhelom bank and Jewler" />
+            </region>
+            <region name="WEAPONRY_JHELOM" priority="4155">
+              <rect x="1352" y="3752" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Deadly Intentions in Jhelom" />
+            </region>
+            <region name="CLOTHIER_JHELOM_1" priority="4165">
+              <rect x="1352" y="3776" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Adventurer's Needle in Jhelom" />
+            </region>
+            <region name="WEAVER_JHELOM" priority="4175">
+              <rect x="1361" y="3776" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Adventurer's Needle in Jhelom" />
+            </region>
+            <region name="LIBRARY_JHELOM" priority="4185">
+              <rect x="1376" y="3768" width="23" height="8" zmin="0" zmax="20" />
+              <rect x="1376" y="3776" width="16" height="8" zmin="0" zmax="20" />
+              <rune name="Jhelom Library" />
+            </region>
+            <region name="HEALER_JHELOM" priority="4200">
+              <rect x="1408" y="3768" width="16" height="16" zmin="0" zmax="0" />
+              <rect x="1408" y="3784" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Jhelom Healer" />
+            </region>
+            <region name="GUARD_JHELOM" priority="4215">
+              <rect x="1376" y="3792" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="a guard post in Jhelom" />
+            </region>
+            <region name="TINKERGUILD_JHELOM" priority="4225">
+              <rect x="1392" y="3800" width="24" height="9" zmin="0" zmax="0" />
+              <rune name="Gadgets and Things in Jhelom" />
+            </region>
+            <region name="TINKER_JHELOM" priority="4235">
+              <rect x="1392" y="3808" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Gadgets and Things in Jhelom" />
+            </region>
+            <region name="PROVISIONER_JHELOM" priority="4245">
+              <rect x="1440" y="3792" width="8" height="16" zmin="0" zmax="0" />
+              <rect x="1432" y="3792" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Needful Things in Jhelom" />
+            </region>
+            <region name="SAILOR_JHELOM" priority="4260">
+              <rect x="1452" y="3790" width="14" height="53" zmin="0" zmax="0" />
+            </region>
+            <region name="VEGGIESTALL_JHELOM" priority="4270">
+              <rect x="1384" y="3824" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Farmers Market in Jhelom" />
+            </region>
+            <region name="CARPENTER_JHELOM" priority="4280">
+              <rect x="1432" y="3816" width="8" height="16" zmin="0" zmax="0" />
+              <rect x="1424" y="3816" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="From Tree to Yew in Jhelom" />
+            </region>
+            <region name="TOWNRATLARGE_JHELOM" priority="4295">
+              <rect x="1352" y="3848" width="40" height="8" zmin="0" zmax="0" />
+              <rect x="1464" y="3976" width="24" height="16" zmin="0" zmax="0" />
+            </region>
+            <region name="BLACKSMITH_JHELOM" priority="4310">
+              <rect x="1416" y="3856" width="8" height="8" zmin="0" zmax="0" />
+              <rect x="1408" y="3848" width="24" height="8" zmin="0" zmax="0" />
+              <rune name="Warriors Bounty in Jhelom" />
+            </region>
+            <region name="ARMORER_JHELOM_2" priority="4325">
+              <rect x="1448" y="3848" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Jhelom Armory" />
+            </region>
+            <region name="WEAPONRY_JHELOM_2" priority="4335">
+              <rect x="1472" y="3848" width="16" height="16" zmin="0" zmax="0" />
+              <rect x="1472" y="3864" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Call to Arms in Jhelom" />
+            </region>
+            <region name="FIGHTERGUILD_JHELOM_2" priority="4350">
+              <rect x="1432" y="3864" width="8" height="8" zmin="0" zmax="0" />
+              <rect x="1424" y="3872" width="24" height="16" zmin="0" zmax="0" />
+              <rune name="Hand of Death in Jhelom" />
+            </region>
+            <region name="PEASANT_JHELOM" priority="4365">
+              <rect x="1424" y="3960" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="1392" y="4008" width="8" height="16" zmin="0" zmax="0" />
+              <rect x="1392" y="4032" width="16" height="8" zmin="0" zmax="0" />
+            </region>
+            <region name="THEATER_JHELOM" priority="4385">
+              <rect x="1416" y="4000" width="16" height="24" zmin="0" zmax="0" />
+              <rect x="1408" y="4008" width="8" height="8" zmin="0" zmax="0" />
+              <rect x="1432" y="4008" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Performing Arts Centre in Jhelom" />
+            </region>
+            <region name="MAGE_JHELOM" priority="4405">
+              <rect x="1416" y="3976" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="1424" y="3984" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Jhelom Mage" />
+            </region>
+            <region name="JEWELER_JHELOM_2" priority="4420">
+              <rect x="1440" y="3976" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="1440" y="3984" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="The Pearl of Jhelom" />
+            </region>
+            <region name="CLOTHIER_JHELOM_2" priority="4435">
+              <rect x="1448" y="4000" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Adventurer's Needle in Jhelom" />
+            </region>
+            <region name="BUTCHER_JHELOM" priority="4445">
+              <rect x="1448" y="4024" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Finest Cuts in Jhelom" />
+            </region>
+          </region>
+          <region name="HOUSING_NO_DUELPIT_JHELOM" priority="4455">
+            <zrange min="-21" max="-1" />
+            <rect x="1385" y="3729" width="28" height="30" zmin="-21" zmax="-1" />
+            <music name="Jhelom" />
+            <rune name="Jhelom Fighting Pits" />
+          </region>
+          <region name="CEMETERY_JHELOM" priority="4465">
+            <rect x="1272" y="3712" width="20" height="31" zmin="0" zmax="19" />
+            <rect x="1292" y="3723" width="8" height="12" zmin="0" zmax="0" />
+            <rect x="1280" y="3735" width="15" height="16" zmin="0" zmax="0" />
+            <rune name="Jhelom Graveyard" />
+          </region>
+          <region name="JUSTICE_JHELOM" priority="4485">
+            <rect x="1494" y="3767" width="12" height="11" />
+            <rune name="Jhelom Moongate" />
+          </region>
+          <region name="FARM_JHELOM_2" priority="4495">
+            <rect x="1161" y="3590" width="40" height="63" zmin="0" zmax="0" />
+            <rune name="a farm on Jhelom Islands" />
+            <region name="LIVESTK_JHELOM_2" priority="4505">
+              <rect x="1168" y="3592" width="30" height="30" zmin="0" zmax="0" />
+            </region>
+          </region>
+          <region name="DOCKS_JHELOM_2" priority="4515">
+            <rect x="1118" y="3681" width="18" height="16" zmin="0" zmax="0" />
+            <rune name="docks in Jhelom" />
+          </region>
+          <region name="JUNGLE_JHELOM" priority="4525">
+            <rect x="1047" y="3365" width="164" height="195" zmin="0" zmax="0" />
+            <rune name="north Jhelom island" />
+          </region>
+        </region>
+        <region name="OCEAN" priority="4535">
+          <rect x="10" y="2032" width="408" height="2054" zmin="0" zmax="0" />
+          <rect x="418" y="2386" width="374" height="1700" zmin="0" zmax="0" />
+          <rect x="792" y="2760" width="224" height="1326" zmin="0" zmax="0" />
+          <rect x="2234" y="2400" width="454" height="820" zmin="0" zmax="0" />
+          <rect x="1544" y="3680" width="432" height="404" zmin="0" zmax="0" />
+          <rect x="1976" y="3680" width="712" height="166" zmin="0" zmax="0" />
+          <rect x="2234" y="2032" width="330" height="368" zmin="0" zmax="0" />
+          <rect x="2576" y="2032" width="112" height="314" zmin="0" zmax="0" />
+        </region>
+        <region name="FORESTNOTNEARTOWN_DRAGON" priority="4540">
+          <rect x="1031" y="3084" width="102" height="142" zmin="0" zmax="0" />
+          <rune name="Dragon Isle" />
+          <region name="RUINS_20" priority="4550">
+            <rect x="1178" y="3224" width="24" height="20" zmin="0" zmax="0" />
+          </region>
+        </region>
+        <region name="JUNGLE_AMOEBA" priority="4560">
+          <rect x="2098" y="3876" width="118" height="148" zmin="0" zmax="0" />
+          <rune name="Amoeba Island" />
+        </region>
+        <region name="JUNGLE_VALOR" priority="4570">
+          <rect x="2382" y="3866" width="172" height="192" zmin="0" zmax="0" />
+          <rune name="Valor Island" />
+          <region name="NONE_VALOR" priority="4580">
+            <rect x="2487" y="3926" width="10" height="10" zmin="0" zmax="0" />
+            <rune name="Valor Shrine" />
+          </region>
+        </region>
+        <region name="JUNGLE_BALD" priority="4590">
+          <rect x="2302" y="3372" width="110" height="172" zmin="0" zmax="0" />
+          <rune name="Bald Isle" />
+        </region>
+        <region name="JUNGLE_MARBLE" priority="4600">
+          <rect x="2436" y="3534" width="121" height="131" zmin="0" zmax="0" />
+          <rune name="Marble Island" />
+        </region>
+      </region>
+      <region name="BRITAINNIA_5" priority="4610">
+        <rect x="2688" y="0" width="1160" height="4096" zmin="0" zmax="0" />
+        <region name="NONE_NORTHMINES" priority="4620">
+          <rect x="2688" y="0" width="124" height="204" zmin="0" zmax="0" />
+          <rune name="north mines" />
+        </region>
+        <region name="JUSTICE_CITY_VESPER" priority="4630">
+          <rect x="2816" y="648" width="248" height="364" />
+          <rect x="2893" y="598" width="121" height="50" />
+          <rect x="2728" y="944" width="88" height="57" />
+          <rune name="City of Vesper" />
+          <region name="CLOTHIER_VESPER_1" priority="4650">
+            <rect x="2952" y="616" width="16" height="16" zmin="0" zmax="0" />
+            <rect x="2968" y="616" width="8" height="8" zmin="0" zmax="0" />
+            <rune name="The Spinning Whell in Vesper" />
+          </region>
+          <region name="PROVISIONER_VESPER_1" priority="4665">
+            <rect x="2984" y="632" width="16" height="16" zmin="0" zmax="0" />
+            <rect x="2976" y="632" width="8" height="8" zmin="0" zmax="0" />
+            <rune name="The Adventurers Supplies in Vesper" />
+          </region>
+          <region name="ALCHEMIST_VESPER_1" priority="4680">
+            <rect x="2888" y="648" width="8" height="16" zmin="0" zmax="0" />
+            <rect x="2880" y="648" width="8" height="8" zmin="0" zmax="0" />
+            <rune name="The Bubbling Brew in Vesper" />
+          </region>
+          <region name="MAGE_VESPER_1" priority="4695">
+            <rect x="2912" y="664" width="16" height="16" zmin="0" zmax="0" />
+            <rune name="The Cirecles of Magic in Vesper" />
+          </region>
+          <region name="BANK_VESPER" priority="4705">
+            <rect x="2872" y="672" width="24" height="8" zmin="0" zmax="0" />
+            <rune name="The Mint of Vesper" />
+          </region>
+          <region name="MINTER_VESPER" priority="4715">
+            <rect x="2872" y="680" width="16" height="16" zmin="0" zmax="0" />
+            <rune name="The Mint of Vesper" />
+          </region>
+          <region name="JEWELER_VESPER" priority="4725">
+            <rect x="2872" y="720" width="16" height="8" zmin="0" zmax="0" />
+            <rune name="The Shimmering Jewel in Vesper" />
+          </region>
+          <region name="ARTISAN_VESPER" priority="4735">
+            <rect x="2904" y="704" width="8" height="16" zmin="0" zmax="0" />
+            <rune name="The Colored Canvas in Vesper" />
+          </region>
+          <region name="MINERSGUILD_VESPER" priority="4745">
+            <rect x="2848" y="728" width="16" height="16" zmin="0" zmax="0" />
+            <rune name="The Ore of Vesper" />
+          </region>
+          <region name="BARDGUILD_VESPER" priority="4755">
+            <rect x="2880" y="736" width="16" height="16" zmin="0" zmax="0" />
+            <rect x="2896" y="736" width="8" height="8" zmin="0" zmax="0" />
+            <rune name="The Musicians Hall in Vesper" />
+          </region>
+          <region name="BEEKEEPER_VESPER" priority="4770">
+            <rect x="2952" y="704" width="16" height="8" zmin="0" zmax="0" />
+            <rune name="The Busy Bees in Vesper" />
+          </region>
+          <region name="BAKER_VESPER" priority="4780">
+            <rect x="2992" y="760" width="16" height="8" zmin="0" zmax="0" />
+            <rune name="The Twisted Oven in Vesper" />
+          </region>
+          <region name="VEGGIESTALL_VESPER" priority="4790">
+            <rect x="3016" y="760" width="16" height="8" zmin="0" zmax="0" />
+            <rune name="Farmer's Market in Vesper" />
+          </region>
+          <region name="BUTCHER_VESPER" priority="4800">
+            <rect x="2984" y="776" width="16" height="8" zmin="0" zmax="0" />
+            <rune name="The Butcher's Knife in Vesper" />
+          </region>
+          <region name="FISHER_VESPER" priority="4810">
+            <rect x="3008" y="776" width="16" height="8" zmin="0" zmax="0" />
+            <rect x="3008" y="784" width="12" height="14" zmin="0" zmax="0" />
+            <rune name="Fisherman's Wharf in Vesper" />
+          </region>
+          <region name="WEAPONRY_VESPER" priority="4825">
+            <rect x="2832" y="792" width="8" height="16" zmin="0" zmax="0" />
+            <rune name="The Warrior's Companion in Vesper" />
+          </region>
+          <region name="BLACKSMITH_VESPER_1" priority="4835">
+            <rect x="2841" y="792" width="8" height="8" zmin="0" zmax="0" />
+            <rune name="The Warrior's Companion in Vesper" />
+          </region>
+          <region name="ARMORER_VESPER_1" priority="4845">
+            <rect x="2832" y="808" width="16" height="8" zmin="0" zmax="0" />
+            <rune name="The Warrior's Companion in Vesper" />
+          </region>
+          <region name="BOWYER_VESPER_1" priority="4855">
+            <rect x="2854" y="800" width="16" height="16" zmin="0" zmax="0" />
+            <rune name="The Ranger's Tool in Vesper" />
+          </region>
+          <region name="TINKERGUILD_VESPER" priority="4865">
+            <rect x="2896" y="784" width="8" height="16" zmin="0" zmax="0" />
+            <rune name="The Gadget's Corner in Vesper" />
+          </region>
+          <region name="CARPENTER_VESPER" priority="4875">
+            <rect x="2912" y="792" width="8" height="16" zmin="0" zmax="0" />
+            <rune name="The Hammer and Nail in Vesper" />
+          </region>
+          <region name="FISHERGUILD_VESPER" priority="4885">
+            <rect x="2952" y="808" width="16" height="16" zmin="0" zmax="0" />
+            <rect x="2968" y="816" width="8" height="8" zmin="0" zmax="0" />
+            <rune name="The Fishermen's Guild in Vesper" />
+          </region>
+          <region name="SHIPWRIGHT_VESPER" priority="4900">
+            <rect x="2992" y="808" width="8" height="16" zmin="0" zmax="0" />
+            <rune name="The Magestic Boat in Vesper" />
+          </region>
+          <region name="HERBALIST_VESPER" priority="4910">
+            <rect x="2992" y="832" width="8" height="16" zmin="0" zmax="0" />
+            <rune name="The Magician's Friend in Vesper" />
+          </region>
+          <region name="DOCKS_VESPER" priority="4920">
+            <rect x="3008" y="816" width="40" height="24" zmin="0" zmax="0" />
+            <rune name="Vesper docks" />
+          </region>
+          <region name="BLACKSMITH_VESPER_2" priority="4930">
+            <rect x="2856" y="848" width="16" height="8" zmin="0" zmax="0" />
+            <rune name="The Ironworks in Vesper" />
+          </region>
+          <region name="HEALER_VESPER" priority="4940">
+            <rect x="2912" y="848" width="16" height="16" zmin="0" zmax="0" />
+            <rune name="Healer of Vesper" />
+          </region>
+          <region name="PROVISIONER_VESPER_2" priority="4950">
+            <rect x="2832" y="864" width="16" height="8" zmin="0" zmax="0" />
+            <rune name="The Adventurer's Friend in Vesper" />
+          </region>
+          <region name="CLOTHIER_VESPER_2" priority="4960">
+            <rect x="2832" y="880" width="16" height="8" zmin="0" zmax="0" />
+            <rune name="The Spinning Wheel in Vesper" />
+          </region>
+          <region name="FIGHTERGUILD_VESPER" priority="4970">
+            <rect x="2832" y="896" width="16" height="24" zmin="0" zmax="0" />
+            <rect x="2848" y="904" width="8" height="8" zmin="0" zmax="0" />
+            <rune name="The Champions of Light in Vesper" />
+          </region>
+          <region name="TAVERN_VESPER_1" priority="4985">
+            <rect x="2892" y="900" width="16" height="20" zmin="0" zmax="0" />
+            <rect x="2908" y="904" width="8" height="8" zmin="0" zmax="0" />
+            <rune name="The Marsh Hall in Vesper" />
+          </region>
+          <region name="INN_VESPER_1" priority="5000">
+            <rect x="2952" y="864" width="16" height="32" zmin="0" zmax="0" />
+            <rect x="2968" y="872" width="8" height="16" zmin="0" zmax="0" />
+            <rune name="Vesper Youth Hostel" />
+          </region>
+          <region name="NONE_VESPER_1" priority="5015">
+            <rect x="2832" y="936" width="24" height="16" zmin="0" zmax="0" />
+            <rect x="2840" y="928" width="8" height="32" zmin="0" zmax="0" />
+            <rune name="Vesper Counselors Guild" />
+          </region>
+          <region name="CUSTOMS_VESPER" priority="5030">
+            <rect x="2936" y="928" width="16" height="15" zmin="0" zmax="0" />
+            <rune name="Vesper Customs" />
+          </region>
+          <region name="NONE_VESPER_2" priority="5040">
+            <rect x="2912" y="964" width="8" height="28" zmin="0" zmax="0" />
+            <rect x="2920" y="968" width="16" height="24" zmin="0" zmax="0" />
+            <rune name="Vesper Museum" />
+          </region>
+          <region name="TANNER_VESPER" priority="5055">
+            <rect x="2855" y="989" width="8" height="16" zmin="0" zmax="127" />
+            <rune name="Tanner's Shop in Vesper" />
+          </region>
+          <region name="INN_VESPER_2" priority="5065">
+            <rect x="2776" y="952" width="16" height="32" zmin="0" zmax="0" />
+            <rect x="2768" y="960" width="8" height="16" zmin="0" zmax="0" />
+            <rune name="The Ironwood Inn in Vesper" />
+          </region>
+          <region name="GUARD_VESPER" priority="5080">
+            <rect x="2736" y="975" width="16" height="16" zmin="0" zmax="0" />
+          </region>
+        </region>
+        <region name="OCEAN" priority="5090">
+          <rect x="3530" y="0" width="318" height="496" zmin="0" zmax="0" />
+          <rect x="3490" y="496" width="358" height="504" zmin="0" zmax="0" />
+          <rect x="3265" y="745" width="210" height="690" zmin="0" zmax="0" />
+          <rect x="3064" y="822" width="200" height="613" zmin="0" zmax="0" />
+          <rect x="2816" y="1012" width="248" height="423" zmin="0" zmax="0" />
+          <rect x="2688" y="1436" width="1160" height="494" zmin="0" zmax="0" />
+          <rect x="2688" y="2362" width="642" height="955" zmin="0" zmax="0" />
+          <rect x="3330" y="2930" width="518" height="388" zmin="0" zmax="0" />
+          <rect x="2688" y="3640" width="1160" height="434" zmin="0" zmax="0" />
+          <rect x="3083" y="3318" width="765" height="322" zmin="0" zmax="0" />
+        </region>
+        <region name="OCEAN_2" priority="5105">
+          <rect x="2882" y="1930" width="642" height="418" zmin="0" zmax="0" />
+          <region name="FORESTNEARTOWN_SKULL" priority="5115">
+            <rect x="2918" y="2120" width="70" height="136" zmin="0" zmax="0" />
+            <rune name="Skull Island" />
+          </region>
+        </region>
+        <region name="FORESTNEARTOWN_VESPER" priority="5125">
+          <rect x="2688" y="380" width="205" height="268" zmin="0" zmax="0" />
+          <rect x="2688" y="648" width="128" height="296" zmin="0" zmax="0" />
+          <rect x="2688" y="1001" width="128" height="139" zmin="0" zmax="0" />
+          <rune name="forest near Vesper" />
+          <region name="CEMETERY_VESPER" priority="5145">
+            <rect x="2728" y="840" width="56" height="56" zmin="0" zmax="0" />
+            <rune name="Vesper graveyard" />
+          </region>
+          <region name="JUSTICE_VESPER" priority="5155">
+            <rect x="2694" y="685" width="15" height="16" />
+            <rune name="Minoc Moongate" />
+          </region>
+        </region>
+        <region name="DARKFOREST_WINDMERE_2" priority="5165">
+          <rect x="2688" y="204" width="278" height="176" zmin="0" zmax="0" />
+          <rect x="2812" y="28" width="154" height="176" zmin="0" zmax="0" />
+          <rune name="Windmere Woods" />
+        </region>
+        <region name="DARKESTFOREST_WINDMERE" priority="5180">
+          <rect x="3302" y="182" width="228" height="198" zmin="0" zmax="0" />
+          <rune name="Windmere Woods" />
+          <region name="NONE_SACRIFICE" priority="5190">
+            <rect x="3344" y="278" width="23" height="24" />
+            <rune name="Sacrifice Shrine" />
+          </region>
+        </region>
+        <region name="DARKFOREST_WINDMERE_1" priority="5200">
+          <rect x="3066" y="380" width="419" height="116" zmin="0" zmax="0" />
+          <rune name="Windmere Woods" />
+        </region>
+        <region name="DARKERFOREST_WINDMERE" priority="5210">
+          <rect x="3064" y="182" width="238" height="198" zmin="0" zmax="0" />
+          <rune name="Windmere Woods" />
+        </region>
+        <region name="PLAINS_WINDMERE" priority="5220">
+          <rect x="3064" y="16" width="426" height="166" zmin="0" zmax="0" />
+          <rect x="2966" y="60" width="98" height="320" zmin="0" zmax="0" />
+          <rune name="Windmere Woods" />
+        </region>
+        <region name="FORESTNOTNEARTOWN_WINDMERE" priority="5235">
+          <rect x="3264" y="496" width="225" height="248" zmin="0" zmax="0" />
+          <rune name="Windmere Woods" />
+          <region name="RANGER_WINDMERE" priority="5245">
+            <rect x="3333" y="547" width="19" height="52" zmin="0" zmax="0" />
+            <rune name="ranger huts in Windmere Woods" />
+          </region>
+        </region>
+        <region name="FORESTNEARTOWN_WINDMERE" priority="5255">
+          <rect x="2893" y="380" width="121" height="218" zmin="0" zmax="0" />
+          <rect x="3064" y="648" width="200" height="174" zmin="0" zmax="0" />
+          <rect x="3014" y="496" width="250" height="152" zmin="0" zmax="0" />
+          <rune name="Windmere Woods" />
+        </region>
+        <region name="NONE_NUJELM" priority="5275">
+          <rect x="3476" y="1000" width="360" height="434" />
+          <rune name="Nujel'm" />
+          <region name="NONE_NUJELM_1" priority="5285" type="NoHousingRegion">
+            <rect x="3486" y="1098" width="80" height="70" />
+            <rune name="Nujel'm Cemetary" />
+            <region name="CEMETERY_NUJELM" priority="5295">
+              <rect x="3518" y="1122" width="25" height="18" zmin="0" zmax="0" />
+              <rect x="3502" y="1140" width="29" height="22" zmin="0" zmax="0" />
+              <rect x="3531" y="1140" width="22" height="12" zmin="0" zmax="0" />
+            </region>
+          </region>
+          <region name="JUSTICE_CITY_NUJELM" priority="5315">
+            <rect x="3496" y="1168" width="136" height="152" zmin="0" zmax="0" />
+            <rect x="3632" y="1168" width="192" height="256" zmin="0" zmax="0" />
+            <rect x="3566" y="1040" width="258" height="128" zmin="0" zmax="0" />
+            <rune name="City of Nujel'm" />
+            <region name="MARKET_NUJELM" priority="5335">
+              <rect x="3544" y="1168" width="24" height="40" zmin="0" zmax="0" />
+              <rune name="Nujel'm Marketplace" />
+              <region name="BUTCHER_NUJELM_1" priority="5345">
+                <rect x="3552" y="1168" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="Nujelm Butcher" />
+              </region>
+              <region name="TANNER_JUJELM_1" priority="5355">
+                <rect x="3544" y="1176" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="Nujelm Tannery" />
+              </region>
+              <region name="BLACKSMITH_NUJELM_1" priority="5365">
+                <rect x="3544" y="1184" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="Nujelm Blacksmith" />
+              </region>
+              <region name="BOWYER_NUJELM" priority="5375">
+                <rect x="3544" y="1192" width="8" height="8" zmin="0" zmax="0" />
+                <rune name="Nujelm Bowery" />
+              </region>
+              <region name="THEATER_NUJELM" priority="5385">
+                <rect x="3728" y="1216" width="24" height="24" zmin="0" zmax="19" />
+                <rune name="Nujel'm Theater" />
+              </region>
+            </region>
+            <region name="PEASANT_NUJELM_1" priority="5395">
+              <rect x="3587" y="1190" width="45" height="84" zmin="0" zmax="19" />
+            </region>
+            <region name="PEASANT_NUJELM_2" priority="5405">
+              <rect x="3648" y="1056" width="48" height="112" zmin="0" zmax="19" />
+            </region>
+            <region name="JEWELER_NUJELM_1" priority="5415">
+              <rect x="3768" y="1168" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Jewel of the Isle in Nujelm" />
+            </region>
+            <region name="NONE_NUJELM_3" priority="5425">
+              <rect x="3668" y="1217" width="28" height="31" zmin="0" zmax="0" />
+              <rect x="3668" y="1248" width="52" height="64" zmin="0" zmax="0" />
+              <rect x="3668" y="1312" width="44" height="28" zmin="0" zmax="0" />
+              <rect x="3634" y="1298" width="34" height="38" zmin="0" zmax="0" />
+              <rune name="Manor House in Nujelm" />
+            </region>
+            <region name="NONE_JUJELM_4" priority="5430">
+              <rect x="3719" y="1351" width="20" height="20" zmin="0" zmax="0" />
+              <rune name="Chessboard in Nujelm" />
+            </region>
+            <region name="SHIPWRIGHT_NUJELM" priority="5440">
+              <rect x="3696" y="1208" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Seaborne Ships in Nujelm" />
+            </region>
+            <region name="BARDGUILD_NUJELM" priority="5450">
+              <rect x="3728" y="1184" width="24" height="24" zmin="0" zmax="0" />
+              <rune name="Bardic Guild in Nujel'm" />
+            </region>
+            <region name="NONE_NUJELM_5" priority="5460">
+              <rect x="3760" y="1184" width="24" height="24" zmin="0" zmax="0" />
+              <rune name="Nujel'm Counselors Guild" />
+            </region>
+            <region name="TAVERN_NUJELM_1" priority="5470">
+              <rect x="3760" y="1216" width="11" height="23" zmin="0" zmax="19" />
+              <rect x="3760" y="1224" width="24" height="8" zmin="0" zmax="0" />
+              <rect x="3760" y="1220" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Mystical Spirits in Nujel'm" />
+            </region>
+            <region name="TAVERN_NUJELM_2" priority="5490">
+              <rect x="3728" y="1248" width="23" height="7" zmin="0" zmax="19" />
+              <rect x="3728" y="1248" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="The Silver Bow in Nujel'm" />
+            </region>
+            <region name="COOK_NUJELM" priority="5505">
+              <rect x="3728" y="1264" width="24" height="8" zmin="0" zmax="19" />
+              <rune name="The Silver Bow in Nujel'm" />
+            </region>
+            <region name="TAVERN_NUJELM_3" priority="5515">
+              <rect x="3728" y="1328" width="24" height="16" zmin="0" zmax="19" />
+              <rune name="The Silver Bow in Nujel'm" />
+            </region>
+            <region name="CLOTHIER_NUJELM" priority="5525">
+              <rect x="3760" y="1256" width="14" height="15" zmin="0" zmax="19" />
+              <rune name="Tailor of the Isle in Nujel'm" />
+            </region>
+            <region name="DOCKS_NUJELM" priority="5535">
+              <rect x="3800" y="1272" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="docks in Nujel'm" />
+            </region>
+            <region name="INN_NUJELM" priority="5545">
+              <rect x="3728" y="1288" width="24" height="40" zmin="0" zmax="39" />
+              <rune name="Restful Slumber in Nujel'm" />
+            </region>
+            <region name="JAIL_NUJELM" priority="5555">
+              <rect x="3708" y="1376" width="12" height="12" zmin="0" zmax="29" />
+              <rune name="Debtor's Prison" />
+              <region name="CELL_NUJELM" priority="5565">
+                <rect x="3708" y="1383" width="8" height="4" zmin="0" zmax="29" />
+              </region>
+              <region name="HEALER_NUJELM" priority="5575">
+                <rect x="3716" y="1376" width="4" height="12" zmin="0" zmax="29" />
+              </region>
+            </region>
+            <region name="COURT_NUJELM" priority="5585">
+              <rect x="3712" y="1392" width="12" height="16" zmin="0" zmax="29" />
+              <rune name="Nujel'm Court" />
+            </region>
+            <region name="NONE_NUJELM_6" priority="5595">
+              <rect x="3724" y="1392" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Nujel'm Court" />
+            </region>
+            <region name="CELL_NUJELM_2" priority="5605">
+              <rect x="3724" y="1400" width="16" height="12" zmin="0" zmax="29" />
+              <rune name="Nujel'm Court" />
+            </region>
+            <region name="CUSTOMS_NUJELM">
+              <rect x="3704" y="1224" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Customs in Nujel'm" />
+            </region>
+          </region>
+        </region>
+        <region name="NONE_BUCS_DEN" priority="5615">
+          <rect x="2688" y="1930" width="194" height="430" zmin="0" zmax="0" />
+          <rune name="Buccaneer's Den" />
+          <region name="TOWN_BUCDEN" priority="5625">
+            <rect x="2688" y="2057" width="88" height="210" />
+            <rune name="City of Buccaneer's Den" />
+            <region name="INN_BUCDEN" priority="5635">
+              <rect x="2712" y="2080" width="16" height="16" zmin="0" zmax="0" />
+              <rect x="2712" y="2096" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="The Peg Leg Inn in Buccaneer's Den" />
+            </region>
+            <region name="HEALER_BUCDEN" priority="5650">
+              <rect x="2704" y="2128" width="8" height="24" zmin="0" zmax="0" />
+              <rune name="Healer of Buccaneer's Den" />
+            </region>
+            <region name="TANNER_BUCDEN" priority="5660">
+              <rect x="2704" y="2176" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Buccaneer's Den Leatherworks" />
+            </region>
+            <region name="DOCKS_BUCDEN" priority="5670">
+              <rect x="2738" y="2154" width="24" height="26" zmin="0" zmax="0" />
+              <rune name="docks in Buccaneer's Den" />
+            </region>
+            <region name="BANK_BUCDEN" priority="5680">
+              <rect x="2728" y="2184" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Buccaneer's Den Bank" />
+            </region>
+            <region name="PROVISIONER_BUCDEN" priority="5690">
+              <rect x="2728" y="2248" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Pirates Provisioner in Buccaneer's Den" />
+            </region>
+            <region name="THIEFGUILD_BUCDEN" priority="5700">
+              <rect x="2728" y="2256" width="8" height="8" zmin="0" zmax="0" />
+            </region>
+          </region>
+          <region name="JUNGLE_BUCDEN_2" priority="5710">
+            <rect x="2691" y="1935" width="111" height="125" zmin="0" zmax="127" />
+            <rect x="2784" y="2095" width="65" height="52" zmin="0" zmax="127" />
+            <rect x="2766" y="2212" width="114" height="133" zmin="0" zmax="127" />
+          </region>
+        </region>
+        <region name="NONE_MAGINCIA" priority="5730">
+          <rect x="3524" y="2018" width="291" height="288" zmin="0" zmax="0" />
+          <rune name="Isle of Magincia" />
+          <region name="JUSTICE_CITY_MAGINCIA" priority="5740">
+            <rect x="3652" y="2045" width="152" height="49" />
+            <rect x="3652" y="2094" width="160" height="180" />
+            <rect x="3652" y="2274" width="51" height="29" />
+            <rune name="City of Magincia" />
+            <region name="COUNCIL_MAGINICA" priority="5760">
+              <rect x="3684" y="2064" width="20" height="8" zmin="0" zmax="0" />
+              <rect x="3692" y="2056" width="12" height="24" zmin="0" zmax="0" />
+              <rune name="High Council of Maginca" />
+            </region>
+            <region name="MINERSGUILD_MAGINCIA" priority="5775">
+              <rect x="3656" y="2136" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="3664" y="2128" width="8" height="24" zmin="0" zmax="0" />
+              <rune name="Magincia Miner's Guild" />
+            </region>
+            <region name="TINKER_MAGINICA" priority="5790">
+              <rect x="3712" y="2120" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="The Tic - Toc Shop in Magincia" />
+            </region>
+            <region name="INN_MAGINCIA" priority="5800">
+              <rect x="3680" y="2152" width="24" height="8" zmin="0" zmax="0" />
+              <rect x="3688" y="2160" width="16" height="12" zmin="0" zmax="0" />
+              <rune name="The Stag and Lion in Magincia" />
+            </region>
+            <region name="BAKER_MAGINCIA" priority="5815">
+              <rect x="3680" y="2168" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="The Bread Basket in Magincia" />
+            </region>
+            <region name="BANK_MAGINCIA" priority="5825">
+              <rect x="3728" y="2144" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Bank of Magincia" />
+            </region>
+            <region name="NONE_MAGINCIA" priority="5835">
+              <rect x="3712" y="2168" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Magincia Counselors Guild" />
+            </region>
+            <region name="JEWELER_MAGINCIA" priority="5845">
+              <rect x="3656" y="2176" width="16" height="24" zmin="0" zmax="39" />
+              <rune name="The Family Jewels in Magincia" />
+            </region>
+            <region name="HEALER_MAGINCIA" priority="5855">
+              <rect x="3688" y="2208" width="8" height="22" zmin="20" zmax="29" />
+              <rect x="3680" y="2224" width="8" height="6" zmin="20" zmax="29" />
+              <rune name="Healer of Magincia" />
+            </region>
+            <region name="MAGEGUILD_MAGINCIA" priority="5870">
+              <rect x="3696" y="2208" width="16" height="24" zmin="20" zmax="59" />
+              <rune name="Magincia's Magicka" />
+            </region>
+            <region name="TAVERN_MAGINCIA" priority="5880">
+              <rect x="3720" y="2216" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Great Horns Tavern in Magincia" />
+            </region>
+            <region name="CLOTHIER_MAGINCIA" priority="5890">
+              <rect x="3660" y="2228" width="12" height="12" zmin="0" zmax="0" />
+              <rune name="Stich'n Time in Magincia" />
+            </region>
+            <region name="SHIPWRIGHT_MAGINCIA" priority="5900">
+              <rect x="3664" y="2248" width="8" height="14" zmin="0" zmax="0" />
+              <rune name="The Furled Sail in Magincia" />
+            </region>
+            <region name="FISHERGUILD_MAGINCIA" priority="5910">
+              <rect x="3680" y="2256" width="8" height="6" zmin="0" zmax="0" />
+              <rune name="Fishermen's Guild &amp; Supplies in Magincia" />
+            </region>
+            <region name="BAKER_MAGINCIA" priority="5920">
+              <rect x="3752" y="2216" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="3752" y="2224" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Bakers Dozen in Magincia" />
+            </region>
+            <region name="PARLAMENT_MAGINCIA" priority="5935">
+              <rect x="3779" y="2240" width="29" height="31" zmin="0" zmax="49" />
+              <rune name="Magincia Parlament" />
+            </region>
+            <region name="PROVISIONER_MAGINCIA" priority="5945">
+              <rect x="3680" y="2248" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Fishermen's Guild &amp; Supplies in Magincia" />
+            </region>
+            <region name="MERCHANTGUILD_MAGINCIA" priority="5955">
+              <rect x="3696" y="2240" width="16" height="12" zmin="0" zmax="39" />
+              <rune name="Merchants' Guild in Magincia" />
+            </region>
+            <region name="DOCKS_MAGINCIA" priority="5965">
+              <rect x="3652" y="2261" width="44" height="40" zmin="0" zmax="0" />
+              <rune name="docks in Magincia" />
+            </region>
+          </region>
+          <region name="JUNGLE_MAGINCIA" priority="5975">
+            <rect x="3528" y="2098" width="97" height="96" zmin="0" zmax="0" />
+            <region name="JUSTICE_MAGINCIA" priority="5985">
+              <rect x="3554" y="2132" width="18" height="18" />
+            </region>
+          </region>
+        </region>
+        <region name="NONE_ISLE_OF_DEEDS" priority="5995">
+          <rect x="2760" y="3318" width="322" height="322" zmin="0" zmax="0" />
+          <rune name="Isle of Deeds" />
+          <region name="JUSTICE_CITY_SERPHOLD" priority="6005">
+            <rect x="2868" y="3324" width="205" height="195" />
+            <rune name="Serpents' Hold" />
+            <region name="STABLE_SERPHOLD_1" priority="6015">
+              <rect x="2896" y="3512" width="16" height="7" zmin="0" zmax="0" />
+              <rune name="Serpents Hold Stablery" />
+            </region>
+            <region name="BANK_SERPHOLD" priority="6025">
+              <rect x="2874" y="3466" width="11" height="11" zmin="0" zmax="0" />
+              <rune name="Bank in Serpents Hold" />
+            </region>
+            <region name="TAILOR_SERPHOLD" priority="6035">
+              <rune name="Silver Serpent Tailor in Serpents Hold" />
+            </region>
+            <region name="BUTCHER_SERPHOLD" priority="6040">
+              <rect x="2904" y="3480" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Serpent Hold Meats" />
+            </region>
+            <region name="TINKER_SERPHOLD" priority="6050">
+              <rect x="2928" y="3504" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Tinker of the Isle in Serpents Hold" />
+            </region>
+            <region name="TINKERGUILD_SERPHOLD" priority="6060">
+              <rect x="2936" y="3496" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Tinker of the Isle in Serpents Hold" />
+            </region>
+            <region name="NONE_SERPHOLD_0" priority="6070">
+              <rect x="2936" y="3344" width="32" height="24" zmin="0" zmax="54" />
+              <rune name="Serpents Hold Counselor Guild" />
+            </region>
+            <region name="BAKER_SERPHOLD" priority="6080">
+              <rect x="2968" y="3352" width="16" height="8" zmin="15" zmax="34" />
+              <rune name="Plenty O' Dough in Serpents Hold" />
+            </region>
+            <region name="MAGE_SERPHOLD" priority="6090">
+              <rect x="2998" y="3352" width="8" height="8" zmin="15" zmax="34" />
+              <rune name="Serpent's Spells in Serpents Hold" />
+            </region>
+            <region name="ALCHEMIST_SERPHOLD" priority="6100">
+              <rect x="3008" y="3352" width="8" height="8" zmin="15" zmax="34" />
+              <rune name="Britannian Herbs in Serpents Hold" />
+            </region>
+            <region name="BOWYER_SERPHOLD" priority="6110">
+              <rect x="3048" y="3360" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Silver Serpent Bows" />
+            </region>
+            <region name="PROVISIONER_SERPHOLD" priority="6120">
+              <rect x="3000" y="3384" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Supplies in Serpents Hold" />
+            </region>
+            <region name="BLACKSMITH_SERPHOLD" priority="6130">
+              <rect x="3000" y="3400" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Blacksmith in Serpents Hold" />
+            </region>
+            <region name="INN_SERPHOLD" priority="6140">
+              <rect x="2960" y="3400" width="16" height="16" zmin="15" zmax="54" />
+              <rune name=" in Serpents Hold" />
+            </region>
+            <region name="TAVERN_SERPHOLD_1" priority="6150">
+              <rect x="2968" y="3417" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="The Dog and Lion Pub in Serpents Hold" />
+            </region>
+            <region name="HEALER_SERPHOLD" priority="6160">
+              <rect x="2992" y="3424" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Serpents Hold Healer" />
+            </region>
+            <region name="WEAPONRY_SERPHOLD" priority="6170">
+              <rect x="3008" y="3424" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Serpents Arms in Serpents Hold" />
+            </region>
+            <region name="DOCKS_SERPHOLD_1" priority="6180">
+              <rect x="2984" y="3450" width="36" height="20" zmin="0" zmax="0" />
+              <rune name="docks in Serpents Hold" />
+              <region name="TAVERN_SERPHOLD" priority="6190">
+                <rect x="3008" y="3450" width="12" height="14" zmin="0" zmax="0" />
+                <rune name="Fisherman's Brew in Serpents Hold" />
+              </region>
+            </region>
+            <region name="DOCKS_SERPHOLD_2" priority="6200">
+              <rect x="2932" y="3394" width="20" height="22" zmin="0" zmax="0" />
+              <rune name="docks in Serpents Hold" />
+            </region>
+            <region name="FIGHTERGUILD_SERPHOLD" priority="6210">
+              <rect x="3048" y="3384" width="16" height="24" zmin="15" zmax="37" />
+              <rune name="Serpent Warrior's in Serpents Hold" />
+            </region>
+            <region name="RANGERGUILD_SERPHOLD" priority="6220">
+              <rect x="3048" y="3384" width="16" height="24" zmin="28" zmax="127" />
+              <rune name="Serpent Warrior's in Serpents Hold" />
+            </region>
+          </region>
+          <region name="STABLE_SERPHOLD_2" priority="6230">
+            <rect x="2896" y="3520" width="15" height="13" zmin="0" zmax="0" />
+            <rune name="Serpents Hold Stablery" />
+          </region>
+          <region name="STABLE_SERPHOLD_2" priority="6240">
+            <rect x="3024" y="3464" width="15" height="15" zmin="0" zmax="0" />
+            <rune name="Serpents Hold Stablery" />
+          </region>
+          <region name="JUNGLE_ISLE_OF_DEEDS" priority="6250">
+            <rect x="2765" y="3434" width="103" height="128" zmin="0" zmax="0" />
+            <rect x="2967" y="3566" width="79" height="62" zmin="0" zmax="0" />
+          </region>
+        </region>
+        <region name="NONE_OCLLO_ISLAND" priority="6265">
+          <rect x="3330" y="2348" width="480" height="582" zmin="0" zmax="0" />
+          <rune name="Ocllo Island" />
+          <region name="FORESTNEARTOWN_OCLLO" priority="6275">
+            <rect x="3338" y="2390" width="244" height="329" />
+          </region>
+          <region name="FORESTNEARTOWN_OCLLO_2" priority="6285">
+            <rect x="3344" y="2745" width="486" height="163" />
+          </region>
+          <region name="Justice_Ocllo" priority="6295">
+            <rect x="3590" y="2460" width="117" height="225" zmin="-5" zmax="100" />
+            <rune name="Ocllo City" />
+            <region name="DOCKS_OCLLO_1" priority="6305">
+              <rect x="3613" y="2648" width="26" height="12" zmin="-3" zmax="17" />
+              <rune name="the docks in Ocllo" />
+            </region>
+            <region name="INN_OCLLO" priority="6315">
+              <rect x="3663" y="2607" width="17" height="17" zmin="0" zmax="20" />
+              <rune name="The Bountiful Harvest in Ocllo" />
+            </region>
+            <region name="BARD_OCLLO" priority="6325">
+              <rect x="3671" y="2471" width="25" height="9" zmin="0" zmax="20" />
+              <rune name="the First Academy of Music in Ocllo" />
+            </region>
+            <region name="CLOTHIER_OCLLO_1" priority="6335">
+              <rect x="3663" y="2575" width="9" height="25" zmin="0" zmax="20" />
+              <rune name="A Stitch In Time in Ocllo" />
+            </region>
+            <region name="BARDGUILD_OCLLO_1" priority="6345">
+              <rect x="3654" y="2527" width="25" height="9" zmin="0" zmax="20" />
+              <rune name="the Bardic Guild in Ocllo" />
+            </region>
+            <region name="PROVISIONER_OCLLO_1" priority="6355">
+              <rect x="3631" y="2560" width="9" height="24" zmin="0" zmax="20" />
+              <rune name="Last Chance Provisioners in Ocllo" />
+            </region>
+            <region name="CLOTHIER_OCLLO_2" priority="6365">
+              <rect x="3654" y="2584" width="26" height="8" zmin="0" zmax="20" />
+              <rune name="A Stitch In Time in Ocllo" />
+            </region>
+            <region name="LIBRARY_OCLLO_1" priority="6375">
+              <rect x="3606" y="2463" width="11" height="17" zmin="0" zmax="20" />
+              <rune name="the Ocllo Public Library" />
+            </region>
+            <region name="TANNER_OCLLO_1" priority="6385">
+              <rect x="3591" y="2599" width="17" height="9" zmin="0" zmax="20" />
+              <rune name="the Better Leather Tannery in Ocllo" />
+            </region>
+            <region name="TANNER_OCLLO_2" priority="6395">
+              <rect x="3599" y="2607" width="9" height="17" zmin="0" zmax="20" />
+              <rune name="the Better Leather Tannery in Ocllo" />
+            </region>
+            <region name="BLACKSMITH_OCLLO_1" priority="6405">
+              <rect x="3631" y="2591" width="17" height="9" zmin="0" zmax="20" />
+              <rune name="Hammer and Steel Smithy in Ocllo" />
+            </region>
+            <region name="MAGEGUILD_OCLLO_1" priority="6415">
+              <rect x="3623" y="2527" width="17" height="9" zmin="0" zmax="20" />
+              <rune name="the Sorcerer's Guild in Ocllo" />
+            </region>
+            <region name="SHIPWRIGHT_OCLLO_1" priority="6425">
+              <rect x="3623" y="2631" width="17" height="9" zmin="0" zmax="20" />
+              <rune name="Anchors Aweigh in Ocllo" />
+            </region>
+            <region name="TAVERN_OCLLO_1" priority="6435">
+              <rect x="3663" y="2639" width="9" height="17" zmin="0" zmax="20" />
+              <rune name="The Albatross in Ocllo" />
+            </region>
+            <region name="BAKER_OCLLO_1" priority="6445">
+              <rect x="3599" y="2567" width="9" height="17" zmin="0" zmax="20" />
+              <rune name="Now You're Cookin' in Ocllo" />
+            </region>
+            <region name="bank_ocllo_1" priority="6455">
+              <rect x="3687" y="2504" width="9" height="16" zmin="0" zmax="15" />
+              <rune name="the Bank of Ocllo" />
+            </region>
+            <region name="HEALER_OCLLO_1" priority="6465">
+              <rect x="3623" y="2601" width="17" height="8" zmin="0" zmax="20" />
+              <rune name="Healer of Ocllo" />
+            </region>
+            <region name="HEALER_OCLLO_2" priority="6475">
+              <rect x="3623" y="2607" width="9" height="9" zmin="0" zmax="20" />
+              <rune name="the Healer of Ocllo" />
+            </region>
+            <region name="TAVERN_OCLLO_2" priority="6485">
+              <rect x="3671" y="2647" width="9" height="9" zmin="0" zmax="20" />
+              <rune name="The Albatross in Ocllo" />
+            </region>
+            <region name="BLACKSMITH_OCLLO_2" priority="6495">
+              <rect x="3641" y="2601" width="6" height="5" zmin="0" zmax="10" />
+              <rune name="Hammer and Steel Smithy in Ocllo" />
+            </region>
+          </region>
+          <region name="housing_no_ocllo_1" priority="6505">
+            <rect x="3596" y="2460" width="111" height="220" zmin="-20" zmax="255" />
+            <rune name="Ocllo City" />
+          </region>
+          <region name="housing_no_ocllo_2" priority="6515">
+            <rect x="3690" y="2556" width="72" height="172" zmin="-20" zmax="255" />
+            <rune name="Ocllo City" />
+            <region name="Justice_Ocllo" priority="6525">
+              <rect x="3695" y="2558" width="65" height="153" zmin="-5" zmax="100" />
+              <rune name="Ocllo City" />
+              <region name="WHEAT_OCLLO_7" priority="6535">
+                <rect x="3706" y="2664" width="10" height="31" zmin="0" zmax="1" />
+                <rune name="a wheat field in Ocllo" />
+              </region>
+              <region name="WHEAT_OCLLO_4" priority="6545">
+                <rect x="3743" y="2576" width="5" height="34" zmin="0" zmax="1" />
+                <rune name="a wheat field in Ocllo" />
+              </region>
+              <region name="WHEAT_OCLLO_1" priority="6555">
+                <rect x="3729" y="2576" width="5" height="32" zmin="0" zmax="1" />
+                <rune name="a wheat field in Ocllo" />
+              </region>
+              <region name="BUTCHER_OCLLO" priority="6565">
+                <rect x="3703" y="2647" width="17" height="9" zmin="0" zmax="20" />
+                <rune name="the Sweet Meat in Ocllo" />
+              </region>
+              <region name="FARM_OCLLO_4" priority="6575">
+                <rect x="3735" y="2679" width="9" height="17" zmin="0" zmax="20" />
+                <rune name="a farm in Ocllo" />
+              </region>
+              <region name="WHEAT_OCLLO_9" priority="6585">
+                <rect x="3746" y="2651" width="6" height="21" zmin="0" zmax="1" />
+                <rune name="a wheat field in Ocllo" />
+              </region>
+              <region name="FARM_OCLLO_5" priority="6595">
+                <rect x="3740" y="2679" width="12" height="9" zmin="0" zmax="20" />
+                <rune name="a farm in Ocllo" />
+              </region>
+              <region name="WHEAT_OCLLO_6" priority="6605">
+                <rect x="3704" y="2611" width="5" height="20" zmin="0" zmax="1" />
+                <rune name="a wheat field in Ocllo" />
+              </region>
+              <region name="FARM_OCLLO_1" priority="6615">
+                <rect x="3703" y="2583" width="9" height="9" zmin="0" zmax="20" />
+                <rune name="a farm in Ocllo" />
+              </region>
+              <region name="FARM_OCLLO_2" priority="6625">
+                <rect x="3735" y="2560" width="9" height="8" zmin="0" zmax="20" />
+                <rune name="a farm in Ocllo" />
+              </region>
+              <region name="WHEAT_OCLLO_5" priority="6635">
+                <rect x="3741" y="2611" width="7" height="10" zmin="0" zmax="1" />
+                <rune name="a wheat field in Ocllo" />
+              </region>
+              <region name="TURNIP_OCLLO" priority="6645">
+                <rect x="3712" y="2632" width="7" height="7" zmin="0" zmax="1" />
+                <rune name="a turnip field in Ocllo" />
+              </region>
+              <region name="CARROT_OCLLO_3" priority="6655">
+                <rect x="3733" y="2655" width="9" height="5" zmin="0" zmax="1" />
+                <rune name="a carrot field in Ocllo" />
+              </region>
+              <region name="WHEAT_OCLLO_10" priority="6665">
+                <rect x="3751" y="2655" width="4" height="11" zmin="0" zmax="1" />
+                <rune name="a wheat field in Ocllo" />
+              </region>
+              <region name="ONION_OCLLO" priority="6675">
+                <rect x="3735" y="2666" width="7" height="6" zmin="0" zmax="1" />
+                <rune name="an onion field in Ocllo" />
+              </region>
+              <region name="LETTUCE_OCLLO" priority="6685">
+                <rect x="3713" y="2608" width="6" height="6" zmin="0" zmax="1" />
+                <rune name="a lettuce field in Ocllo" />
+              </region>
+              <region name="CABBAGE_OCLLO" priority="6695">
+                <rect x="3713" y="2615" width="6" height="6" zmin="0" zmax="1" />
+                <rune name="a cabbage field in Ocllo" />
+              </region>
+              <region name="WHEAT_OCLLO_2" priority="6705">
+                <rect x="3729" y="2609" width="3" height="8" zmin="0" zmax="1" />
+                <rune name="a wheat field in Ocllo" />
+              </region>
+              <region name="CARROT_OCLLO_1" priority="6715">
+                <rect x="3708" y="2568" width="3" height="7" zmin="0" zmax="1" />
+                <rune name="a carrot field in Ocllo" />
+              </region>
+              <region name="WHEAT_OCLLO_8" priority="6725">
+                <rect x="3745" y="2650" width="7" height="2" zmin="0" zmax="1" />
+                <rune name="a wheat field in Ocllo" />
+              </region>
+              <region name="WHEAT_OCLLO_3" priority="6735">
+                <rect x="3730" y="2620" width="2" height="3" zmin="0" zmax="1" />
+                <rune name="a wheat field in Ocllo" />
+              </region>
+              <region name="CARROT_OCLLO_2" priority="6745">
+                <rect x="3718" y="2568" width="1" height="4" zmin="0" zmax="1" />
+                <rune name="a carrot field in Ocllo" />
+              </region>
+            </region>
+          </region>
+          <region name="DOCKS_OCLLO_3" priority="6755">
+            <rect x="3648" y="2656" width="25" height="30" zmin="-3" zmax="17" />
+            <rune name="the docks in Ocllo" />
+          </region>
+          <region name="DOCKS_OCLLO_2" priority="6765">
+            <rect x="3637" y="2648" width="15" height="37" zmin="-3" zmax="17" />
+            <rune name="the docks in Ocllo" />
+          </region>
+        </region>
+      </region>
+      <region name="BRITAINNIA_6" priority="6775">
+        <rect x="3848" y="0" width="1272" height="4096" zmin="0" zmax="0" />
+        <region name="OCEAN" priority="6785">
+          <rect x="3848" y="0" width="1272" height="164" zmin="0" zmax="0" />
+          <rect x="4302" y="164" width="818" height="600" zmin="0" zmax="0" />
+          <rect x="3848" y="764" width="384" height="800" zmin="0" zmax="0" />
+          <rect x="3848" y="1564" width="1270" height="1480" zmin="0" zmax="0" />
+          <rect x="3848" y="3044" width="500" height="598" zmin="0" zmax="0" />
+          <rect x="3848" y="3642" width="240" height="454" zmin="0" zmax="0" />
+          <rect x="4089" y="3990" width="1029" height="106" zmin="0" zmax="0" />
+          <rect x="4880" y="3044" width="238" height="945" zmin="0" zmax="0" />
+          <rect x="4660" y="3044" width="220" height="260" zmin="0" zmax="0" />
+          <rect x="4746" y="764" width="372" height="800" zmin="0" zmax="0" />
+        </region>
+        <region name="NONE_DAGGER" priority="6800">
+          <rect x="3848" y="164" width="454" height="600" zmin="0" zmax="0" />
+          <rune name="Dagger Isle" />
+          <region name="ARCTIC_DAGGER" priority="6810">
+            <rect x="3864" y="174" width="186" height="146" zmin="0" zmax="0" />
+            <rect x="3890" y="320" width="102" height="174" zmin="0" zmax="0" />
+            <rect x="4050" y="296" width="147" height="119" zmin="0" zmax="0" />
+            <rect x="4139" y="415" width="121" height="234" zmin="0" zmax="0" />
+            <rect x="3945" y="495" width="86" height="135" zmin="0" zmax="0" />
+            <rect x="4166" y="649" width="127" height="107" zmin="0" zmax="0" />
+            <rect x="4031" y="496" width="108" height="154" zmin="0" zmax="0" />
+          </region>
+          <region name="NONE_HONESTY" priority="6830">
+            <rect x="4198" y="540" width="38" height="58" />
+            <rune name="Honesty Shrine" />
+          </region>
+          <region name="HOUSING_NO_DAGGER_1" priority="6840">
+            <rect x="4066" y="428" width="58" height="56" />
+            <rect x="4041" y="469" width="40" height="25" />
+            <rune name="Deceit Entrance" />
+          </region>
+          <region name="HOUSING_NO_DAGGER_2" priority="6855" type="NoHousingRegion">
+            <rect x="4212" y="517" width="15" height="34" />
+            <rect x="4203" y="592" width="10" height="19" />
+            <rune name="Honesty Pass" />
+          </region>
+        </region>
+        <region name="NONE_VERITY" priority="6870">
+          <rect x="4246" y="784" width="494" height="742" zmin="0" zmax="0" />
+          <rune name="Verity Island" />
+          <region name="COTTON_MOONGLOW" priority="6880">
+            <rect x="4558" y="1471" width="8" height="9" />
+            <rect x="4569" y="1471" width="8" height="9" />
+            <rune name="A Cotton Field in Moonglow" />
+          </region>
+          <region name="JUSTICE_CITY_MOONGLOW" priority="6895" type="TownRegion">
+            <rect x="4367" y="1050" width="142" height="145" zmin="0" />
+            <region name="INN_MOONGLOW_1" priority="6905">
+              <rect x="4480" y="1056" width="8" height="16" zmin="0" />
+              <rect x="4476" y="1060" width="16" height="8" zmin="0" />
+              <rune name="Moonglow Student Hostel" />
+            </region>
+            <region name="INN_MOONGLOW_2" priority="6920">
+              <rect x="4384" y="1152" width="8" height="24" zmin="0" />
+              <rect x="4392" y="1160" width="8" height="8" zmin="0" />
+              <rect x="4400" y="1152" width="8" height="16" zmin="0" />
+              <rune name="The Scholar's Inn in Moonglow" />
+            </region>
+            <region name="BAKER_MOONGLOW" priority="6940">
+              <rect x="4384" y="1056" width="8" height="16" zmin="0" zmax="0" />
+              <rect x="4392" y="1064" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Mage's Bread in Moonglow" />
+            </region>
+            <region name="PROVISIONER_MOONGLOW" priority="6955">
+              <rect x="4408" y="1056" width="8" height="16" zmin="0" zmax="0" />
+              <rect x="4408" y="1060" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Scholar's Goods in Moonglow" />
+            </region>
+            <region name="CLOTHIER_MOONGLOW" priority="6970">
+              <rect x="4448" y="1056" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Scholars Cut in Moonglow" />
+            </region>
+            <region name="HEALER_MOONGLOW" priority="6980">
+              <rect x="4384" y="1080" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="4384" y="1080" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Moonglow Healer" />
+            </region>
+            <region name="CARPENTER_MOONGLOW" priority="6995">
+              <rect x="4408" y="1080" width="16" height="16" zmin="0" zmax="0" />
+              <rune name="Mage's Seat in Moonglow" />
+            </region>
+            <region name="ALCHEMIST_MOONGLOW" priority="7005">
+              <rect x="4446" y="1080" width="18" height="16" zmin="0" zmax="19" />
+              <rune name="Moonglow's Finest Alchemy" />
+            </region>
+            <region name="VEGGIESTALL_MOONGLOW" priority="7015">
+              <rect x="4472" y="1080" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="4476" y="1080" width="8" height="12" zmin="0" zmax="0" />
+              <rune name="Farmer's Market in Moonglow" />
+            </region>
+            <region name="WEAPONRY_MOONGLOW" priority="7030">
+              <rect x="4384" y="1112" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="The Mighty Axe in Moonglow" />
+            </region>
+            <region name="HERBALIST_MOONGLOW_1" priority="7040">
+              <rect x="4408" y="1108" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="4412" y="1104" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Moonglow Reagent Shop" />
+            </region>
+            <region name="BUTCHER_MOONGLOW" priority="7055">
+              <rect x="4384" y="1130" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="4392" y="1130" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Fatted Calf in Moonglow" />
+            </region>
+            <region name="HERBALIST_MOONGLOW_2" priority="7070">
+              <rect x="4408" y="1128" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Herbal Splendor in Moonglow" />
+            </region>
+            <region name="NONE_MOONGLOW_0" priority="7080">
+              <rect x="4468" y="1118" width="8" height="16" zmin="0" zmax="0" />
+              <rect x="4484" y="1118" width="8" height="16" zmin="0" zmax="0" />
+              <rect x="4476" y="1121" width="8" height="9" zmin="0" zmax="0" />
+              <rune name="Counselors Guild in Moonglow" />
+            </region>
+            <region name="ARMORER_MOONGLOW" priority="7100">
+              <rect x="4432" y="1160" width="16" height="8" zmin="0" zmax="0" />
+              <rune name="Second Defense Armory in Moonglow" />
+            </region>
+            <region name="BLACKSMITH_MOONGLOW" priority="7110">
+              <rect x="4436" y="1152" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Second Defense Armory in Moonglow" />
+            </region>
+            <region name="BANK_MOONGLOW" priority="7120">
+              <rect x="4462" y="1152" width="6" height="16" zmin="0" zmax="19" />
+              <rect x="4468" y="1156" width="8" height="19" zmin="0" zmax="0" />
+              <rune name="First Bank of Moonglow and Tinkersguild" />
+            </region>
+            <region name="TINKERGUILD_MOONGLOW" priority="7135">
+              <rect x="4476" y="1152" width="4" height="14" zmin="0" zmax="19" />
+              <rune name="First Bank of Moonglow and Tinkersguild" />
+            </region>
+          </region>
+          <region name="LIBRARY_JUSTICE_MOONGLOW" priority="7145" type="TownRegion">
+            <rect x="4278" y="915" width="54" height="19" zmin="0" />
+            <rect x="4283" y="944" width="53" height="73" zmin="0" />
+            <rune name="The Lycaeum in Moonglow" />
+          </region>
+          <region name="JUSTICE_DOCKS_MOONGLOW" priority="7160" type="TownRegion">
+            <rect x="4377" y="1015" width="59" height="35" zmin="-10" />
+            <rune name="docks in Moonglow" />
+          </region>
+          <region name="JUSTICE_MOONGLOW_4" priority="7170" type="TownRegion">
+            <rect x="4389" y="1198" width="47" height="39" zmin="0" />
+            <rune name="barracks in Moonglow" />
+          </region>
+          <region name="JUSTICE_MOONGLOW_3" priority="7180" type="TownRegion">
+            <rect x="4700" y="1108" width="17" height="18" zmin="0" />
+            <rune name="telescope in Moonglow" />
+          </region>
+          <region name="JUSTICE_FARM_MOONGLOW" priority="7190" type="TownRegion">
+            <rect x="4622" y="1316" width="22" height="24" zmin="0" />
+            <rect x="4549" y="1482" width="29" height="27" zmin="0" />
+            <rect x="4405" y="1451" width="23" height="23" zmin="0" />
+            <rune name="a farm in Moonglow" />
+          </region>
+          <region name="JUSTICE_MOONGLOW_2" priority="7210" type="TownRegion">
+            <rect x="4530" y="847" width="31" height="61" zmin="0" />
+            <rect x="4521" y="914" width="56" height="49" zmin="0" />
+            <rect x="4540" y="1036" width="26" height="18" zmin="0" />
+            <rect x="4517" y="1053" width="23" height="22" zmin="0" />
+            <rect x="4466" y="1211" width="32" height="25" zmin="0" />
+            <rect x="4656" y="1127" width="26" height="13" zmin="0" />
+            <rect x="4678" y="1162" width="25" height="25" zmin="0" />
+            <rect x="4613" y="1196" width="23" height="22" zmin="0" />
+            <rect x="4646" y="1212" width="14" height="17" zmin="0" />
+            <rect x="4677" y="1214" width="26" height="22" zmin="0" />
+            <rect x="4487" y="1353" width="59" height="21" zmin="0" />
+            <rect x="4477" y="1374" width="69" height="35" zmin="0" />
+            <rect x="4659" y="1387" width="40" height="40" zmin="0" />
+            <rect x="4483" y="1468" width="21" height="13" zmin="0" />
+            <music name="Moonglow" />
+            <region name="ZOO_MOONGLOW" priority="7225">
+              <rect x="4488" y="1354" width="49" height="22" />
+              <rect x="4480" y="1376" width="56" height="16" />
+              <rect x="4480" y="1392" width="45" height="7" />
+              <music name="Moonglow" />
+              <rune name="Britannia Royal Zoo" />
+              <region name="ZOO_FOREST_1" priority="7245" type="Zoo">
+                <rect x="4488" y="1354" width="12" height="21" />
+              </region>
+              <region name="ZOO_FOREST_2" priority="7255" type="Zoo">
+                <rect x="4501" y="1354" width="24" height="8" />
+              </region>
+              <region name="ZOO_SWAMP" priority="7265" type="Zoo">
+                <rect x="4480" y="1376" width="12" height="23" />
+              </region>
+              <region name="ZOO_JUNGLE" priority="7275" type="Zoo">
+                <rect x="4514" y="1354" width="12" height="8" />
+              </region>
+              <region name="ZOO_DESERT" priority="7285" type="Zoo">
+                <rect x="4528" y="1354" width="8" height="19" />
+              </region>
+              <region name="ZOO_DUNGN_1" priority="7295" type="Zoo">
+                <rect x="4506" y="1369" width="14" height="16" />
+              </region>
+              <region name="ZOO_DUNGN_2" priority="7305" type="Zoo" />
+              <region name="ZOO_DUNGN_3" priority="7310" type="Zoo">
+                <rect x="4525" y="1383" width="11" height="9" />
+              </region>
+              <region name="ZOO_FOREST_3" priority="7320" type="Zoo">
+                <rect x="4493" y="1390" width="12" height="9" />
+              </region>
+              <region name="ZOO_ARCTIC" priority="7330" type="Zoo">
+                <rect x="4506" y="1390" width="11" height="8" />
+              </region>
+              <region name="ZOO_PLAINS" priority="7340" type="Zoo">
+                <rect x="4498" y="1381" width="6" height="4" zmin="0" zmax="0" />
+              </region>
+            </region>
+            <region name="ARTISAN_MOONGLOW" priority="7350">
+              <rect x="4520" y="1056" width="16" height="8" zmin="0" zmax="0" />
+              <rect x="4520" y="1056" width="8" height="16" zmin="0" zmax="0" />
+              <rune name="Moonglow Academy of Arts" />
+            </region>
+            <region name="MAGEGUILD_MOONGLOW_2" priority="7365">
+              <rect x="4616" y="1200" width="16" height="8" zmin="0" zmax="19" />
+              <rect x="4624" y="1200" width="8" height="16" zmin="0" zmax="19" />
+              <rune name="The Illusionists Guild in Moonglow" />
+            </region>
+            <region name="MAGEGUILD_MOONGLOW_1" priority="7380">
+              <rect x="4542" y="848" width="8" height="24" zmin="0" zmax="0" />
+              <rect x="4534" y="856" width="24" height="8" zmin="0" zmax="0" />
+              <rune name="Encyclopedia Magicka in Moonglow" />
+            </region>
+            <region name="MAGEGUILD_MOONGLOW_3" priority="7395">
+              <rect x="4672" y="1407" width="24" height="8" zmin="0" zmax="0" />
+              <rect x="4680" y="1415" width="8" height="8" zmin="0" zmax="0" />
+              <rune name="Sorcerer's Guild in Moonglow" />
+            </region>
+          </region>
+          <region name="JUSTICE_MOONGLOW_1" priority="7410">
+            <rect x="4459" y="1276" width="16" height="16" />
+            <rune name="Moonglow Moongate" />
+          </region>
+          <region name="CEMETERY_MOONGLOW" priority="7420">
+            <rect x="4535" y="1296" width="23" height="40" />
+            <rect x="4527" y="1313" width="8" height="23" />
+            <rune name="Moonglow Cemetery" />
+          </region>
+          <region name="NEWBIE_VERITY" priority="7435">
+            <rect x="4277" y="1021" width="89" height="193" zmin="0" zmax="0" />
+            <rect x="4429" y="1250" width="96" height="100" zmin="0" zmax="0" />
+            <rect x="4432" y="1407" width="207" height="64" zmin="0" zmax="0" />
+            <rect x="4559" y="1282" width="57" height="124" zmin="0" zmax="0" />
+            <rect x="4450" y="966" width="125" height="71" zmin="0" zmax="0" />
+            <rect x="4503" y="1080" width="147" height="109" zmin="0" zmax="0" />
+          </region>
+        </region>
+        <region name="JUNGLE_AVATAR" priority="7450">
+          <rect x="4366" y="3077" width="215" height="135" zmin="0" zmax="0" />
+          <rect x="4374" y="3414" width="180" height="118" zmin="0" zmax="0" />
+          <rect x="4123" y="3649" width="328" height="146" zmin="0" zmax="0" />
+          <rect x="4452" y="3546" width="103" height="238" zmin="0" zmax="0" />
+          <rect x="4402" y="3212" width="244" height="112" zmin="0" zmax="0" />
+          <rect x="4555" y="3349" width="175" height="196" zmin="0" zmax="0" />
+          <rect x="4638" y="3546" width="119" height="216" zmin="0" zmax="0" />
+          <rect x="4556" y="3635" width="82" height="133" zmin="0" zmax="0" />
+          <rect x="4757" y="3487" width="80" height="374" zmin="0" zmax="0" />
+          <rect x="4436" y="3806" width="247" height="137" zmin="0" zmax="0" />
+          <rune name="Isle of the Avatar" />
+          <region name="NONE_HUMILITY" priority="7465">
+            <rect x="4266" y="3693" width="12" height="9" />
+            <rune name="Humility Shrine" />
+          </region>
+          <region name="DRAGON_1" priority="7475">
+            <rect x="4577" y="3549" width="38" height="76" zmin="0" zmax="127" />
+            <rune name="Fire Temple" />
+          </region>
+          <region name="DAEMON_1" priority="7485">
+            <rect x="4582" y="3562" width="26" height="20" zmin="75" zmax="127" />
+            <rune name="Fire Temple" />
+          </region>
+          <region name="FIRELEMENTALSMALL_1" priority="7495">
+            <rect x="4562" y="3549" width="15" height="36" zmin="0" zmax="74" />
+            <rect x="4615" y="3549" width="21" height="31" zmin="0" zmax="0" />
+            <rect x="4578" y="3597" width="36" height="27" zmin="0" zmax="74" />
+            <rune name="Fire Temple" />
+          </region>
+          <region name="RUINS_16" priority="7515">
+            <rect x="4453" y="3097" width="17" height="18" zmin="0" zmax="0" />
+          </region>
+        </region>
+      </region>
+    </region>
+    <region name="LOSTLANDS" priority="7525">
+      <rect x="5120" y="2304" width="1024" height="1791" zmin="0" zmax="0" />
+    </region>
+    <region name="DUNGEONS" priority="7535">
+      <rect x="5120" y="0" width="1024" height="2304" zmin="0" zmax="0" />
+      <region name="NONE_WIND" priority="7545">
+        <rect x="5120" y="8" width="256" height="256" zmin="0" zmax="0" />
+        <rune name="Wind" />
+        <region name="WINDFOREST_WIND" priority="7555" type="TownRegion">
+          <rect x="5213" y="24" width="64" height="68" zmin="0" zmax="0" />
+          <rune name="Wind park" />
+        </region>
+        <region name="LICHMEDIUM_WIND" priority="7565" type="TownRegion">
+          <rect x="5124" y="138" width="55" height="104" zmin="0" zmax="0" />
+        </region>
+        <region name="DRAGON_WIND" priority="7575" type="TownRegion">
+          <rect x="5233" y="206" width="31" height="38" zmin="0" zmax="0" />
+        </region>
+        <region name="JUSTICE_CITY_WIND" priority="7585" type="TownRegion">
+          <rect x="5286" y="19" width="80" height="120" />
+          <rect x="5132" y="58" width="81" height="68" />
+          <rect x="5197" y="112" width="97" height="58" />
+          <rect x="5197" y="112" width="87" height="66" />
+          <rect x="5197" y="112" width="75" height="71" />
+          <rect x="5197" y="112" width="65" height="81" />
+          <rect x="5132" y="3" width="70" height="123" />
+          <rect x="5197" y="98" width="55" height="106" />
+          <rect x="5279" y="57" width="87" height="82" />
+          <rune name="City of Wind" />
+          <region name="INN_WIND_1" priority="7595">
+            <rect x="5159" y="15" width="25" height="9" zmax="56" />
+            <rect x="5159" y="15" width="9" height="25" zmax="56" />
+            <rect x="5175" y="15" width="9" height="17" zmax="56" />
+            <rune name="Seeker' Inn in Wind" />
+          </region>
+          <region name="INN_WIND_2" priority="7615">
+            <rect x="5212" y="159" width="9" height="24" zmin="5" zmax="24" />
+            <rect x="5212" y="171" width="16" height="12" zmin="5" zmax="24" />
+            <rect x="5206" y="164" width="15" height="15" zmin="5" zmax="24" />
+            <rune name="Windy Inn" />
+          </region>
+          <region name="INN_WIND_3" priority="7635">
+            <rect x="5303" y="28" width="16" height="14" zmax="59" />
+          </region>
+          <region name="MAGE_WIND_1" priority="7645">
+            <rect x="5144" y="53" width="14" height="13" zmin="25" zmax="44" />
+            <rect x="5144" y="53" width="8" height="33" zmin="0" zmax="44" />
+            <rune name="Wind Alchemy" />
+          </region>
+          <region name="PROVISIONER_WIND" priority="7660">
+            <rect x="5149" y="91" width="17" height="16" zmin="0" zmax="24" />
+            <rune name="Mage's Things in Wind" />
+          </region>
+          <region name="CLOTHIER_WIND" priority="7670">
+            <rect x="5197" y="92" width="8" height="10" zmin="0" zmax="24" />
+            <rune name="Windy Clothes" />
+          </region>
+          <region name="HERBALIST_WIND" priority="7680">
+            <rect x="5208" y="115" width="14" height="8" zmin="0" zmax="19" />
+            <rect x="5208" y="111" width="10" height="12" zmin="0" zmax="19" />
+            <rune name="Magical Supplies in Wind" />
+          </region>
+          <region name="LIBRARY_WIND_!" priority="7695">
+            <rect x="5232" y="135" width="12" height="20" zmin="15" zmax="34" />
+            <rune name="The Learned Mage in Wind" />
+          </region>
+          <region name="HEALER_WIND" priority="7705">
+            <rect x="5258" y="122" width="8" height="14" zmin="20" zmax="39" />
+            <rune name="Wind Healer" />
+          </region>
+          <region name="LIBRARY_WIND_2" priority="7715">
+            <rect x="5237" y="172" width="11" height="11" zmin="15" zmax="34" />
+            <rect x="5240" y="172" width="8" height="20" zmin="15" zmax="34" />
+            <rune name="Seat of Knowledge in Wind" />
+          </region>
+          <region name="MAGE_WIND_2" priority="7730">
+            <rect x="5264" y="152" width="8" height="14" zmin="15" zmax="34" />
+          </region>
+          <region name="VEGGIESTAND_WIND" priority="7740">
+            <rect x="5341" y="52" width="16" height="4" zmin="15" zmax="34" />
+            <rune name="Mage's Appetite in Wind" />
+          </region>
+          <region name="BAKER_WIND" priority="7750">
+            <rect x="5346" y="49" width="7" height="11" zmin="15" zmax="34" />
+            <rune name="Mage's Appetite in Wind" />
+          </region>
+          <region name="FISHER_WIND" priority="7760">
+            <rect x="5343" y="53" width="14" height="7" zmin="15" zmax="34" />
+            <rune name="Mage's Appetite in Wind" />
+          </region>
+          <region name="BUTCHER_WIND" priority="7770">
+            <rect x="5346" y="52" width="6" height="11" zmin="15" zmax="34" />
+            <rune name="Mage's Appetite in Wind" />
+          </region>
+        </region>
+        <region name="DAEMON_WIND" priority="7780">
+          <rect x="5185" y="146" width="12" height="12" zmin="0" zmax="0" />
+        </region>
+        <region name="WATERELEMENTAL_WIND" priority="7790">
+          <rect x="5134" y="138" width="8" height="8" zmin="0" zmax="0" />
+        </region>
+      </region>
+      <region name="DUNGN_DESPISE" priority="7800">
+        <rect x="5376" y="516" width="256" height="128" zmin="0" zmax="0" />
+        <rect x="5376" y="644" width="256" height="128" zmin="0" zmax="0" />
+        <rect x="5376" y="772" width="128" height="256" zmin="0" zmax="0" />
+        <rect x="5504" y="772" width="128" height="256" zmin="0" zmax="0" />
+        <rune name="Despise" />
+        <region name="LIZARDMANSMALL_DUNGN_DESPISE_2" priority="7805">
+          <rect x="5430" y="670" width="24" height="24" zmin="0" zmax="0" />
+        </region>
+        <region name="GIANTSPIDER_DUNGN_DESPISE_1" priority="7815">
+          <rect x="5448" y="520" width="16" height="8" zmin="0" zmax="0" />
+        </region>
+        <region name="RATMAN_DUNGN_DESPISE_2" priority="7825">
+          <rect x="5382" y="656" width="32" height="16" zmin="0" zmax="0" />
+        </region>
+        <region name="RATMAN_DUNGN_DESPISE_2" priority="7835">
+          <rect x="5383" y="520" width="8" height="8" zmin="0" zmax="0" />
+          <rect x="5496" y="520" width="16" height="16" zmin="0" zmax="0" />
+        </region>
+        <region name="BRIGAND_DUNGEON_DESPISE_2" priority="7850">
+          <rect x="5400" y="719" width="16" height="8" zmin="0" zmax="0" />
+          <rect x="5382" y="656" width="41" height="15" zmin="0" zmax="0" />
+          <rect x="5467" y="735" width="14" height="27" zmin="0" zmax="0" />
+        </region>
+        <region name="WATERELEMENTAL_DUNGN_DESPISE_2" priority="7870">
+          <rect x="5392" y="700" width="11" height="10" zmin="0" zmax="0" />
+        </region>
+        <region name="LIZARDMANMEDIUM_DUNGN_DESPISE_2" priority="7880">
+          <rect x="5383" y="958" width="27" height="49" zmin="0" zmax="0" />
+        </region>
+        <region name="WATERELEMENTAL_DUNGN_DESPISE_3" priority="7890">
+          <rect x="5507" y="1000" width="16" height="12" zmin="0" zmax="0" />
+        </region>
+        <region name="BRIGAND_DUNGEON_DESPISE_2" priority="7900">
+          <rect x="5432" y="839" width="24" height="22" zmin="0" zmax="0" />
+          <rect x="5382" y="887" width="21" height="21" zmin="0" zmax="0" />
+        </region>
+        <region name="EVIL_MAGE_DUNGN_DESPISE_3" priority="7915">
+          <rect x="5546" y="813" width="25" height="24" zmin="0" zmax="0" />
+        </region>
+      </region>
+      <region name="DUNGN_DECEIT" priority="7925">
+        <rect x="5125" y="525" width="232" height="243" zmin="0" zmax="0" />
+        <rune name="Deceit" />
+      </region>
+      <region name="DUNGN_DESTARD" priority="7935">
+        <rect x="5121" y="770" width="246" height="248" zmin="0" zmax="0" />
+        <rune name="Destard" />
+      </region>
+      <region name="DUNGN_SHAME" priority="7945">
+        <rect x="5376" y="8" width="256" height="256" zmin="0" zmax="0" />
+        <rect x="5632" y="8" width="256" height="128" zmin="0" zmax="0" />
+        <rune name="Shame" />
+      </region>
+      <region name="DUNGN_HYTHLOTH" priority="7960">
+        <rect x="5888" y="8" width="256" height="256" zmin="0" zmax="0" />
+        <rune name="Hythloth" />
+      </region>
+      <region name="DUNGN_WRONG" priority="7970">
+        <rect x="5632" y="512" width="256" height="160" zmin="0" zmax="0" />
+        <rune name="Wrong" />
+      </region>
+    </region>
+  </Facet>
+  <Facet name="Trammel" />
+  <Facet name="Ilshenar" />
+  <Facet name="Malas" />
+  <Facet name="Tokuno" />
+</ServerRegions>

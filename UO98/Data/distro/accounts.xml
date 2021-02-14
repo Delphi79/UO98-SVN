@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<accounts version="0" count="1">
+	<account>
+		<id>1000</id>
+		<username>admin</username>
+		<password>5B-AA-61-E4-C9-B9-3F-3F-06-82-25-0B-6C-F8-33-1B-7E-E6-8F-D8</password>
+		<created>2011-04-02T16:15:05.443469Z</created>
+		<accessflags>Admin</accessflags>
+		<lastlogin>2011-11-30T19:26:37.5045162Z</lastlogin>
+		<ips count="1">
+			<ip>127.0.0.1</ip>
+		</ips>
+		<mobiles count="1">
+			<mobile>
+				<serial>93168</serial>
+				<name>Administrator</name>
+				<title>Grandmaster Mage</title>
+				<lastseen>2011-11-30T19:28:06.4054054Z</lastseen>
+			</mobile>
+		</mobiles>
+	</account>
+</accounts>

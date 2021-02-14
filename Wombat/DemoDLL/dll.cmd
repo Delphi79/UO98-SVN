@@ -1,0 +1,1 @@
+@bcc32 -I%inc% -I%apidir% -L%lib% %pythoninc% -WD %pythonbcc32% %1 %2 %3

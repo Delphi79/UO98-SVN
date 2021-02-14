@@ -1,0 +1,1 @@
+This project requires a checkout of UO Demo Class Library in the parent of this folder.

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WombatSDK", "Class Library\WombatSDK.csproj", "{A3C44DBD-0A83-4489-B630-BED24A5495B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WombatDemo", "Test Application\WombatDemo.csproj", "{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B91C301D-F2F5-4A60-9427-47B61DD30C54}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		Wombat SDK.vsmdi = Wombat SDK.vsmdi
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WombatUnitTests", "Unit Tests\WombatUnitTests.vbproj", "{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Wombat SDK.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3C44DBD-0A83-4489-B630-BED24A5495B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C44DBD-0A83-4489-B630-BED24A5495B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C44DBD-0A83-4489-B630-BED24A5495B3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A3C44DBD-0A83-4489-B630-BED24A5495B3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A3C44DBD-0A83-4489-B630-BED24A5495B3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A3C44DBD-0A83-4489-B630-BED24A5495B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C44DBD-0A83-4489-B630-BED24A5495B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C44DBD-0A83-4489-B630-BED24A5495B3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A3C44DBD-0A83-4489-B630-BED24A5495B3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A3C44DBD-0A83-4489-B630-BED24A5495B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}.Debug|x86.ActiveCfg = Debug|x86
+		{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}.Debug|x86.Build.0 = Debug|x86
+		{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}.Release|Any CPU.ActiveCfg = Release|x86
+		{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}.Release|Mixed Platforms.Build.0 = Release|x86
+		{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}.Release|x86.ActiveCfg = Release|x86
+		{6D6DE2A1-5235-4C92-BEB8-A5899CE4B404}.Release|x86.Build.0 = Release|x86
+		{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{71226970-E8A5-4F11-B2A7-DDA51EF3B28A}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

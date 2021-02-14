@@ -1,0 +1,21 @@
+int InstaHitIsAnimation(int NewState)
+{
+  char buffer[256];
+
+  sprintf(buffer, "Is Animation: %u, NewState(%d) == 0 -> %s", GetPulseNum(), NewState, NewState == 0 ? "yes" : "no");
+
+  SendSystemMessage(Swing_LastMobile, buffer);
+
+  return NewState == 0;
+}
+
+int InstaHitIsHit(int NewState)
+{
+  char buffer[256];
+
+  sprintf(buffer, "Is Hit: %u, NewState(%d) == 0 -> %s", GetPulseNum(), NewState, NewState == 0 ? "yes" : "no");
+
+  SendSystemMessage(Swing_LastMobile, buffer);
+
+  return NewState == 0;
+}

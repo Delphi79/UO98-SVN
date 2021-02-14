@@ -1,0 +1,18 @@
+DemoDLL
+=======
+DemoDLL is a DLL that can be attached to uodemo.exe (the famous Ultima Online Demo from 1998). The main objective is to provide you, the user, with a C-based SDK to make changes to the EXE without having any assembler knowledge.
+
+
+DemoT2A
+=======
+DemoT2A is a modified demo with post-demo changes applied to both the EXE (through DemoDLL) and scripts (using the M Compiler).
+
+
+WombatSDK
+=========
+An SDK based on UltimaSDK, but with an improved class structure, making it WPF compatible
+
+
+WombatTest
+==========
+A WPF based test application for the WombatSDK

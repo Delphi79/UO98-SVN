@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunUOServerAdmin", "RunUOServerAdmin\RunUOServerAdmin.csproj", "{08502C47-6750-4D5B-B40C-8916CB5DD01C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RunUOServerAdminSetup", "RunUOServerAdminSetup\RunUOServerAdminSetup.vdproj", "{EE87C47F-E5BD-4756-B597-95FA602B9EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UoClientSDK", "UOClientSDK\UOClientSDK\UoClientSDK.csproj", "{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08502C47-6750-4D5B-B40C-8916CB5DD01C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{08502C47-6750-4D5B-B40C-8916CB5DD01C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{08502C47-6750-4D5B-B40C-8916CB5DD01C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{08502C47-6750-4D5B-B40C-8916CB5DD01C}.Debug|x86.ActiveCfg = Debug|x86
+		{08502C47-6750-4D5B-B40C-8916CB5DD01C}.Debug|x86.Build.0 = Debug|x86
+		{08502C47-6750-4D5B-B40C-8916CB5DD01C}.Release|Any CPU.ActiveCfg = Release|x86
+		{08502C47-6750-4D5B-B40C-8916CB5DD01C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{08502C47-6750-4D5B-B40C-8916CB5DD01C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{08502C47-6750-4D5B-B40C-8916CB5DD01C}.Release|x86.ActiveCfg = Release|x86
+		{08502C47-6750-4D5B-B40C-8916CB5DD01C}.Release|x86.Build.0 = Release|x86
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Debug|Any CPU.ActiveCfg = Debug
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Debug|Any CPU.Build.0 = Debug
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Debug|Mixed Platforms.Build.0 = Debug
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Debug|x86.ActiveCfg = Debug
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Debug|x86.Build.0 = Debug
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Release|Any CPU.ActiveCfg = Release
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Release|Any CPU.Build.0 = Release
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Release|Mixed Platforms.ActiveCfg = Release
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Release|Mixed Platforms.Build.0 = Release
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Release|x86.ActiveCfg = Release
+		{EE87C47F-E5BD-4756-B597-95FA602B9EDB}.Release|x86.Build.0 = Release
+		{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8A2D0ECD-4BA6-49CF-9A73-0C9EF2659BBB}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+RunTime Requirements:
+
+  Ultima Online 2D client must be installed.
+  
+  The following registry key must be present:
+    64 Bit: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Origin Worlds Online\Ultima Online\UO98
+    32 bit: HKEY_LOCAL_MACHINE\SOFTWARE\Origin Worlds Online\Ultima Online\UO98
+
+  And should contain the following entries (adjust path to UO):
+    "ExePath"="D:\\Ultima Online\\client.exe"
+    "InstCDPath"="D:\\Ultima Online"
+    "StartExePath"="D:\\Ultima Online\\uo.exe"
+    "PatchExePath"="D:\\Ultima Online\\uopatch.exe"
+    "Upgraded"="Yes"
+
+  Your UO.cfg file must contain the following entry:  (use your path to Ultima Online)
+    CdRomDataPath=D:\Ultima Online
+
+Development Requirements for UODemoDLL Project:
+  Borland C++ 5.5 should be present at: c:\borland\bcc55
+  Borland Turbo Assembler should be present at: c:\borland\tasm

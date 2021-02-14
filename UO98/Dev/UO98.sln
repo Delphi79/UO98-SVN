@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sidekick", "Sidekick\Sidekick.vcxproj", "{03E63AAF-D966-49E4-8A16-1969A9CB579C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpkick", "Sharpkick\Sharpkick.csproj", "{9792F1CB-5186-4EF2-9092-ED6D77012403}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scripts", "..\rundir\scripts.uosl\Scripts.vcxproj", "{9858673A-2ACD-4714-BBD3-874568B8A2DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpkick_Offline_Tests", "Sharpkick_Tests\Sharpkick_Offline_Tests.csproj", "{29A40940-D0D9-40ED-9683-A7287BE66A1C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03E63AAF-D966-49E4-8A16-1969A9CB579C} = {03E63AAF-D966-49E4-8A16-1969A9CB579C}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{750E0C07-D086-4BD7-A00C-D23E207EA667}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		UO98.vsmdi = UO98.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UO98", "UO98\UO98.csproj", "{3E8639AC-42AF-4C3B-8F1F-D32CD6C184A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03E63AAF-D966-49E4-8A16-1969A9CB579C} = {03E63AAF-D966-49E4-8A16-1969A9CB579C}
+		{9792F1CB-5186-4EF2-9092-ED6D77012403} = {9792F1CB-5186-4EF2-9092-ED6D77012403}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = UO98.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03E63AAF-D966-49E4-8A16-1969A9CB579C}.Debug|x86.ActiveCfg = Debug|Win32
+		{03E63AAF-D966-49E4-8A16-1969A9CB579C}.Debug|x86.Build.0 = Debug|Win32
+		{03E63AAF-D966-49E4-8A16-1969A9CB579C}.Release|x86.ActiveCfg = Release|Win32
+		{03E63AAF-D966-49E4-8A16-1969A9CB579C}.Release|x86.Build.0 = Release|Win32
+		{9792F1CB-5186-4EF2-9092-ED6D77012403}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9792F1CB-5186-4EF2-9092-ED6D77012403}.Debug|x86.Build.0 = Debug|Any CPU
+		{9792F1CB-5186-4EF2-9092-ED6D77012403}.Release|x86.ActiveCfg = Release|Any CPU
+		{9792F1CB-5186-4EF2-9092-ED6D77012403}.Release|x86.Build.0 = Release|Any CPU
+		{9858673A-2ACD-4714-BBD3-874568B8A2DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{9858673A-2ACD-4714-BBD3-874568B8A2DD}.Release|x86.ActiveCfg = Release|Win32
+		{29A40940-D0D9-40ED-9683-A7287BE66A1C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{29A40940-D0D9-40ED-9683-A7287BE66A1C}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E8639AC-42AF-4C3B-8F1F-D32CD6C184A9}.Debug|x86.ActiveCfg = Debug|x86
+		{3E8639AC-42AF-4C3B-8F1F-D32CD6C184A9}.Debug|x86.Build.0 = Debug|x86
+		{3E8639AC-42AF-4C3B-8F1F-D32CD6C184A9}.Release|x86.ActiveCfg = Release|x86
+		{3E8639AC-42AF-4C3B-8F1F-D32CD6C184A9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

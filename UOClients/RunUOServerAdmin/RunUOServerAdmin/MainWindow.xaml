@@ -1,0 +1,144 @@
+﻿<Window x:Name="myRoot"
+        xmlns:my="clr-namespace:RunUOServerAdmin"  x:Class="RunUOServerAdmin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UO Server Admin" Height="250" Width="530" Loaded="Window_Loaded" MinWidth="530" MinHeight="230" Icon="/RunUOServerAdmin;component/Resources/RunUOAdmin.ico">
+    <DockPanel>
+        <StatusBar Name="StatusBar" DockPanel.Dock="Bottom" HorizontalAlignment="Stretch">
+            <StatusBarItem><Label Content="{Binding ConnectedStatus, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue='ConnectedStatus'}" TargetUpdated="Label_TargetUpdated" /></StatusBarItem>
+            <Separator/>
+            <StatusBarItem><Label Content="{Binding ClientsStatus, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue='ClientsStatus'}" TargetUpdated="Label_TargetUpdated" /></StatusBarItem>
+            <Separator/>
+            <StatusBarItem><Label Content="{Binding UptimeStatus, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue='UptimeStatus'}" TargetUpdated="Label_TargetUpdated" /></StatusBarItem>
+            <Separator/>
+            <StatusBarItem><Label Content="{Binding MemoryStatus, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue='MemoryStatus'}" TargetUpdated="Label_TargetUpdated" /></StatusBarItem>
+            <Separator/>
+            <StatusBarItem><Label Content="{Binding ItemsStatus, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue='ItemsStatus'}" TargetUpdated="Label_TargetUpdated" /></StatusBarItem>
+            <Separator/>
+            <StatusBarItem><Label Content="{Binding MobilesStatus, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue='MobilesStatus'}" TargetUpdated="Label_TargetUpdated" /></StatusBarItem>
+        </StatusBar>
+        <DockPanel DockPanel.Dock="Top" VerticalAlignment="Stretch">
+            <my:ServerConnection DockPanel.Dock="Top" x:Name="MyConnectionControl"/>
+            <DockPanel>
+                <WrapPanel DockPanel.Dock="Right">
+                    <Grid Name="ShowInfoButton" Width="15" Height="18"  Margin="-15,3,-7,-10" VerticalAlignment="Top" MouseUp="ShowInfoButton_MouseUp">
+                        <Rectangle Stroke="Black" Panel.ZIndex="100" RadiusY="2" RadiusX="2">
+                            <Rectangle.Clip>
+                                <RectangleGeometry Rect="0,0,12,20"></RectangleGeometry>
+                            </Rectangle.Clip>
+                        </Rectangle>
+                        <Label Margin="-2,-5,-1,-1" Name="ptrExpandColapse">></Label>
+                    </Grid>
+                    <ScrollViewer Name="ServerInfoBox" DockPanel.Dock="Right" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                       <StackPanel Width="Auto">
+                        <Label Width="Auto" Content="{Binding siEndPoint, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue='aaa.bbb.ccc.ddd:pp'}" TargetUpdated="Label_TargetUpdated"/>
+                        <Label Width="Auto" Content="{Binding siOperatingSystem, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue='Operating System'}" TargetUpdated="Label_TargetUpdated"/>
+                        <Label Width="Auto" Content="{Binding siDotNetVersion, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue='.Net Version'}" TargetUpdated="Label_TargetUpdated"/>
+                        <WrapPanel>
+                            <Label Width="100">Active Accounts:</Label>
+                            <Label Width="Auto" Content="{Binding siActive, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Width="100">Banned Accounts:</Label>
+                            <Label Width="Auto" Content="{Binding siBanned, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Width="100">Total Accounts:</Label>
+                            <Label Width="Auto" Content="{Binding siTotal, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Width="100">Firewall Entries:</Label>
+                            <Label Width="Auto" Content="{Binding siFirewalled, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Width="100">Current Clients:</Label>
+                            <Label Width="Auto" Content="{Binding siClients, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Width="100">Current Items:</Label>
+                            <Label Width="Auto" Content="{Binding siItems, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Width="100">Current Mobiles:</Label>
+                            <Label Width="Auto" Content="{Binding siMobiles, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Width="100">Item Scripts:</Label>
+                            <Label Width="Auto" Content="{Binding siItemScripts, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Width="100">Mobile Scripts:</Label>
+                            <Label Width="Auto" Content="{Binding siMobileScripts, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Width="100">Uptime:</Label>
+                            <Label Width="Auto" Content="{Binding siUptime, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Width="100">Current Memory:</Label>
+                            <Label Width="Auto" Content="{Binding siMemory, ElementName=myRoot, NotifyOnTargetUpdated=true, FallbackValue=''}" TargetUpdated="Label_TargetUpdated"/>
+                        </WrapPanel>
+                    </StackPanel>
+                </ScrollViewer>
+                </WrapPanel>
+                <TabControl>
+                    <TabItem Header="Connection" GotFocus="ConsoleTab_GotFocus">
+                            <my:ConsoleText x:Name="ConnectionTextBox" OnTextChanged="ConsoleTextBox_OnTextChanged" DockPanel.Dock="Left" />
+                    </TabItem>
+                    <TabItem Header="Console" GotFocus="ConsoleTab_GotFocus">
+                        <my:ConsoleText x:Name="ConsoleTextBox" OnTextChanged="ConsoleTextBox_OnTextChanged" />
+                    </TabItem>
+                    <TabItem Header="Search" GotFocus="ConsoleTab_GotFocus">
+                        <my:AccountSearch x:Name="AccountSearch" OnAccountSearch="AccountSearch_OnAccountSearch" OnAccountUpdate="AccountSearch_OnAccountUpdate" />
+                    </TabItem>
+                    <TabControl.Resources>
+                        <Style TargetType="TabItem" x:Key="notinuse">
+                            <!-- Possible better solution: http://geekswithblogs.net/kobush/archive/2007/04/08/closeabletabitem.aspx-->
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type TabItem}">
+                                        <ContentPresenter ContentSource="Header" OverridesDefaultStyle="False">
+                                            <ContentPresenter.Content>
+                                                <Border Background="{Binding ElementName=myRoot, Path=Background}" Margin="0" VerticalAlignment="Top" BorderBrush="Black" BorderThickness="1,1,1,1" CornerRadius="4" Name="Border" Opacity="1">
+                                                    <DockPanel>
+                                                        <Label Foreground="{Binding Path=Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType=TabItem, AncestorLevel=1}}" Content="{TemplateBinding Header}" />
+                                                        <Button Background="GhostWhite" Click="ButtonCloseTab_Click">X</Button>
+                                                    </DockPanel>
+                                                </Border>
+                                            </ContentPresenter.Content>
+                                        </ContentPresenter>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsSelected" Value="True">
+                                                <Setter Property="Panel.ZIndex" Value="100" />
+                                                <Setter TargetName="Border" Property="Background" Value="#FFABBDDB" />
+                                                <Setter TargetName="Border" Property="BorderThickness" Value="1,1,1,0" />
+                                                <Setter TargetName="Border" Property="Margin" Value="1,1,1,-4" />
+                                            </Trigger>
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter TargetName="Border" Property="Opacity" Value="0.5" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </TabControl.Resources>
+                </TabControl>
+            </DockPanel>
+        </DockPanel>
+    </DockPanel>
+    <Window.Background>
+        <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+            <GradientStop Color="#FFC7BBBB" Offset="0" />
+            <GradientStop Color="White" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
+    
+    <Window.Resources>
+        <DoubleAnimation x:Key="InfoChanged" From="0" To="1" Duration="0:0:0.2" AutoReverse="False"  />
+        <DoubleAnimation x:Key="HideServerInfo" From="500" To="0" Duration="0:0:0.5" />
+        <DoubleAnimation x:Key="ShowServerInfo" From="0" To="500" Duration="0:0:0.5" />
+    </Window.Resources>
+</Window>
+

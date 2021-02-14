@@ -1,0 +1,5 @@
+@ECHO OFF
+SET DEMODATE=1998-06-03
+CD binaries
+CALL UoDemo-T2A.cmd
+CD ..

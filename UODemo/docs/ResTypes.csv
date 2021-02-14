@@ -1,0 +1,102 @@
+id,InternalName,FoodName,ShelterName,DesireName,ProductionName,field_288,field_28C
+1,insects,insects,insects,insects,insects,1,0
+2,cactus,cactus,cactus,to be in the desert,cactus,1,0
+3,caves,caves,caves,to be underground,caves,1,0
+4,cropland,cropland,cropland,cropland,cropland,1,0
+5,chicken_nests,chicken nests,chicken nests,chicken nests,chicken nests,1,0
+6,cloth,cloth,cloth,cloth,cloth,1,0
+7,cotton,cotton,cotton,cotton,cotton,1,0
+8,crops,crops,crops,crops,crops,1,0
+9,darkness,darkness,darkness,darkness,darkness,1,0
+10,dead_logs,dead logs,dead logs,dead logs,dead logs,1,0
+11,dungeons,dungeons,dungeons,to be in dungeons,dungeons,1,0
+12,carnivoremeat,meat,meat,meat,meat,0,0
+13,eggs,eggs,eggs,eggs,eggs,1,0
+14,feathers,feathers,feathers,feathers,feathers,1,0
+15,fish,fish,fish,fish,fish,1,0
+16,flax,flax,flax,flax,flax,1,0
+17,flour,flour,flour,flour,flour,1,0
+18,foliage,foliage,foliage,tree foliage,foliage,1,0
+19,forest,forest,forests,being in the woods,forest,1,0
+20,fruit,fruit,fruit,fruit,fruit,1,0
+21,mushrooms,mushrooms,mushrooms,mushrooms,mushrooms,1,0
+22,fur,fur,fur,fur,fur,1,0
+23,gambling,gambling,gambling,to gamble,gambling,1,0
+24,garbage,garbage,garbage,garbage,garbage,1,0
+25,gold,gold,gold,gold,gold,1,0
+26,grain,grain,grain,grain,grain,1,0
+27,grass,grass,grasslands,grass,grass,1,0
+28,guard,guard,guard,a guard,guard,1,0
+29,guardpost,guardpost,guardpost,safe places, such as guardposts,guardpost,1,0
+30,herbs,herbs,herbs,herbs,herbs,1,0
+31,hide,hide,hide,animal hides,hide,1,0
+32,honey,honey,honey,honey,honey,1,0
+33,hops,hops,hops,hops,hops,1,0
+34,horses,horses,horses,horses,horses,1,0
+35,houses,houses,houses,houses,houses,1,0
+36,humans,humans,populated areas,to be with people,humanity,1,0
+37,ink,ink,ink,ink,ink,1,0
+38,jewels,jewels,jewels,gems and jewelry,jewels,1,0
+39,jungle,jungle,jungles,to be in the jungle,jungle,1,0
+40,leather,leather,leather,leather,leather,1,0
+41,light,light,light,in the light,light,1,0
+42,magic,magic,magic,magic and magical things,magic,1,0
+43,meat,meat,meat,meat,meat,1,0
+44,metal,metal,metal,metal and things made of metal,metal,1,0
+45,mountains,mountains,mountains,to be in the mountains,mountains,1,0
+46,food,food,food,a decent meal,npcfood,1,0
+47,ore,ore,ore,ore,ore,1,0
+48,paper,paper,paper,paper,paper,1,0
+49,sand,sand,sand,sand,sand,1,0
+50,interest,interest,interesting things,interesting things to do,interest,1,0
+51,silk,silk,silk,fine silk,silk,1,0
+52,snow,snow,snowy regions,snow and ice,snow,1,0
+53,spookiness,spookiness,spookiness,to be in spooky places,spookiness,1,0
+54,stone,stone,stone,stone,stone,1,0
+55,swamp,swamp,swamp,to be in the swamps,swamp,1,0
+56,thread,thread,thread,thread with which to sew,thread,1,0
+57,water,water,water,water,water,1,0
+58,wax,wax,wax,wax,wax,1,0
+59,weapon,weapon,weapon,weapons,weapon,1,0
+60,windows,windows,windows,windows,windows,1,0
+61,wood,wood,wood,wood,wood,1,0
+62,wool,wool,wool,wool,wool,1,0
+63,hay,hay,hay,sheaves of hay,hay,1,0
+64,ridable,ridable,ridable,mounts and other things to ride,ridable,1,0
+65,fire,fire,warm places,fire,fire,1,0
+66,stables,stables,stables,to be in the stables,stables,1,0
+67,danger,danger,danger,to be in dangerous places,danger,1,0
+68,ships,ships,ships,to be around ships,ships,1,0
+69,bone,bone,bone,to be around the bones of dead things,bone,1,0
+70,serpent_scales,serpent scales,serpent scales,the scales of serpents,serpent scales,1,0
+71,dirt,dirt,dirt,in the mud,dirt,1,0
+72,desert,desert,desert,in the hot, dry desert,desert,1,0
+73,coastline,along coastlines,along coastlines,along coastlines,coastline,0,0
+74,spider_silk,spider silk,spider silk,silk spun by spiders,spider silk,1,0
+75,dragon_blood,dragon's blood,dragon's blood,the blood of a dragon,dragon's blood,1,0
+76,QUEST_EGG,adventure, fame and fortune,adventure, fame and fortune,adventure, fame and fortune,quest_egg,1,0
+77,lava,lava,lava,to be around lava,lava,1,0
+78,daemon_bone,daemon's bone,daemon's bone,the bone of a daemon,daemon's bone,1,0
+79,web,web,web,spider webs,web,1,0
+80,self,others like me,others like me,others like me,others like me,1,0
+81,notoriety,notoriety,notoriety,notoriety,notoriety,1,0
+82,beehives,beehives,beehives,to be around beehives,beehives,1,0
+83,SHEEP,mutton,sheep,to herd sheep,sheep,1,0
+84,docks,the sort of garbage you find on the docks,by the docks and other damp places,being near the docks and the sea,docks,1,0
+85,player_houses,houses,houses,houses,houses,1,0
+86,garlic,garlic,garlic,garlic,garlic,1,0
+87,sulpherous ash,sulpherous ash,sulpherous ash,sulpherous ash,sulpherous ash,1,0
+88,volcanic ash,volcanic ash,volcanic ash,volcanic ash,volcanic ash,1,0
+89,ginseng,ginseng,ginseng,ginseng,ginseng,1,0
+90,mandrake,mandrake,mandrake,mandrake,mandrake,1,0
+91,blood_moss,blood_moss,blood_moss,blood_moss,blood_moss,1,0
+92,black_pearl,black_pearl,black_pearl,black_pearl,black_pearl,1,0
+93,nightshade,nightshade,nightshade,nightshade,nightshade,1,0
+94,good,good,good,good,good,1,0
+95,evil,evil,evil,evil,evil,1,0
+96,sellable,sellable ,sellable,sellable,sellable,1,0
+97,scarecrows,scarecrows,scarcrows,scarecrows,scarecrows,1,0
+98,wheat,wheat,wheat fields,wheat,wheat,1,0
+99,orccamp,orcs,orc camps,orc camps,orc camps,1,0
+100,home,homes,my home,my home,home,1,0
+101,neutral,neutral,neutral,neutral,neutral,0,0

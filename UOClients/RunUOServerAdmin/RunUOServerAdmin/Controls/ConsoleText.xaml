@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="RunUOServerAdmin.ConsoleText"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="300">
+    <TextBox Name="TextControl" IsReadOnly="True" UndoLimit="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" TextChanged="Text_TextChanged" />
+</UserControl>
